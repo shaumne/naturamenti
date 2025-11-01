@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naturamenti Türkiye - Profesyonel Cilt Bakım Ürünleri">
+    <title>Naturamenti Türkiye | Estetik Tıp Formülasyonları</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/natulogo-1.png" alt="Naturamenti" class="logo-img">
+                        </a>
+                    </div>
+                    
+                    <div class="nav-menu" id="navMenu">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="active">Ana Sayfa</a></li>
+                            <li><a href="products.html">Ürünler</a></li>
+                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">İletişim</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="nav-right">
+                        <div class="search-box">
+                            <input type="text" placeholder="Ara..." class="search-input">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <button class="mobile-menu-btn" id="mobileMenuBtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Slider -->
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1>ACURHYAL</h1>
+                            <p>Yeni nesil hyaluronik asit</p>
+                            <a href="products.html" class="btn btn-primary">Daha Fazla Keşfet</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/hero/slide1.jpg" alt="Acurhyal" class="slide-bg">
+            </div>
+            
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1>ACURHYAL</h1>
+                            <p>%100 doğal içeriklerle kolajen bio-stimülatör</p>
+                            <a href="products.html" class="btn btn-primary">Tüm Ürünleri Keşfet</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/hero/slide2.jpg" alt="Acurhyal Kollajen" class="slide-bg">
+            </div>
+            
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="slide-text">
+                            <h1>ESTETİK TIP FORMÜLASYONLARI</h1>
+                            <p>Bilimsel temelli, somut sonuçlar sunan ürünler</p>
+                            <a href="products.html" class="btn btn-primary">Ürünleri Gör</a>
+                        </div>
+                    </div>
+                </div>
+                <img src="images/hero/slide3.jpg" alt="Estetik Tıp" class="slide-bg">
+            </div>
+        </div>
+        
+        <button class="slider-btn prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+        <button class="slider-btn next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+        
+        <div class="slider-dots" id="sliderDots"></div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="featured-grid">
+                <div class="featured-item">
+                    <div class="featured-image">
+                        <img src="images/products/acn-corrector.jpg" alt="ACN Corrector">
+                    </div>
+                    <div class="featured-content">
+                        <h3>ACN corrector</h3>
+                        <p>Akneye eğilimli cilt tipleri için yeni çözüm</p>
+                        <p class="ingredients">Hyaluronik asit XS (%1) Asetil-glukozamin (%1) ZincPCA (%1) Niasinamid USP (%5) Betain salisilat (%0,5) Panthenol (%0,25)</p>
+                        <a href="product-detail.html?id=1" class="btn btn-secondary">Şimdi Keşfet</a>
+                    </div>
+                </div>
+                
+                <div class="featured-item">
+                    <div class="featured-image">
+                        <img src="images/products/glow-mask.jpg" alt="Glow Sleeping Mask">
+                    </div>
+                    <div class="featured-content">
+                        <h3>Glow sleeping mask</h3>
+                        <p>Cilt tonunu eşitlemek ve cildi gece boyunca beslemek için mükemmel maske</p>
+                        <a href="product-detail.html?id=2" class="btn btn-secondary">Şimdi Keşfet</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">KATEGORİLER</h2>
+            <div class="categories-grid">
+                <div class="category-item">
+                    <img src="images/categories/cleanser.jpg" alt="Temizleyici ve Peeling">
+                    <h3>Temizleyici & Peeling</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/serums.jpg" alt="Serum ve Booster">
+                    <h3>Serum & Booster</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/creams.jpg" alt="Kremler">
+                    <h3>Kremler</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/masks.jpg" alt="Maskeler">
+                    <h3>Maskeler</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/sunscreen.jpg" alt="Güneş Koruma">
+                    <h3>Güneş Koruma</h3>
+                </div>
+                <div class="category-item">
+                    <img src="images/categories/repair.jpg" alt="Onarıcı Kremler">
+                    <h3>Onarıcı Kremler</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <h2 class="section-title">ESTETİK TIP FORMÜLASYONLARI</h2>
+            <p class="subtitle">Naturamenti, 65'ten fazla ülkede güvenilen lider profesyonel cilt bakım markasıdır. Uzmanlığımız çeşitli cihazlarla kullanılmak üzere tasarlanmış steril kozmetiklerde yatmaktadır.</p>
+            <p class="subtitle">Geniş ürün yelpazemiz invaziv olmayan tedavileri ve filler, botoks, lazer veya mezoterapi gibi çeşitli estetik prosedürleri tamamlayan ürünleri içerir. Her ürün benzersizliğiyle öne çıkar ve cildinizi gençleştirmek, canlandırmak ve doğal parlaklığını ve sağlığını geri kazandırmak için uyum içinde çalışır.</p>
+        </div>
+    </section>
+
+    <!-- Brand Values -->
+    <section class="brand-values">
+        <div class="container">
+            <div class="values-grid">
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>CİLT BAKIMI</h3>
+                    <h4>İçerikler</h4>
+                    <p>Estetik tıptan kaynaklanan ve en iyi kalitede içerikler</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>CİLT BAKIMI</h3>
+                    <h4>Güçlü</h4>
+                    <p>Anında ve uzun süreli sonuçlar sağlamak için yüksek konsantrasyonlu ürünler</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>CİLT BAKIMI</h3>
+                    <h4>Kalite</h4>
+                    <p>En gelişmiş üretim süreçleri</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>CİLT BAKIMI</h3>
+                    <h4>Saygılı</h4>
+                    <p>%100 vegan, hayvanlarda test edilmemiş</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>MARKA</h3>
+                    <h4>Pazar Lideri</h4>
+                    <p>Dünyada 14.000'den fazla profesyonel Naturamenti kullanıyor</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>MARKA</h3>
+                    <h4>Dünya Çapında</h4>
+                    <p>65'ten fazla ülkede mevcut</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>MARKA</h3>
+                    <h4>Özel</h4>
+                    <p>Tüm ürün formülasyonları özeldir, %100 laboratuvarlarımızda oluşturulmuş ve test edilmiştir</p>
+                </div>
+                
+                <div class="value-item">
+                    <div class="value-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>MARKA</h3>
+                    <h4>İnovasyonlar</h4>
+                    <p>Piyasadaki en kapsamlı steril kozmetik ürün yelpazesi</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Innovations Section -->
+    <section class="innovations">
+        <div class="container">
+            <h2 class="section-title">BENZERSİZ İNOVASYONLAR</h2>
+            <div class="innovation-content">
+                <div class="innovation-text">
+                    <p>Hyaluronik aside dayalı yeni maske konseptimizi keşfedin.</p>
+                    <p>%100 doğal, %100 özelleştirilebilir, estetik tıp tedavilerinden sonra kızarıklık ve iltihabı azaltmak için ideal bir tedavi.</p>
+                    <a href="products.html" class="btn btn-primary">Daha Fazla Bilgi</a>
+                </div>
+                <div class="innovation-image">
+                    <img src="images/brand/innovation.jpg" alt="İnovasyonlar">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section - Before/After -->
+    <section class="results-section">
+        <div class="container">
+            <h2 class="section-title">ANINDA VE UZUN SÜRELİ SONUÇLAR</h2>
+            <p class="subtitle">F-LIFT+ FACE ile görünür fark yaratan sonuçlar</p>
+            
+            <div class="before-after-container">
+                <div class="before-after-slider" id="beforeAfterSlider">
+                    <div class="before-image">
+                        <img src="images/brand/Before.webp" alt="Tedavi Öncesi">
+                        <span class="label">ÖNCE</span>
+                    </div>
+                    <div class="after-image">
+                        <img src="images/brand/after.webp" alt="Tedavi Sonrası">
+                        <span class="label">SONRA</span>
+                    </div>
+                    <div class="slider-handle" id="sliderHandle">
+                        <div class="handle-line"></div>
+                        <div class="handle-circle">
+                            <i class="fas fa-arrows-left-right"></i>
+                        </div>
+                        <div class="handle-line"></div>
+                    </div>
+                </div>
+                
+                <div class="result-info">
+                    <h3>F-LIFT+ FACE Sonuçları</h3>
+                    <ul class="result-features">
+                        <li><i class="fas fa-check-circle"></i> Anında lifting etkisi</li>
+                        <li><i class="fas fa-check-circle"></i> Kırışıklıklarda belirgin azalma</li>
+                        <li><i class="fas fa-check-circle"></i> Ciltte sıkılaşma ve toparlanma</li>
+                        <li><i class="fas fa-check-circle"></i> Daha genç ve dinç görünüm</li>
+                    </ul>
+                    <a href="product-detail.html?id=3" class="btn btn-primary">Ürünü Görüntüle</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">UZMANLAR NE DİYOR</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <p class="testimonial-text">"Son 2 yıldır Naturamenti ile çalışıyorum ve cihazlarının ve ürünlerinin sonuçları ve kalitesi ile çok etkilendim. İngiltere'nin her yerinden müşterilerim tedavi için beni görmeye geliyor. Naturamenti ile çalışmak yaptığım en iyi iş kararlarından biriydi."</p>
+                    <p class="testimonial-author">Kolaine Waterfield</p>
+                    <p class="testimonial-company">Kolaine Beauty Lounge (İngiltere)</p>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"2015'ten beri Naturamenti ile çalışıyorum. Akne, Rozase, Cuperoz, Çatlaklar ve İzler gibi endikasyonlarda Mikroneedling'de ilk tedaviden itibaren en iyi sonuçları alıyoruz. Steril ve sonrası bakım ürünleri en iyisi. Naturamenti benim için en iyi marka!"</p>
+                    <p class="testimonial-author">Nadine Cotte</p>
+                    <p class="testimonial-company">WOW Studio (Almanya)</p>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Naturamenti yıllar önce benim için oyunun kurallarını değiştirdi. Anti-aging alanında yoğun tedavilerde uzmanlaştım. Garanti edilen harika sonuçlar ve müşterilerim çok mutlu ve sadık! Bundan daha iyisi olamaz!"</p>
+                    <p class="testimonial-author">Carmen Brinkmann</p>
+                    <p class="testimonial-company">Pssst Premium (Almanya)</p>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Naturamenti ile çalışmayı kesinlikle seviyorum, müşterilerim de öyle. İçerikler ve ürünler, müşterilerimin bayıldığı harika sonuçlar sunuyor!! Çok yüksek kaliteli estetik tıp cilt bakımı, gerçekten en iyisi!"</p>
+                    <p class="testimonial-author">Ian Bilton</p>
+                    <p class="testimonial-company">Face It by Ian (İngiltere)</p>
+                </div>
+                
+                <div class="testimonial">
+                    <p class="testimonial-text">"Birkaç yıldır Naturamenti ile çalıştıktan sonra, elde edilen sonuçlardan hala etkileniyorum. Basit, güvenli ve etkili. Müşterilerim arasında favori."</p>
+                    <p class="testimonial-author">Kjersti Antonsen</p>
+                    <p class="testimonial-company">Glow Klinikken (Norveç)</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-dots" id="testimonialDots"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Naturamenti</h4>
+                    <ul>
+                        <li><a href="about.html">Şirket</a></li>
+                        <li><a href="about.html">Temel Değerler</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Profesyoneller</h4>
+                    <ul>
+                        <li><a href="contact.html">Naturamenti ile Çalışın</a></li>
+                        <li><a href="contact.html">Distribütör Olun</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Müşteri Hizmetleri</h4>
+                    <ul>
+                        <li><a href="contact.html">Bize Ulaşın</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">Çerez Politikası</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Tüm hakları saklıdır © Naturamenti Türkiye 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+</body>
+</html>
+

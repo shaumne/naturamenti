@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Naturamenti Blog - Cilt Bakımı ve Estetik Tıp Hakkında">
+    <title>Blog | Naturamenti Türkiye</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/products.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .blog-coming-soon {
+            padding: 120px 0;
+            text-align: center;
+        }
+
+        .coming-soon-icon {
+            font-size: 120px;
+            color: var(--primary-color);
+            margin-bottom: 30px;
+        }
+
+        .blog-coming-soon h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+
+        .blog-coming-soon p {
+            font-size: 18px;
+            color: var(--text-light);
+            max-width: 600px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+        }
+
+        .blog-preview {
+            background-color: var(--light-gray);
+            padding: 80px 0;
+        }
+
+        .blog-preview h3 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 50px;
+            color: var(--dark-color);
+        }
+
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+
+        .blog-card {
+            background-color: var(--white);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+            transition: var(--transition);
+        }
+
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .blog-image {
+            width: 100%;
+            height: 220px;
+            background-color: var(--medium-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-light);
+            font-size: 48px;
+        }
+
+        .blog-content {
+            padding: 25px;
+        }
+
+        .blog-date {
+            font-size: 12px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        .blog-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        .blog-excerpt {
+            font-size: 14px;
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .blog-tag {
+            display: inline-block;
+            padding: 5px 15px;
+            background-color: var(--light-gray);
+            color: var(--primary-color);
+            border-radius: 15px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        @media (max-width: 992px) {
+            .blog-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .coming-soon-icon {
+                font-size: 80px;
+            }
+
+            .blog-coming-soon h2 {
+                font-size: 32px;
+            }
+
+            .blog-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-content">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/natulogo-1.png" alt="Naturamenti" class="logo-img">
+                        </a>
+                    </div>
+                    
+                    <div class="nav-menu" id="navMenu">
+                        <ul class="nav-list">
+                            <li><a href="index.html">Ana Sayfa</a></li>
+                            <li><a href="products.html">Ürünler</a></li>
+                            <li><a href="about.html">Hakkımızda</a></li>
+                            <li><a href="blog.html" class="active">Blog</a></li>
+                            <li><a href="contact.html">İletişim</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="nav-right">
+                        <div class="search-box">
+                            <input type="text" placeholder="Ara..." class="search-input">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <button class="mobile-menu-btn" id="mobileMenuBtn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Blog</h1>
+            <p>Cilt bakımı, estetik tıp ve güzellik hakkında en güncel bilgiler</p>
+        </div>
+    </section>
+
+    <!-- Coming Soon Section -->
+    <section class="blog-coming-soon">
+        <div class="container">
+            <div class="coming-soon-icon">
+                <i class="fas fa-pen-fancy"></i>
+            </div>
+            <h2>Blog İçeriği Yakında Eklenecek</h2>
+            <p>Cilt bakımı, estetik tıp uygulamaları, ürün incelemeleri ve uzman tavsiyeleriyle dolu blog içeriklerimiz çok yakında burada olacak. Takipte kalın!</p>
+            <a href="products.html" class="btn btn-primary">Ürünleri Keşfet</a>
+        </div>
+    </section>
+
+    <!-- Blog Preview (Placeholder) -->
+    <section class="blog-preview">
+        <div class="container">
+            <h3>Yakında Yayınlanacak Konular</h3>
+            <div class="blog-grid">
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">Yakında</div>
+                        <h4 class="blog-title">Hyaluronik Asidin Cilde Faydaları</h4>
+                        <p class="blog-excerpt">Hyaluronik asidin cilt sağlığı ve anti-aging üzerindeki etkileri hakkında bilmeniz gereken her şey.</p>
+                        <span class="blog-tag">Cilt Bakımı</span>
+                        <span class="blog-tag">İçerikler</span>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-sun"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">Yakında</div>
+                        <h4 class="blog-title">Güneş Koruyucu Kullanımının Önemi</h4>
+                        <p class="blog-excerpt">Neden her gün güneş koruyucu kullanmalısınız? SPF seçiminde nelere dikkat edilmeli?</p>
+                        <span class="blog-tag">Güneş Koruma</span>
+                        <span class="blog-tag">Tavsiyeler</span>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">Yakında</div>
+                        <h4 class="blog-title">Retinol: Anti-Aging'in Altın Standardı</h4>
+                        <p class="blog-excerpt">Retinol nedir, nasıl kullanılır ve hangi cilt tiplerine uygundur? Uzman rehberi.</p>
+                        <span class="blog-tag">Anti-Aging</span>
+                        <span class="blog-tag">Retinol</span>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">Yakında</div>
+                        <h4 class="blog-title">Hassas Cilt Bakımı İpuçları</h4>
+                        <p class="blog-excerpt">Hassas ciltinize nasıl özen gösterebilirsiniz? Doğru ürün seçimi ve uygulama teknikleri.</p>
+                        <span class="blog-tag">Hassas Cilt</span>
+                        <span class="blog-tag">İpuçları</span>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">Yakında</div>
+                        <h4 class="blog-title">Doğal vs Sentetik İçerikler</h4>
+                        <p class="blog-excerpt">Doğal içerikler her zaman daha mı iyi? Cilt bakımında içerik seçiminin bilimi.</p>
+                        <span class="blog-tag">İçerikler</span>
+                        <span class="blog-tag">Bilim</span>
+                    </div>
+                </div>
+                
+                <div class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-date">Yakında</div>
+                        <h4 class="blog-title">Cilt Tiplerine Göre Nemlendirme</h4>
+                        <p class="blog-excerpt">Her cilt tipi farklı nemlendirme ihtiyaçları gerektirir. Size uygun olanı nasıl bulursunuz?</p>
+                        <span class="blog-tag">Nemlendirme</span>
+                        <span class="blog-tag">Cilt Tipleri</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h4>Naturamenti</h4>
+                    <ul>
+                        <li><a href="about.html">Şirket</a></li>
+                        <li><a href="about.html">Temel Değerler</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Profesyoneller</h4>
+                    <ul>
+                        <li><a href="contact.html">Naturamenti ile Çalışın</a></li>
+                        <li><a href="contact.html">Distribütör Olun</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Müşteri Hizmetleri</h4>
+                    <ul>
+                        <li><a href="contact.html">Bize Ulaşın</a></li>
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">Çerez Politikası</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>Tüm hakları saklıdır © Naturamenti Türkiye 2024</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
+

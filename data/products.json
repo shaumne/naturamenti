@@ -1,0 +1,1146 @@
+[
+  {
+    "id": 1,
+    "name": "ACN Corrector",
+    "shortDesc": "Akneye eğilimli cilt tipleri için yeni çözüm",
+    "longDesc": "ACN Corrector, akneye eğilimli ve yağlı ciltler için özel olarak formüle edilmiş yenilikçi bir tedavi serumudur. Hyaluronik asit, niasinamid ve betain salisilat içeren güçlü formülasyonu ile ciltteki akne oluşumunu azaltır ve gözenekleri temizler.",
+    "category": "Serum & Booster",
+    "image": "images/products/acn-corrector.jpg",
+    "badge": "Yeni",
+    "ingredients": [
+      "Hyaluronik Asit XS (%1)",
+      "Asetil-glukozamin (%1)",
+      "ZincPCA (%1)",
+      "Niasinamid USP (%5)",
+      "Betain Salisilat (%0.5)",
+      "Panthenol (%0.25)"
+    ],
+    "benefits": [
+      "Akne oluşumunu azaltır",
+      "Gözenekleri temizler",
+      "Cildi dengeleyerek yağ üretimini kontrol eder",
+      "Kızarıklıkları azaltır"
+    ],
+    "usage": "Temiz ve kuru cilde günde bir veya iki kez uygulayın. Hafifçe masaj yaparak emilmesini sağlayın."
+  },
+  {
+    "id": 2,
+    "name": "Glow Sleeping Mask",
+    "shortDesc": "Cilt tonunu eşitlemek ve cildi gece boyunca beslemek için mükemmel maske",
+    "longDesc": "Glow Sleeping Mask, cildinizi gece boyunca derinlemesine nemlendiren ve yenileyenözel bir gece maskesidir. Uyurken cildinize yoğun bakım yaparak sabah parıldayan, yumuşak ve canlı bir cilt için formüle edilmiştir.",
+    "category": "Maske",
+    "image": "images/products/glow-mask.jpg",
+    "badge": "Yeni",
+    "ingredients": [
+      "Hyaluronik Asit",
+      "Vitamin C",
+      "Niasinamid",
+      "Peptidler",
+      "Shea Butter"
+    ],
+    "benefits": [
+      "Gece boyunca yoğun nemlendirme",
+      "Cilt tonunu eşitler",
+      "Parlak ve canlı bir cilt",
+      "Kırışıklık görünümünü azaltır"
+    ],
+    "usage": "Akşam cilt bakım rutininizin son adımı olarak yüzünüze ince bir tabaka halinde uygulayın. Sabah durulayın."
+  },
+  {
+    "id": 3,
+    "name": "F-LIFT+ Face",
+    "shortDesc": "Yüz için anında germe ve sıkılaştırma etkisi",
+    "longDesc": "F-LIFT+ Face, yüz için profesyonel düzeyde germe ve sıkılaştırma etkisi sağlayan güçlü bir serumu. DMAE ve peptid kompleksi içeren formülü ile anında lifting etkisi yaratırken uzun vadede cildin elastikiyetini artırır.",
+    "category": "Serum & Booster",
+    "image": "images/products/f-lift-face.jpg",
+    "badge": "Popüler",
+    "ingredients": [
+      "DMAE (%5)",
+      "Argireline Peptide",
+      "Syn-Ake Peptide",
+      "Hyaluronik Asit",
+      "Vitamin E"
+    ],
+    "benefits": [
+      "Anında lifting etkisi",
+      "Cilt elastikiyetini artırır",
+      "Kırışıklıkları azaltır",
+      "Cildi sıkılaştırır"
+    ],
+    "usage": "Temiz cilde günde bir veya iki kez uygulayın. Yukarı doğru hareketlerle masaj yapın."
+  },
+  {
+    "id": 4,
+    "name": "Vitamin C Serum 15%",
+    "shortDesc": "Yüksek konsantrasyonlu C vitamini ile cilt aydınlatma",
+    "longDesc": "15% konsantrasyonunda stabil C vitamini içeren bu serum, cildi aydınlatır, lekeleri azaltır ve antioksidan koruma sağlar. Günlük kullanımda cildin daha genç ve parlak görünmesini sağlar.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-4.jpg",
+    "ingredients": [
+      "Askorbik Asit (%15)",
+      "Vitamin E",
+      "Ferulik Asit",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Cildi aydınlatır",
+      "Lekeleri azaltır",
+      "Güçlü antioksidan koruma",
+      "Kolajen üretimini destekler"
+    ],
+    "usage": "Sabah temiz cilde uygulayın, ardından güneş koruyucu kullanın."
+  },
+  {
+    "id": 5,
+    "name": "Hyaluronic Acid Intense",
+    "shortDesc": "Üç farklı molekül ağırlığında hyaluronik asit",
+    "longDesc": "Farklı molekül ağırlıklarında hyaluronik asit içeren bu serum, cildin tüm katmanlarında nem sağlar. Kuru, susuz ciltler için ideal bir nemlendirme çözümüdür.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-5.jpg",
+    "ingredients": [
+      "Yüksek Molekül Ağırlıklı HA",
+      "Orta Molekül Ağırlıklı HA",
+      "Düşük Molekül Ağırlıklı HA",
+      "Panthenol"
+    ],
+    "benefits": [
+      "Derinlemesine nemlendirme",
+      "Cildi dolgunlaştırır",
+      "İnce çizgileri azaltır",
+      "Cilt bariyerini güçlendirir"
+    ],
+    "usage": "Temiz cilde günde iki kez, nemli ciltte uygulayın."
+  },
+  {
+    "id": 6,
+    "name": "Retinol 0.5% Night Serum",
+    "shortDesc": "Anti-aging için etkili retinol tedavisi",
+    "longDesc": "0.5% konsantrasyonunda retinol içeren bu gece serumu, cilt yenilenme hızını artırır, kırışıklıkları azaltır ve cilt dokusunu iyileştirir. Yaşlanma karşıtı bakım rutininizin vazgeçilmez parçası.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-6.jpg",
+    "ingredients": [
+      "Retinol (%0.5)",
+      "Squalane",
+      "Vitamin E",
+      "Bisabolol"
+    ],
+    "benefits": [
+      "Kırışıklıkları azaltır",
+      "Cilt dokusunu düzeltir",
+      "Gözenek görünümünü iyileştirir",
+      "Cilt yenilenmesini hızlandırır"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın. Gündüz mutlaka güneş koruyucu kullanın."
+  },
+  {
+    "id": 7,
+    "name": "Niacinamide 10% + Zinc",
+    "shortDesc": "Gözenek ve leke azaltıcı serum",
+    "longDesc": "Yüksek konsantrasyonlu niasinamid ve çinko içeren bu serum, gözenekleri minimize eder, lekeleri azaltır ve sebum dengesini sağlar. Tüm cilt tipleri için uygundur.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-7.jpg",
+    "ingredients": [
+      "Niasinamid (%10)",
+      "Çinko PCA (%1)",
+      "Panthenol"
+    ],
+    "benefits": [
+      "Gözenekleri minimize eder",
+      "Lekeleri azaltır",
+      "Sebum dengesini sağlar",
+      "Cilt tonunu eşitler"
+    ],
+    "usage": "Temiz cilde günde bir veya iki kez uygulayın."
+  },
+  {
+    "id": 8,
+    "name": "Gentle Cleanser",
+    "shortDesc": "Hassas ciltler için yumuşak temizleyici",
+    "longDesc": "Hassas ciltler için özel olarak formüle edilmiş bu yumuşak temizleyici, cildi tahriş etmeden etkili şekilde temizler. pH dengeli formülü ile cilt bariyerini korur.",
+    "category": "Temizleyici",
+    "image": "images/products/product-8.jpg",
+    "ingredients": [
+      "Gliserin",
+      "Panthenol",
+      "Ceramidler",
+      "Sodyum Hyaluronat"
+    ],
+    "benefits": [
+      "Yumuşak temizleme",
+      "Cilt bariyerini korur",
+      "Tahriş etmez",
+      "Nemlendirici etki"
+    ],
+    "usage": "Islak cilde masaj yaparak uygulayın ve durulayın. Sabah akşam kullanılabilir."
+  },
+  {
+    "id": 9,
+    "name": "Glycolic Acid 7% Toner",
+    "shortDesc": "Ölü deri hücrelerini temizleyen tonik",
+    "longDesc": "7% glikolik asit içeren bu tonik, ölü deri hücrelerini nazikçe uzaklaştırarak cildin parlaklığını artırır ve gözenek görünümünü iyileştirir.",
+    "category": "Temizleyici",
+    "image": "images/products/product-9.jpg",
+    "ingredients": [
+      "Glikolik Asit (%7)",
+      "Aloe Vera",
+      "Ginsengoside",
+      "Tasmanian Pepperberry"
+    ],
+    "benefits": [
+      "Ölü derileri uzaklaştırır",
+      "Cildi parlatır",
+      "Gözenek görünümünü iyileştirir",
+      "Cilt dokusunu düzeltir"
+    ],
+    "usage": "Akşamları temizleme sonrası pamuk ile cilde uygulayın."
+  },
+  {
+    "id": 10,
+    "name": "Peptide Complex Serum",
+    "shortDesc": "Çoklu peptid kompleksi ile anti-aging bakım",
+    "longDesc": "Farklı peptidlerin sinerjik etkisi ile kolajen üretimini artıran ve kırışıklıkları azaltan güçlü bir anti-aging serumu.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-10.jpg",
+    "ingredients": [
+      "Matrixyl 3000",
+      "Argireline",
+      "Syn-Coll",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Kolajen üretimini artırır",
+      "Kırışıklıkları azaltır",
+      "Cildi sıkılaştırır",
+      "Yaşlanma karşıtı etki"
+    ],
+    "usage": "Temiz cilde günde iki kez uygulayın."
+  },
+  {
+    "id": 11,
+    "name": "SPF 50+ Mineral Sunscreen",
+    "shortDesc": "Yüksek koruma sağlayan mineral güneş kremi",
+    "longDesc": "Çinko oksit ve titanyum dioksit bazlı mineral güneş kremi. UVA ve UVB'ye karşı geniş spektrum koruma sağlar, hassas ciltler için idealdir.",
+    "category": "Güneş Koruma",
+    "image": "images/products/product-11.jpg",
+    "badge": "Popüler",
+    "ingredients": [
+      "Çinko Oksit (%20)",
+      "Titanyum Dioksit (%5)",
+      "Niasinamid",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "SPF 50+ koruma",
+      "Geniş spektrum UVA/UVB",
+      "Hassas ciltler için uygun",
+      "Beyaz iz bırakmaz"
+    ],
+    "usage": "Güneşe çıkmadan 15 dakika önce cömertçe uygulayın. 2 saatte bir yenileyin."
+  },
+  {
+    "id": 12,
+    "name": "Eye Contour Cream",
+    "shortDesc": "Göz çevresi için özel bakım kremi",
+    "longDesc": "Göz çevresi için özel olarak formüle edilmiş bu krem, koyu halkaları azaltır, şişlikleri giderir ve ince çizgileri minimize eder.",
+    "category": "Göz Bakımı",
+    "image": "images/products/product-12.jpg",
+    "ingredients": [
+      "Kafein",
+      "Peptidler",
+      "Vitamin K",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Koyu halkaları azaltır",
+      "Şişlikleri giderir",
+      "İnce çizgileri azaltır",
+      "Göz çevresini nemlendiri"
+    ],
+    "usage": "Sabah akşam göz çevresine hafif dokunuşlarla uygulayın."
+  },
+  {
+    "id": 13,
+    "name": "Moisturizing Cream Rich",
+    "shortDesc": "Kuru ciltler için yoğun nemlendirici krem",
+    "longDesc": "Kuru ve çok kuru ciltler için zengin dokulu nemlendirici krem. Ceramidler ve hyaluronik asit ile cilt bariyerini güçlendirir ve uzun süreli nemlendirme sağlar.",
+    "category": "Nemlendirici",
+    "image": "images/products/product-13.jpg",
+    "ingredients": [
+      "Ceramid NP",
+      "Ceramid AP",
+      "Ceramid EOP",
+      "Hyaluronik Asit",
+      "Kolesterol"
+    ],
+    "benefits": [
+      "Yoğun nemlendirme",
+      "Cilt bariyerini onarır",
+      "Kuru cildi yumuşatır",
+      "Uzun süreli rahatlık"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 14,
+    "name": "Salicylic Acid 2% Solution",
+    "shortDesc": "Akne ve siyah nokta tedavisi",
+    "longDesc": "2% salisilik asit içeren bu solüsyon, gözeneklerin derinlemesine temizlenmesini sağlar, akne ve siyah noktaları azaltır.",
+    "category": "Tedavi Ürünleri",
+    "image": "images/products/product-14.jpg",
+    "ingredients": [
+      "Salisilik Asit (%2)",
+      "Hamamelis Ekstresi",
+      "Panthenol"
+    ],
+    "benefits": [
+      "Gözenekleri temizler",
+      "Akneyi azaltır",
+      "Siyah noktaları önler",
+      "Sebum dengesini sağlar"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın, sorunlu bölgelere odaklanın."
+  },
+  {
+    "id": 15,
+    "name": "AHA 30% + BHA 2% Peeling",
+    "shortDesc": "Profesyonel düzeyde kimyasal peeling",
+    "longDesc": "Alfa hidroksi asitler ve beta hidroksi asit kombinasyonu ile güçlü eksfoliyasyon sağlayan peeling maskesi. Cildi yeniler, parlaklık kazandırır.",
+    "category": "Maske",
+    "image": "images/products/product-15.jpg",
+    "badge": "Profesyonel",
+    "ingredients": [
+      "Glikolik Asit",
+      "Laktik Asit",
+      "Tartarik Asit",
+      "Sitrik Asit",
+      "Salisilik Asit"
+    ],
+    "benefits": [
+      "Güçlü eksfoliyasyon",
+      "Cildi yeniler",
+      "Lekeleri azaltır",
+      "Cilt dokusunu düzeltir"
+    ],
+    "usage": "Haftada bir kez, temiz cilde maksimum 10 dakika uygulayın. İyice durulayın."
+  },
+  {
+    "id": 16,
+    "name": "Azelaic Acid 10%",
+    "shortDesc": "Leke ve akne tedavisi için azelaik asit",
+    "longDesc": "10% azelaik asit içeren bu serum, lekeleri azaltır, akne izlerini hafifletir ve cilt tonunu eşitler. Hassas ciltler için bile uygundur.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-16.jpg",
+    "ingredients": [
+      "Azelaik Asit (%10)",
+      "Niasinamid",
+      "Çinko PCA"
+    ],
+    "benefits": [
+      "Lekeleri azaltır",
+      "Akne izlerini hafifletir",
+      "Cilt tonunu eşitler",
+      "Anti-bakteriyel etki"
+    ],
+    "usage": "Günde bir veya iki kez temiz cilde uygulayın."
+  },
+  {
+    "id": 17,
+    "name": "Lactic Acid 10% + HA",
+    "shortDesc": "Yumuşak eksfoliyasyon ve nemlendirme",
+    "longDesc": "Laktik asit ile nazik eksfoliyasyon sağlarken hyaluronik asit ile cildi nemlendiren dengeli bir formül. Hassas ciltler için ideal peeling alternatifi.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-17.jpg",
+    "ingredients": [
+      "Laktik Asit (%10)",
+      "Hyaluronik Asit",
+      "Tasmanian Pepperberry"
+    ],
+    "benefits": [
+      "Nazik eksfoliyasyon",
+      "Cildi parlatır",
+      "Nemlendirici etki",
+      "Hassas ciltler için uygun"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın."
+  },
+  {
+    "id": 18,
+    "name": "Caffeine Solution 5%",
+    "shortDesc": "Göz altı şişliklerine karşı kafein serumu",
+    "longDesc": "Yüksek konsantrasyonlu kafein ve EGCG içeren bu serum, göz altı şişliklerini azaltır ve koyu halkaları hafifletir.",
+    "category": "Göz Bakımı",
+    "image": "images/products/product-18.jpg",
+    "ingredients": [
+      "Kafein (%5)",
+      "EGCG (Yeşil Çay)",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Şişlikleri azaltır",
+      "Koyu halkaları hafifletir",
+      "Göz çevresini canlandırır",
+      "Antioksidan koruma"
+    ],
+    "usage": "Sabah akşam göz çevresine uygulayın."
+  },
+  {
+    "id": 19,
+    "name": "Mandelic Acid 10%",
+    "shortDesc": "Hassas ciltler için nazik asit tedavisi",
+    "longDesc": "Mandelik asit, en nazik AHA'lardan biridir. Bu serum, hassas ciltlerde bile eksfoliyasyon sağlar, gözenekleri temizler ve cilt tonunu eşitler.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-19.jpg",
+    "ingredients": [
+      "Mandelik Asit (%10)",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Hassas ciltler için uygun",
+      "Nazik eksfoliyasyon",
+      "Gözenek temizliği",
+      "Cilt tonunu eşitler"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın."
+  },
+  {
+    "id": 20,
+    "name": "Amino Acids + B5",
+    "shortDesc": "Cilt barrier desteği için amino asitler",
+    "longDesc": "17 farklı amino asit ve provitamin B5 içeren bu serum, cilt bariyerini güçlendirir ve nemlenmeyi destekler.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-20.jpg",
+    "ingredients": [
+      "Amino Asit Kompleksi",
+      "Panthenol (Provitamin B5)",
+      "Arginin",
+      "Serin"
+    ],
+    "benefits": [
+      "Cilt bariyerini güçlendirir",
+      "Nemlendirmeyi destekler",
+      "Cildi yumuşatır",
+      "Tahrişi azaltır"
+    ],
+    "usage": "Temiz cilde günde iki kez uygulayın."
+  },
+  {
+    "id": 21,
+    "name": "Alpha Arbutin 2% + HA",
+    "shortDesc": "Leke azaltıcı serum",
+    "longDesc": "Alpha arbutin ve hyaluronik asit içeren bu serum, lekeleri azaltır ve cilt tonunu eşitler. Daha aydınlık ve eşit bir cilt tonu için.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-21.jpg",
+    "ingredients": [
+      "Alpha Arbutin (%2)",
+      "Hyaluronik Asit",
+      "Sodyum Hyaluronat"
+    ],
+    "benefits": [
+      "Lekeleri azaltır",
+      "Cilt tonunu eşitler",
+      "Cildi aydınlatır",
+      "Güvenli ve etkili"
+    ],
+    "usage": "Günde iki kez temiz cilde uygulayın."
+  },
+  {
+    "id": 22,
+    "name": "Resveratrol 3% + Ferulic Acid 3%",
+    "shortDesc": "Güçlü antioksidan kombinasyonu",
+    "longDesc": "Resveratrol ve ferulik asit içeren bu serum, güçlü antioksidan koruma sağlar ve erken yaşlanma belirtilerini azaltır.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-22.jpg",
+    "ingredients": [
+      "Resveratrol (%3)",
+      "Ferulik Asit (%3)",
+      "Vitamin E"
+    ],
+    "benefits": [
+      "Güçlü antioksidan",
+      "Serbest radikallere karşı koruma",
+      "Anti-aging etki",
+      "Cildi canlandırır"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 23,
+    "name": "Squalane 100%",
+    "shortDesc": "Saf squalane ile nemlendirme ve yumuşatma",
+    "longDesc": "100% bitki bazlı squalane yağı. Cildi nemlendrir, yumuşatır ve korur. Tüm cilt tipleri için hafif, emilimi kolay bir yağ.",
+    "category": "Yağlar",
+    "image": "images/products/product-23.jpg",
+    "ingredients": [
+      "Squalane (%100)"
+    ],
+    "benefits": [
+      "Yoğun nemlendirme",
+      "Hafif doku",
+      "Tüm cilt tipleri için uygun",
+      "Cilt bariyerini destekler"
+    ],
+    "usage": "Gece rutininizin son adımı olarak birkaç damla uygulayın."
+  },
+  {
+    "id": 24,
+    "name": "Rosehip Seed Oil",
+    "shortDesc": "Kuşburnu yağı ile besleyici bakım",
+    "longDesc": "Soğuk sıkım kuşburnu yağı. Vitamin A, C ve E ile zenginleştirilmiş bu yağ, cildi besler, izleri azaltır ve nemlendirme sağlar.",
+    "category": "Yağlar",
+    "image": "images/products/product-24.jpg",
+    "ingredients": [
+      "Kuşburnu Yağı (%100)",
+      "Doğal Vitamin A",
+      "Omega Yağ Asitleri"
+    ],
+    "benefits": [
+      "İzleri azaltır",
+      "Cildi besler",
+      "Yoğun nemlendirme",
+      "Anti-aging etki"
+    ],
+    "usage": "Gece bakımınızda birkaç damla uygulayın."
+  },
+  {
+    "id": 25,
+    "name": "Matrixyl 10% + HA",
+    "shortDesc": "Peptid kompleksi ile kırışıklık azaltma",
+    "longDesc": "Yüksek konsantrasyonlu Matrixyl peptid kompleksi içeren bu serum, kolajen üretimini artırır ve kırışıklık görünümünü azaltır.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-25.jpg",
+    "ingredients": [
+      "Matrixyl 3000 (%10)",
+      "Matrixyl Synthe'6",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Kolajen sentezini artırır",
+      "Kırışıklıkları azaltır",
+      "Cildi sıkılaştırır",
+      "Dolgunluk sağlar"
+    ],
+    "usage": "Temiz cilde günde iki kez uygulayın."
+  },
+  {
+    "id": 26,
+    "name": "Buffet + Copper Peptides 1%",
+    "shortDesc": "Çoklu peptid ve bakır peptid kompleksi",
+    "longDesc": "Farklı peptidler ve bakır peptidlerin sinerjik etkisi ile kapsamlı anti-aging bakım. Cilt yenilenmesini ve onarımını destekler.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-26.jpg",
+    "badge": "Gelişmiş",
+    "ingredients": [
+      "Bakır Peptidler (%1)",
+      "Matrixyl 3000",
+      "Syn-Coll",
+      "Argirelox",
+      "Relistase"
+    ],
+    "benefits": [
+      "Kapsamlı anti-aging",
+      "Cilt onarımı",
+      "Kırışıklık azaltma",
+      "Cilt yenileme"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın."
+  },
+  {
+    "id": 27,
+    "name": "EUK 134 0.1%",
+    "shortDesc": "İleri düzey antioksidan molekül",
+    "longDesc": "EUK 134, sentetik bir antioksidan enzim. Serbest radikallere karşı güçlü koruma sağlar ve oksidatif stresi azaltır.",
+    "category": "Antioksidanlar",
+    "image": "images/products/product-27.jpg",
+    "ingredients": [
+      "EUK-134 (%0.1)"
+    ],
+    "benefits": [
+      "Güçlü antioksidan",
+      "Oksidatif stresi azaltır",
+      "Çevresel hasardan korur",
+      "Anti-aging destek"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 28,
+    "name": "Pycnogenol 5%",
+    "shortDesc": "Çam kabuğu özü ile antioksidan koruma",
+    "longDesc": "Çam kabuğundan elde edilen güçlü antioksidan. Kolajeni korur, iltihabı azaltır ve cildi çevresel faktörlere karşı korur.",
+    "category": "Antioksidanlar",
+    "image": "images/products/product-28.jpg",
+    "ingredients": [
+      "Pycnogenol (%5)",
+      "Propanediol"
+    ],
+    "benefits": [
+      "Güçlü antioksidan",
+      "Kolajen koruma",
+      "İltihap azaltma",
+      "Cilt elastikiyetini artırır"
+    ],
+    "usage": "Günde iki kez temiz cilde uygulayın."
+  },
+  {
+    "id": 29,
+    "name": "Granactive Retinoid 2%",
+    "shortDesc": "Yeni nesil retinoid tahriş etmeden",
+    "longDesc": "HPR (Hydroxypinacolone Retinoate), tahriş yapmadan retinoid faydası sağlayan yeni nesil bir bileşen. Hassas ciltler için idealdir.",
+    "category": "Retinoidler",
+    "image": "images/products/product-29.jpg",
+    "ingredients": [
+      "Hydroxypinacolone Retinoate (%2)",
+      "Squalane"
+    ],
+    "benefits": [
+      "Retinoid faydaları",
+      "Minimal tahriş",
+      "Anti-aging etki",
+      "Hassas ciltler için uygun"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın."
+  },
+  {
+    "id": 30,
+    "name": "Retinol 1% in Squalane",
+    "shortDesc": "Yüksek konsantrasyonlu retinol tedavisi",
+    "longDesc": "1% konsantrasyonunda retinol içeren güçlü anti-aging serum. Squalane bazlı formülü ile tahriş riskini minimize eder.",
+    "category": "Retinoidler",
+    "image": "images/products/product-30.jpg",
+    "badge": "İleri Düzey",
+    "ingredients": [
+      "Retinol (%1)",
+      "Squalane"
+    ],
+    "benefits": [
+      "Güçlü anti-aging",
+      "Kırışıklık azaltma",
+      "Cilt yenileme",
+      "Doku iyileştirme"
+    ],
+    "usage": "Akşamları, retinol deneyimi olan ciltler için. Yavaşça başlayın."
+  },
+  {
+    "id": 31,
+    "name": "Natural Moisturizing Factors + HA",
+    "shortDesc": "Doğal nemlendirme faktörleri",
+    "longDesc": "Cildin doğal nemlendirme sistemini taklit eden amino asitler, PCA, lactate ve hyaluronik asit içeren hafif nemlendirici.",
+    "category": "Nemlendirici",
+    "image": "images/products/product-31.jpg",
+    "ingredients": [
+      "Amino Asitler",
+      "PCA",
+      "Sodyum Laktat",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Doğal nemlendirme",
+      "Hafif doku",
+      "Tüm cilt tipleri",
+      "Cilt bariyeri desteği"
+    ],
+    "usage": "Günde iki kez nemlendirici olarak kullanın."
+  },
+  {
+    "id": 32,
+    "name": "Marine Hyaluronics",
+    "shortDesc": "Deniz kaynaklı nemlendirici",
+    "longDesc": "Deniz yosunundan elde edilen elektrolitlerin hyaluronik asitle kombinasyonu. Cildi derinlemesine nemlendirir ve tazelik verir.",
+    "category": "Nemlendirici",
+    "image": "images/products/product-32.jpg",
+    "ingredients": [
+      "Sodyum Hyaluronat",
+      "Deniz Ekstresi",
+      "Glycerin"
+    ],
+    "benefits": [
+      "Derinlemesine nemlendirme",
+      "Cilt tazeleme",
+      "Mineral desteği",
+      "Hafif doku"
+    ],
+    "usage": "Temiz cilde günde iki kez uygulayın."
+  },
+  {
+    "id": 33,
+    "name": "100% Organic Cold-Pressed Rose Hip Seed Oil",
+    "shortDesc": "Organik soğuk sıkım kuşburnu yağı",
+    "longDesc": "Sertifikalı organik kuşburnu yağı. Pro-vitamin A ve esansiyel yağ asitleri ile zengin, cildi besler ve yeniler.",
+    "category": "Yağlar",
+    "image": "images/products/product-33.jpg",
+    "badge": "Organik",
+    "ingredients": [
+      "Organik Kuşburnu Yağı (%100)"
+    ],
+    "benefits": [
+      "Organik ve doğal",
+      "İzleri iyileştirir",
+      "Cildi besler",
+      "Pro-vitamin A kaynağı"
+    ],
+    "usage": "Gece bakımında birkaç damla kullanın."
+  },
+  {
+    "id": 34,
+    "name": "100% Plant-Derived Squalane",
+    "shortDesc": "Bitki bazlı saf squalane",
+    "longDesc": "Şeker kamışından elde edilen 100% bitki bazlı squalane. Hafif, emilimi kolay, tüm cilt tipleri için ideal nemlendirici yağ.",
+    "category": "Yağlar",
+    "image": "images/products/product-34.jpg",
+    "ingredients": [
+      "Bitki Bazlı Squalane (%100)"
+    ],
+    "benefits": [
+      "Hafif nemlendirme",
+      "Hızlı emilim",
+      "Vegan ve sürdürülebilir",
+      "Cilt bariyeri desteği"
+    ],
+    "usage": "Sabah veya akşam birkaç damla uygulayın."
+  },
+  {
+    "id": 35,
+    "name": "100% Organic Virgin Sea-Buckthorn Fruit Oil",
+    "shortDesc": "Organik yabani şeftali yağı",
+    "longDesc": "Omega 7 ve diğer yağ asitleri açısından zengin organik yabani şeftali yağı. Cildi besler ve onarır.",
+    "category": "Yağlar",
+    "image": "images/products/product-35.jpg",
+    "badge": "Organik",
+    "ingredients": [
+      "Organik Yabani Şeftali Yağı (%100)"
+    ],
+    "benefits": [
+      "Omega 7 kaynağı",
+      "Cilt onarımı",
+      "Besleyici",
+      "Anti-inflammatory"
+    ],
+    "usage": "Gece bakımında az miktarda kullanın."
+  },
+  {
+    "id": 36,
+    "name": "B Oil",
+    "shortDesc": "Çoklu yağ karışımı",
+    "longDesc": "Çeşitli bitki yağlarının karışımı ile cildi besleyen ve yumuşatan yağ serumu. Kuru ciltler için ideal.",
+    "category": "Yağlar",
+    "image": "images/products/product-36.jpg",
+    "ingredients": [
+      "Marula Yağı",
+      "Baobab Yağı",
+      "Rosehip Yağı",
+      "Argan Yağı"
+    ],
+    "benefits": [
+      "Çoklu yağ faydası",
+      "Besleyici",
+      "Yumuşatıcı",
+      "Kuru ciltler için"
+    ],
+    "usage": "Akşamları yüze ve boyuna uygulayın."
+  },
+  {
+    "id": 37,
+    "name": "Hemi-Squalane",
+    "shortDesc": "Hafif squalane alternatifi",
+    "longDesc": "Daha hafif ve hızlı emilen squalane türevi. Yağlı ciltler için ideal nemlendirici yağ.",
+    "category": "Yağlar",
+    "image": "images/products/product-37.jpg",
+    "ingredients": [
+      "Hemi-Squalane (%100)"
+    ],
+    "benefits": [
+      "Çok hafif doku",
+      "Hızlı emilim",
+      "Yağlı ciltler için uygun",
+      "Gözenek tıkamaz"
+    ],
+    "usage": "Nemlendirici yerine veya sonrasında kullanın."
+  },
+  {
+    "id": 38,
+    "name": "Vitamin C Suspension 23% + HA Spheres 2%",
+    "shortDesc": "Yüksek konsantrasyonlu C vitamini suspansiyonu",
+    "longDesc": "23% L-ascorbic acid içeren güçlü vitamin C formülü. Aydınlatıcı ve anti-aging etki için maksimum konsantrasyon.",
+    "category": "Vitamin C",
+    "image": "images/products/product-38.jpg",
+    "badge": "Yüksek Güç",
+    "ingredients": [
+      "L-Ascorbic Acid (%23)",
+      "HA Spheres (%2)"
+    ],
+    "benefits": [
+      "Maksimum aydınlatma",
+      "Güçlü antioksidan",
+      "Kolajen desteği",
+      "Leke azaltma"
+    ],
+    "usage": "Akşamları deneyimli ciltler için. Az miktarda kullanın."
+  },
+  {
+    "id": 39,
+    "name": "Vitamin C Suspension 30% in Silicone",
+    "shortDesc": "En yüksek konsantrasyonlu C vitamini",
+    "longDesc": "30% L-ascorbic acid içeren en güçlü vitamin C formülasyonu. Silikon bazlı dokusu ile kaygan uygulama.",
+    "category": "Vitamin C",
+    "image": "images/products/product-39.jpg",
+    "badge": "Ultra Güç",
+    "ingredients": [
+      "L-Ascorbic Acid (%30)",
+      "Silikon Baz"
+    ],
+    "benefits": [
+      "En güçlü formül",
+      "Maksimum etki",
+      "Aydınlatma",
+      "Anti-aging"
+    ],
+    "usage": "Akşamları, deneyimli ciltler için."
+  },
+  {
+    "id": 40,
+    "name": "Ascorbyl Glucoside Solution 12%",
+    "shortDesc": "Stabil C vitamini türevi",
+    "longDesc": "Su bazlı, stabil vitamin C türevi. Hassas ciltler için tahriş etmeyen aydınlatıcı serum.",
+    "category": "Vitamin C",
+    "image": "images/products/product-40.jpg",
+    "ingredients": [
+      "Ascorbyl Glucoside (%12)",
+      "Glycerin"
+    ],
+    "benefits": [
+      "Stabil formül",
+      "Hassas ciltler için",
+      "Aydınlatıcı",
+      "Tahriş etmez"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 41,
+    "name": "Magnesium Ascorbyl Phosphate 10%",
+    "shortDesc": "Su bazlı C vitamini",
+    "longDesc": "Magnezyum ascorbyl phosphate ile cildi aydınlatan ve kolajen üretimini destekleyen hassas formül.",
+    "category": "Vitamin C",
+    "image": "images/products/product-41.jpg",
+    "ingredients": [
+      "Magnesium Ascorbyl Phosphate (%10)",
+      "Glycerin"
+    ],
+    "benefits": [
+      "Nazik aydınlatma",
+      "Kolajen desteği",
+      "Su bazlı",
+      "Hassas ciltler için"
+    ],
+    "usage": "Sabah veya akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 42,
+    "name": "Ascorbyl Tetraisopalmitate Solution 20%",
+    "shortDesc": "Yağda çözünür C vitamini",
+    "longDesc": "Yağda çözünen stabil C vitamini formu. Daha derin penetrasyon ve güçlü anti-aging etki.",
+    "category": "Vitamin C",
+    "image": "images/products/product-42.jpg",
+    "ingredients": [
+      "Ascorbyl Tetraisopalmitate (%20)",
+      "Squalane"
+    ],
+    "benefits": [
+      "Derin penetrasyon",
+      "Stabil formül",
+      "Anti-aging",
+      "Yağ bazlı"
+    ],
+    "usage": "Akşamları yüze uygulayın."
+  },
+  {
+    "id": 43,
+    "name": "Ethylated Ascorbic Acid 15%",
+    "shortDesc": "Yüksek stabilite C vitamini",
+    "longDesc": "Ethyl ascorbic acid ile stabil ve etkili vitamin C bakımı. Aydınlatıcı ve kolajen destekleyici.",
+    "category": "Vitamin C",
+    "image": "images/products/product-43.jpg",
+    "ingredients": [
+      "Ethyl Ascorbic Acid (%15)",
+      "Propanediol"
+    ],
+    "benefits": [
+      "Yüksek stabilite",
+      "Etkili aydınlatma",
+      "Kolajen sentezi",
+      "Leke azaltma"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 44,
+    "name": "Azelaic Acid Suspension 10%",
+    "shortDesc": "Leke ve akne için azelaik asit kremi",
+    "longDesc": "10% azelaik asit içeren krem formülü. Lekeleri azaltır, akneyi tedavi eder ve cilt tonunu eşitler.",
+    "category": "Tedavi Ürünleri",
+    "image": "images/products/product-44.jpg",
+    "ingredients": [
+      "Azelaik Asit (%10)",
+      "Caprylic/Capric Triglyceride"
+    ],
+    "benefits": [
+      "Leke azaltma",
+      "Akne tedavisi",
+      "Ton eşitleme",
+      "Rosacea desteği"
+    ],
+    "usage": "Günde bir veya iki kez uygulayın."
+  },
+  {
+    "id": 45,
+    "name": "Niacinamide 10% + Zinc 1%",
+    "shortDesc": "Gözenek ve sebum kontrolü",
+    "longDesc": "Yüksek konsantrasyonlu niasinamid ve çinko ile gözenekleri minimize eden, sebum dengesini sağlayan serum.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-45.jpg",
+    "badge": "Çok Satan",
+    "ingredients": [
+      "Niasinamid (%10)",
+      "Çinko PCA (%1)"
+    ],
+    "benefits": [
+      "Gözenek minimizasyonu",
+      "Sebum kontrolü",
+      "Leke azaltma",
+      "Cilt tonu eşitleme"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 46,
+    "name": "Alpha Lipoic Acid 5%",
+    "shortDesc": "Güçlü antioksidan asit",
+    "longDesc": "5% alpha lipoic acid ile güçlü antioksidan ve anti-aging bakım. Çevresel hasarı azaltır ve cildi yeniler.",
+    "category": "Antioksidanlar",
+    "image": "images/products/product-46.jpg",
+    "ingredients": [
+      "Alpha Lipoic Acid (%5)"
+    ],
+    "benefits": [
+      "Güçlü antioksidan",
+      "Anti-aging",
+      "Gözenek sıkılaştırma",
+      "Cilt yenileme"
+    ],
+    "usage": "Akşamları temiz cilde uygulayın."
+  },
+  {
+    "id": 47,
+    "name": "Hyaluronic Acid 2% + B5",
+    "shortDesc": "Çok katmanlı nemlendirme",
+    "longDesc": "Farklı boyutlarda hyaluronik asit ve provitamin B5 ile çok katmanlı nemlendirme sağlayan serum.",
+    "category": "Nemlendirici",
+    "image": "images/products/product-47.jpg",
+    "badge": "Popüler",
+    "ingredients": [
+      "Sodyum Hyaluronat",
+      "Panthenol",
+      "Vegetable Amino Acids"
+    ],
+    "benefits": [
+      "Çok katmanlı nemlendirme",
+      "Dolgunluk",
+      "Yumuşatma",
+      "Cilt onarımı"
+    ],
+    "usage": "Nemli cilde günde iki kez uygulayın."
+  },
+  {
+    "id": 48,
+    "name": "Amino Acids + B5",
+    "shortDesc": "Cilt desteği ve onarım",
+    "longDesc": "17 amino asit ve B5 vitamini ile cilt bariyerini destekleyen ve onarımı hızlandıran serum.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-48.jpg",
+    "ingredients": [
+      "17 Amino Asit",
+      "Panthenol",
+      "Dermatopoietin"
+    ],
+    "benefits": [
+      "Cilt bariyeri desteği",
+      "Onarım hızlandırma",
+      "Nemlendirme",
+      "Yumuşatma"
+    ],
+    "usage": "Günde iki kez temiz cilde uygulayın."
+  },
+  {
+    "id": 49,
+    "name": "Buffet",
+    "shortDesc": "Çoklu teknoloji peptid serumu",
+    "longDesc": "Farklı peptid ve amino asit teknolojilerinin kombinasyonu ile kapsamlı anti-aging bakım sunan serum.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-49.jpg",
+    "badge": "Kapsamlı",
+    "ingredients": [
+      "Matrixyl 3000",
+      "Matrixyl Synthe'6",
+      "Syn-Coll",
+      "Relistase",
+      "Argirelox"
+    ],
+    "benefits": [
+      "Kapsamlı anti-aging",
+      "Çoklu peptid etkisi",
+      "Kırışıklık azaltma",
+      "Cilt sıkılaştırma"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 50,
+    "name": "Argireline Solution 10%",
+    "shortDesc": "Topical Botox alternatifi",
+    "longDesc": "Yüksek konsantrasyonlu Argireline peptidi ile mimik çizgilerini azaltan 'topical botox' olarak bilinen serum.",
+    "category": "Peptidler",
+    "image": "images/products/product-50.jpg",
+    "ingredients": [
+      "Argireline (%10)",
+      "Hyaluronik Asit"
+    ],
+    "benefits": [
+      "Mimik çizgilerini azaltır",
+      "Kas gevşetici etki",
+      "Kırışıklık önleme",
+      "Botox alternatifi"
+    ],
+    "usage": "Günde iki kez, mimik çizgilerine odaklanarak uygulayın."
+  },
+  {
+    "id": 51,
+    "name": "Multi-Peptide Serum for Hair Density",
+    "shortDesc": "Saç yoğunluğu için peptid serumu",
+    "longDesc": "Saç yoğunluğunu artırmak ve saç dökülmesini azaltmak için geliştirilmiş çoklu peptid içeren saç derisi serumu.",
+    "category": "Saç Bakımı",
+    "image": "images/products/product-51.jpg",
+    "ingredients": [
+      "Redensyl",
+      "Procapil",
+      "Capixyl",
+      "Baicapil",
+      "AnaGain"
+    ],
+    "benefits": [
+      "Saç yoğunluğunu artırır",
+      "Saç dökülmesini azaltır",
+      "Saç köklerini güçlendirir",
+      "Yeni saç büyümesini destekler"
+    ],
+    "usage": "Günde bir kez, tercihen akşamları saç derisine uygulayın."
+  },
+  {
+    "id": 52,
+    "name": "Stem Cell Serum",
+    "shortDesc": "Kök hücre teknolojisi ile yenilenme",
+    "longDesc": "Bitki kök hücre ekstreleriile cildin doğal yenilenme sürecini destekleyen ileri teknoloji serum.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-52.jpg",
+    "badge": "İnovatif",
+    "ingredients": [
+      "Apple Stem Cells",
+      "Argania Stem Cells",
+      "Edelweiss Stem Cells",
+      "Peptid Kompleksi"
+    ],
+    "benefits": [
+      "Cilt yenilenmesi",
+      "Anti-aging",
+      "Hücre koruma",
+      "Uzun ömürlülük"
+    ],
+    "usage": "Sabah akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 53,
+    "name": "Ceramide Complex Serum",
+    "shortDesc": "Cilt bariyeri onarımı",
+    "longDesc": "5 farklı ceramid ile cilt bariyerini onarıp güçlendiren yoğun bakım serumu. Hassas ve kuru ciltler için idealdir.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-53.jpg",
+    "ingredients": [
+      "Ceramid NP",
+      "Ceramid AP",
+      "Ceramid EOP",
+      "Ceramid NG",
+      "Ceramid NS"
+    ],
+    "benefits": [
+      "Bariyer onarımı",
+      "Uzun süreli nemlendirme",
+      "Hassasiyet azaltma",
+      "Cilt koruma"
+    ],
+    "usage": "Günde iki kez, nemlendirmeden önce uygulayın."
+  },
+  {
+    "id": 54,
+    "name": "Collagen Booster Serum",
+    "shortDesc": "Kolajen üretimini maksimize eden formül",
+    "longDesc": "Peptidler, C vitamini ve bakır peptidlerin sinerjisi ile kolajen üretimini maksimize eden güçlü anti-aging serum.",
+    "category": "Serum & Booster",
+    "image": "images/products/product-54.jpg",
+    "badge": "Güçlü",
+    "ingredients": [
+      "Palmitoyl Tripeptide-5",
+      "Bakır Peptidler",
+      "Vitamin C",
+      "Silisyum"
+    ],
+    "benefits": [
+      "Kolajen sentezini artırır",
+      "Cildi sıkılaştırır",
+      "Kırışıklıkları azaltır",
+      "Elastikiyet sağlar"
+    ],
+    "usage": "Sabah veya akşam temiz cilde uygulayın."
+  },
+  {
+    "id": 55,
+    "name": "Brightening Mask",
+    "shortDesc": "Aydınlatıcı ve ton eşitleyici maske",
+    "longDesc": "C vitamini, niasinamid ve alpha arbutin ile cildi aydınlatan ve ton eşitliğini sağlayan haftalık maske.",
+    "category": "Maske",
+    "image": "images/products/product-55.jpg",
+    "ingredients": [
+      "Vitamin C",
+      "Niasinamid",
+      "Alpha Arbutin",
+      "Licorice Extract",
+      "Kojic Acid"
+    ],
+    "benefits": [
+      "Cildi aydınlatır",
+      "Lekeleri azaltır",
+      "Ton eşitliği",
+      "Parlaklık"
+    ],
+    "usage": "Haftada 2-3 kez, temiz cilde 15-20 dakika uygulayın."
+  },
+  {
+    "id": 56,
+    "name": "Detox Charcoal Mask",
+    "shortDesc": "Aktif kömür ile detoks maskesi",
+    "longDesc": "Aktif kömür ve kil ile gözenekleri derinlemesine temizleyen, toksinleri çeken detoks maskesi. Yağlı ve karma ciltler için.",
+    "category": "Maske",
+    "image": "images/products/product-56.jpg",
+    "ingredients": [
+      "Aktif Kömür",
+      "Kaolin Kili",
+      "Bentonit Kili",
+      "Salisilik Asit"
+    ],
+    "benefits": [
+      "Derinlemesine temizlik",
+      "Gözenek temizliği",
+      "Toksin atılımı",
+      "Mat görünüm"
+    ],
+    "usage": "Haftada bir kez, yüzde 10 dakika bekletin ve durulayın."
+  }
+]

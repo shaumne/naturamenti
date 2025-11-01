@@ -1,0 +1,369 @@
+/* Tablet Styles (992px and below) */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    /* Navigation */
+    .nav-list {
+        gap: 20px;
+    }
+
+    .nav-list a {
+        font-size: 13px;
+    }
+
+    .search-input {
+        width: 150px;
+    }
+
+    /* Hero Slider */
+    .slide-text h1 {
+        font-size: 42px;
+    }
+
+    .slide-text p {
+        font-size: 18px;
+    }
+
+    /* Featured Products */
+    .featured-grid {
+        gap: 40px;
+    }
+
+    .featured-image img {
+        height: 300px;
+    }
+
+    .featured-content {
+        padding: 30px;
+    }
+
+    /* Categories */
+    .categories-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    /* Brand Values */
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* Innovation */
+    .innovation-content {
+        gap: 40px;
+    }
+
+    .innovation-text p {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Mobile Styles (768px and below) */
+@media (max-width: 768px) {
+    /* Navigation */
+    .mobile-menu-btn {
+        display: flex;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 130px;
+        left: -100%;
+        width: 100%;
+        height: calc(100vh - 130px);
+        background-color: var(--white);
+        transition: left 0.3s ease;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        padding: 30px;
+        gap: 0;
+    }
+
+    .nav-list li {
+        border-bottom: 1px solid var(--medium-gray);
+    }
+
+    .nav-list a {
+        display: block;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    /* Hero Slider */
+    .hero-slider {
+        height: 500px;
+    }
+
+    .slide-text h1 {
+        font-size: 32px;
+    }
+
+    .slide-text p {
+        font-size: 16px;
+    }
+
+    .slider-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .slider-btn.prev {
+        left: 10px;
+    }
+
+    .slider-btn.next {
+        right: 10px;
+    }
+
+    /* Featured Products */
+    .featured-products {
+        padding: 60px 0;
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .featured-image img {
+        height: 250px;
+    }
+
+    .featured-content {
+        padding: 25px;
+    }
+
+    .featured-content h3 {
+        font-size: 24px;
+    }
+
+    /* Categories */
+    .categories {
+        padding: 60px 0;
+    }
+
+    .category-item {
+        height: 250px;
+    }
+
+    /* Brand Values */
+    .brand-values {
+        padding: 60px 0;
+    }
+
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .value-icon {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+    }
+
+    /* Innovations */
+    .innovations {
+        padding: 60px 0;
+    }
+
+    .innovation-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    /* Results */
+    .results-section {
+        padding: 60px 0;
+    }
+    
+    .before-after-container {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .before-after-slider {
+        max-width: 100%;
+    }
+    
+    .result-info {
+        padding: 30px;
+    }
+    
+    .result-info h3 {
+        font-size: 26px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        padding: 60px 0;
+    }
+
+    .testimonials-slider {
+        min-height: 300px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 40px 0 20px;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+/* Small Mobile Styles (576px and below) */
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 26px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+    }
+
+    /* Hero Slider */
+    .hero-slider {
+        height: 400px;
+    }
+
+    .slide-text h1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+    }
+
+    .slide-text p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    /* Featured Products */
+    .featured-image img {
+        height: 200px;
+    }
+
+    .featured-content {
+        padding: 20px;
+    }
+
+    .featured-content h3 {
+        font-size: 20px;
+    }
+
+    .featured-content p,
+    .featured-content .ingredients {
+        font-size: 14px;
+    }
+
+    /* Categories */
+    .categories-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .category-item {
+        height: 200px;
+    }
+
+    .category-item h3 {
+        font-size: 18px;
+    }
+
+    /* About Section */
+    .about-section {
+        padding: 40px 0;
+    }
+
+    /* Brand Values */
+    .brand-values {
+        padding: 40px 0;
+    }
+
+    /* Innovations */
+    .innovations {
+        padding: 40px 0;
+    }
+
+    .innovation-text p {
+        font-size: 14px;
+    }
+
+    /* Results */
+    .results-section {
+        padding: 40px 0;
+    }
+    
+    .before-after-slider {
+        border-radius: 10px;
+    }
+    
+    .handle-circle {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .result-info {
+        padding: 25px;
+    }
+    
+    .result-info h3 {
+        font-size: 22px;
+    }
+    
+    .result-features li {
+        font-size: 14px;
+    }
+
+    /* Testimonials */
+    .testimonials {
+        padding: 40px 0;
+    }
+
+    .testimonials-slider {
+        min-height: 350px;
+    }
+
+    .testimonial-text {
+        font-size: 14px;
+    }
+
+    .testimonial-author {
+        font-size: 16px;
+    }
+}
+
