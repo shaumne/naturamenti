@@ -29,6 +29,19 @@
     .slide-text p {
         font-size: 18px;
     }
+    
+    .slide-text .slide-subtitle {
+        font-size: 16px;
+    }
+    
+    .slide-ingredients {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .slide-ingredients li {
+        font-size: 14px;
+    }
 
     /* Featured Products */
     .featured-grid {
@@ -123,6 +136,14 @@
 
     .slide-text p {
         font-size: 16px;
+    }
+    
+    .slide-text .slide-subtitle {
+        font-size: 15px;
+    }
+    
+    .slide-ingredients li {
+        font-size: 13px;
     }
 
     .slider-btn {
