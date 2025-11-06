@@ -95,6 +95,15 @@
         min-width: 280px;
         max-width: 280px;
     }
+    
+    /* Dealers */
+    .dealers-section {
+        padding: 60px 0;
+    }
+    
+    .dealers-grid {
+        gap: 25px;
+    }
 }
 
 /* Mobile Styles (768px and below) */
@@ -289,6 +298,42 @@
         height: 45px;
         font-size: 16px;
     }
+    
+    /* Dealers */
+    .dealers-section {
+        padding: 50px 0;
+    }
+    
+    .dealers-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .dealer-card {
+        padding: 25px;
+    }
+    
+    .dealer-header h3 {
+        font-size: 18px;
+    }
+    
+    .dealer-company {
+        font-size: 16px;
+    }
+    
+    .dealer-info-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    .dealer-info-content h4 {
+        font-size: 13px;
+    }
+    
+    .dealer-info-content p {
+        font-size: 13px;
+    }
 
     /* Footer */
     .footer {
@@ -459,6 +504,46 @@
         width: 40px;
         height: 40px;
         font-size: 14px;
+    }
+    
+    /* Dealers */
+    .dealers-section {
+        padding: 40px 0;
+    }
+    
+    .dealer-card {
+        padding: 20px;
+    }
+    
+    .dealer-header {
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .dealer-header h3 {
+        font-size: 16px;
+    }
+    
+    .dealer-company {
+        font-size: 15px;
+    }
+    
+    .dealer-info {
+        gap: 15px;
+    }
+    
+    .dealer-info-icon {
+        width: 32px;
+        height: 32px;
+        font-size: 13px;
+    }
+    
+    .dealer-info-content h4 {
+        font-size: 12px;
+    }
+    
+    .dealer-info-content p {
+        font-size: 12px;
     }
 }
 

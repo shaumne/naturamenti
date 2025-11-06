@@ -161,19 +161,19 @@
             overflow: hidden;
             height: 400px;
             background-color: var(--light-gray);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
         }
 
         .map-placeholder {
             text-align: center;
             color: var(--text-light);
-        }
-
-        .map-placeholder i {
-            font-size: 48px;
-            margin-bottom: 15px;
+            display: none;
         }
 
         @media (max-width: 768px) {
@@ -200,9 +200,9 @@
             <div class="container">
                 <div class="top-bar-content">
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/fusionmesoturkiye/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/fusionmeso_turkey/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCbmEXFBXRtNZj6IF8c3_B_A/featured" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
@@ -222,7 +222,7 @@
                             <li><a href="index.html">Ana Sayfa</a></li>
                             <li><a href="products.html">Ürünler</a></li>
                             <li><a href="about.html">Hakkımızda</a></li>
-                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="bayilerimiz.html">Bayilerimiz</a></li>
                             <li><a href="contact.html" class="active">İletişim</a></li>
                         </ul>
                     </div>
@@ -264,8 +264,9 @@
                         </div>
                         <div class="info-content">
                             <h4>Adres</h4>
-                            <p>Naturamenti Türkiye<br>
-                            İstanbul, Türkiye</p>
+                            <p>Dudullu Cad. Küçükbakkalköy Mah.<br>
+                            Brandium Residence R:2 Blok D:132<br>
+                            Ataşehir / İstanbul</p>
                         </div>
                     </div>
                     
@@ -330,12 +331,15 @@
                 </div>
             </div>
             
-            <!-- Map Placeholder -->
+            <!-- Google Maps -->
             <div class="map-container">
-                <div class="map-placeholder">
-                    <i class="fas fa-map-marked-alt"></i>
-                    <p>Harita alanı - Google Maps entegrasyonu için</p>
-                </div>
+                <iframe 
+                    src="https://www.google.com/maps?q=Dudullu+Cad.+K%C3%BC%C3%A7%C3%BCkbakkalk%C3%B6y+Mah.+Brandium+Residence+R%3A2+Blok+D%3A132+Ata%C5%9Fehir+%2F+%C4%B0stanbul&output=embed"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Naturamenti Türkiye Konum">
+                </iframe>
             </div>
         </div>
     </section>
@@ -370,15 +374,15 @@
                 
                 <div class="footer-col">
                     <div class="social-links">
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-square"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.facebook.com/fusionmesoturkiye/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/fusionmeso_turkey/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UCbmEXFBXRtNZj6IF8c3_B_A/featured" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>Tüm hakları saklıdır © Naturamenti Türkiye 2024</p>
+                <p>Tüm hakları saklıdır © Naturamenti Türkiye 2025</p>
             </div>
         </div>
     </footer>
