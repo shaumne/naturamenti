@@ -81,6 +81,20 @@
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
     }
+    
+    /* Products Slider */
+    .products-slider-section {
+        padding: 60px 0;
+    }
+    
+    .products-slider-wrapper {
+        padding: 0 50px;
+    }
+    
+    .product-slide {
+        min-width: 280px;
+        max-width: 280px;
+    }
 }
 
 /* Mobile Styles (768px and below) */
@@ -251,6 +265,30 @@
     .testimonial-text {
         font-size: 16px;
     }
+    
+    /* Products Slider */
+    .products-slider-section {
+        padding: 50px 0;
+    }
+    
+    .products-slider-wrapper {
+        padding: 0 50px;
+    }
+    
+    .product-slide {
+        min-width: 260px;
+        max-width: 260px;
+    }
+    
+    .product-slide-image {
+        height: 220px;
+    }
+    
+    .products-slider-nav {
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
 
     /* Footer */
     .footer {
@@ -385,6 +423,42 @@
 
     .testimonial-author {
         font-size: 16px;
+    }
+    
+    /* Products Slider */
+    .products-slider-section {
+        padding: 40px 0;
+    }
+    
+    .products-slider-wrapper {
+        padding: 0 40px;
+    }
+    
+    .product-slide {
+        min-width: 240px;
+        max-width: 240px;
+    }
+    
+    .product-slide-image {
+        height: 200px;
+    }
+    
+    .product-slide-content {
+        padding: 20px;
+    }
+    
+    .product-slide-title {
+        font-size: 18px;
+    }
+    
+    .product-slide-desc {
+        font-size: 13px;
+    }
+    
+    .products-slider-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
     }
 }
 

@@ -1,1146 +1,490 @@
 [
   {
     "id": 1,
-    "name": "ACN Corrector",
-    "shortDesc": "Akneye eğilimli cilt tipleri için yeni çözüm",
-    "longDesc": "ACN Corrector, akneye eğilimli ve yağlı ciltler için özel olarak formüle edilmiş yenilikçi bir tedavi serumudur. Hyaluronik asit, niasinamid ve betain salisilat içeren güçlü formülasyonu ile ciltteki akne oluşumunu azaltır ve gözenekleri temizler.",
-    "category": "Serum & Booster",
-    "image": "images/products/acn-corrector.jpg",
+    "name": "MESO-T MASKS",
+    "shortDesc": "Meso-T maskeleri sıkıştırılmış selüloz ve ipekten oluşur. Uygulamadan hemen önce 15 ila 25 ml solüsyon ve 1 ila 2 ml mezo solüsyonu eklenerek aktive edilirler. Bu maskeler estetik tedaviler sonrası için idealdir. Herhangi bir koruyucu veya kimyasal içermezler. Her Meso-T maske tedavisini seçtiğiniz mezo solüsyonu ile aktive ederek kişiselleştirin. Son derece ferahlatıcı bir etki sağlarlar ve cildi yatıştırırlar.",
+    "longDesc": "Meso-T maskeleri sıkıştırılmış selüloz ve ipekten oluşur. Uygulamadan hemen önce 15 ila 25 ml solüsyon ve 1 ila 2 ml mezo solüsyonu eklenerek aktive edilirler. Bu maskeler estetik tedaviler sonrası için idealdir. Herhangi bir koruyucu veya kimyasal içermezler. Her Meso-T maske tedavisini seçtiğiniz mezo solüsyonu ile aktive ederek kişiselleştirin. Son derece ferahlatıcı bir etki sağlarlar ve cildi yatıştırırlar.\n\nEndikasyonlar: – Cildi nemlendirme.– Maskeleri kişiselleştirme.– Steril maskeler.",
+    "category": "",
+    "image": "images/products/meso-t-masks.jpg",
     "badge": "Yeni",
     "ingredients": [
-      "Hyaluronik Asit XS (%1)",
-      "Asetil-glukozamin (%1)",
-      "ZincPCA (%1)",
-      "Niasinamid USP (%5)",
-      "Betain Salisilat (%0.5)",
-      "Panthenol (%0.25)"
+      "İpek",
+      "selüloz."
     ],
     "benefits": [
-      "Akne oluşumunu azaltır",
-      "Gözenekleri temizler",
-      "Cildi dengeleyerek yağ üretimini kontrol eder",
-      "Kızarıklıkları azaltır"
+      "Cildi nemlendirme.– Maskeleri kişiselleştirme.– Steril maskeler."
     ],
-    "usage": "Temiz ve kuru cilde günde bir veya iki kez uygulayın. Hafifçe masaj yaparak emilmesini sağlayın."
+    "usage": ""
   },
   {
     "id": 2,
-    "name": "Glow Sleeping Mask",
-    "shortDesc": "Cilt tonunu eşitlemek ve cildi gece boyunca beslemek için mükemmel maske",
-    "longDesc": "Glow Sleeping Mask, cildinizi gece boyunca derinlemesine nemlendiren ve yenileyenözel bir gece maskesidir. Uyurken cildinize yoğun bakım yaparak sabah parıldayan, yumuşak ve canlı bir cilt için formüle edilmiştir.",
-    "category": "Maske",
-    "image": "images/products/glow-mask.jpg",
-    "badge": "Yeni",
+    "name": "DEEP CLEANSER",
+    "shortDesc": "Derin temizleyici, tüm cilt tipleri için makyajı ve kirleri etkili bir şekilde çıkarmak üzere tasarlanmış eriyen bir mikro emülsiyondur. Hyaluronik asit ile zenginleştirilmiş bu Derin Temizleyici, hem besleyici hem de nemlendiricidir, profesyonel kabin tedavilerinin yanı sıra evdeki cilt bakım ritüelinizde kullanım için ideal olarak formüle edilmiştir.\r\n\r\nBu çok yönlü Derin Temizleyiciyi yüzünüzde, gözlerinizde ve dudaklarınızda kullanabilirsiniz. Cildi nemlendirmek ve kırışıklıkların görünümünü azaltmak için düşük moleküler ağırlıklı hyaluronik asit içerir. Ayrıca, zengin besleyiciliğine rağmen, temizleyici hafif ve serin bir dokuya sahiptir ve uygulama sırasında ferahlatıcı bir erime hissi sağlar. Arkasında bıraktığı kalıntı ince, fark edilebilir, yağsız ve yapışkan değildir. Bileşen Hyaluronik Asit, en nemlendirici biyopolimerlerden biri, cildi derinlemesine nemlendirir. Canlı dokularda, bağ dokusu düzenleyicisi ve su tutucu bir madde olarak hizmet eder. Bu üründe kullanılan sodyum hiyalüronat, kirleticilerden ve GDO'lardan arındırılmış güvenli bir biyoteknolojik süreçten elde edilir. XS Hyaluronik asit, yüksek moleküler ağırlıklı Hyaluronik aside kıyasla cilt yoluyla geçişini artıran olağanüstü düşük bir moleküler ağırlığa sahiptir. Viskoelastik özelliklerini İyileştirerek ve derin Kırışıklıkların görünümünü önemli ölçüde azaltarak cildi Gençleştirir.",
+    "longDesc": "Derin temizleyici, tüm cilt tipleri için makyajı ve kirleri etkili bir şekilde çıkarmak üzere tasarlanmış eriyen bir mikro emülsiyondur. Hyaluronik asit ile zenginleştirilmiş bu Derin Temizleyici, hem besleyici hem de nemlendiricidir, profesyonel kabin tedavilerinin yanı sıra evdeki cilt bakım ritüelinizde kullanım için ideal olarak formüle edilmiştir.\r\n\r\nBu çok yönlü Derin Temizleyiciyi yüzünüzde, gözlerinizde ve dudaklarınızda kullanabilirsiniz. Cildi nemlendirmek ve kırışıklıkların görünümünü azaltmak için düşük moleküler ağırlıklı hyaluronik asit içerir. Ayrıca, zengin besleyiciliğine rağmen, temizleyici hafif ve serin bir dokuya sahiptir ve uygulama sırasında ferahlatıcı bir erime hissi sağlar. Arkasında bıraktığı kalıntı ince, fark edilebilir, yağsız ve yapışkan değildir. Bileşen Hyaluronik Asit, en nemlendirici biyopolimerlerden biri, cildi derinlemesine nemlendirir. Canlı dokularda, bağ dokusu düzenleyicisi ve su tutucu bir madde olarak hizmet eder. Bu üründe kullanılan sodyum hiyalüronat, kirleticilerden ve GDO'lardan arındırılmış güvenli bir biyoteknolojik süreçten elde edilir. XS Hyaluronik asit, yüksek moleküler ağırlıklı Hyaluronik aside kıyasla cilt yoluyla geçişini artıran olağanüstü düşük bir moleküler ağırlığa sahiptir. Viskoelastik özelliklerini İyileştirerek ve derin Kırışıklıkların görünümünü önemli ölçüde azaltarak cildi Gençleştirir.\n\nEndikasyonlar: – Cildi nemlendirme.",
+    "category": "",
+    "image": "images/products/deep-cleanser.jpg",
+    "badge": "",
     "ingredients": [
-      "Hyaluronik Asit",
-      "Vitamin C",
-      "Niasinamid",
-      "Peptidler",
-      "Shea Butter"
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Gece boyunca yoğun nemlendirme",
-      "Cilt tonunu eşitler",
-      "Parlak ve canlı bir cilt",
-      "Kırışıklık görünümünü azaltır"
+      "Cildi nemlendirme."
     ],
-    "usage": "Akşam cilt bakım rutininizin son adımı olarak yüzünüze ince bir tabaka halinde uygulayın. Sabah durulayın."
+    "usage": ""
   },
   {
     "id": 3,
-    "name": "F-LIFT+ Face",
-    "shortDesc": "Yüz için anında germe ve sıkılaştırma etkisi",
-    "longDesc": "F-LIFT+ Face, yüz için profesyonel düzeyde germe ve sıkılaştırma etkisi sağlayan güçlü bir serumu. DMAE ve peptid kompleksi içeren formülü ile anında lifting etkisi yaratırken uzun vadede cildin elastikiyetini artırır.",
-    "category": "Serum & Booster",
-    "image": "images/products/f-lift-face.jpg",
-    "badge": "Popüler",
+    "name": "VITAMIN C 5.0",
+    "shortDesc": "VİTAMİN C 5.0 – Stabil C Vitamini İçeren Yüksek Konsantrasyonlu Bir Serum. Stabil bir C vitamini formu, foto-yaşlanmayı hedeflemek ve serbest radikal hasarıyla mücadele etmek için özel olarak tasarlanmış bu özel formülü zenginleştirir.\r\n\r\nSadece birkaç günlük uygulamadan sonra cilt tonu daha eşit ve parlak görünür. Koku, doğal portakal kabuğu esansiyel yağından kaynaklanır.\r\n\r\nBu üründeki çığır açan yenilik, yeni, yüksek konsantrasyonlu bir C vitamini formu etrafında yoğunlaşmaktadır.\r\n\r\nTipik VİTAMİN C ürünlerinin aksine, özel formülasyonumuz zamanla stabilitesini korur, sonuç olarak diğer ürünlerle sıkça yaşanan yapışkan kalıntıyı önler.\r\n\r\nAyrıca, cilt hidrasyonunu önemli ölçüde artırmak için XS hyaluronik asit infüze edilmiştir ve VİTAMİN C ile sorunsuz bir şekilde bütünleşir. Et-Vitamin C Et-Vitamin C, olağanüstü: beyazlatma, antioksidasyon, serbest radikal temizleme, kollajen artırıcı etkilere sahip çok fonksiyonlu bir C vitamini türevidir. Stabilitesi, diğer askorbik asit türevlerininkini aşar. Melanogenez üzerinde güçlü bir inhibitör etki sergiler, koyu lekeleri ve yaşlılık lekelerini azaltır. Dahası, sadece inflamatuar sitokinlere müdahale ederek değil, aynı zamanda ROS üretimini tersine çevirerek foto-yaşlanmayla aktif olarak mücadele eder, bu da serbest radikalleri etkili bir şekilde temizler. XS hyaluronik asit Biyoteknolojik olarak güvenli bir süreçten türetilen XS Hyaluronik asit, Olağanüstü düşük bir Moleküler ağırlığa sahiptir. Cilt Geçirgenliğini artırır, Viskoelastik özellikleri İyileştirir ve derin Kırışıklıkları azaltır.",
+    "longDesc": "VİTAMİN C 5.0 – Stabil C Vitamini İçeren Yüksek Konsantrasyonlu Bir Serum. Stabil bir C vitamini formu, foto-yaşlanmayı hedeflemek ve serbest radikal hasarıyla mücadele etmek için özel olarak tasarlanmış bu özel formülü zenginleştirir.\r\n\r\nSadece birkaç günlük uygulamadan sonra cilt tonu daha eşit ve parlak görünür. Koku, doğal portakal kabuğu esansiyel yağından kaynaklanır.\r\n\r\nBu üründeki çığır açan yenilik, yeni, yüksek konsantrasyonlu bir C vitamini formu etrafında yoğunlaşmaktadır.\r\n\r\nTipik VİTAMİN C ürünlerinin aksine, özel formülasyonumuz zamanla stabilitesini korur, sonuç olarak diğer ürünlerle sıkça yaşanan yapışkan kalıntıyı önler.\r\n\r\nAyrıca, cilt hidrasyonunu önemli ölçüde artırmak için XS hyaluronik asit infüze edilmiştir ve VİTAMİN C ile sorunsuz bir şekilde bütünleşir. Et-Vitamin C Et-Vitamin C, olağanüstü: beyazlatma, antioksidasyon, serbest radikal temizleme, kollajen artırıcı etkilere sahip çok fonksiyonlu bir C vitamini türevidir. Stabilitesi, diğer askorbik asit türevlerininkini aşar. Melanogenez üzerinde güçlü bir inhibitör etki sergiler, koyu lekeleri ve yaşlılık lekelerini azaltır. Dahası, sadece inflamatuar sitokinlere müdahale ederek değil, aynı zamanda ROS üretimini tersine çevirerek foto-yaşlanmayla aktif olarak mücadele eder, bu da serbest radikalleri etkili bir şekilde temizler. XS hyaluronik asit Biyoteknolojik olarak güvenli bir süreçten türetilen XS Hyaluronik asit, Olağanüstü düşük bir Moleküler ağırlığa sahiptir. Cilt Geçirgenliğini artırır, Viskoelastik özellikleri İyileştirir ve derin Kırışıklıkları azaltır.\n\nEndikasyonlar: – Pigmentasyonu azaltır.– Kahverengi lekeleri azaltır.– Serbest radikalleri nötralize eder ve hücresel DNA'yı korur.– Kirlilik karşıtı.– Kollajen güçlendirici.– Cilt tonunu eşitler.– Foto-yaşlanmayı önler.",
+    "category": "",
+    "image": "images/products/vitamin-c-50.jpg",
+    "badge": "",
     "ingredients": [
-      "DMAE (%5)",
-      "Argireline Peptide",
-      "Syn-Ake Peptide",
-      "Hyaluronik Asit",
-      "Vitamin E"
+      "ET-vitamin C",
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Anında lifting etkisi",
-      "Cilt elastikiyetini artırır",
-      "Kırışıklıkları azaltır",
-      "Cildi sıkılaştırır"
+      "Pigmentasyonu azaltır.– Kahverengi lekeleri azaltır.– Serbest radikalleri nötralize eder ve hücresel DNA'yı korur.– Kirlilik karşıtı.– Kollajen güçlendirici.– Cilt tonunu eşitler.– Foto-yaşlanmayı önler."
     ],
-    "usage": "Temiz cilde günde bir veya iki kez uygulayın. Yukarı doğru hareketlerle masaj yapın."
+    "usage": ""
   },
   {
     "id": 4,
-    "name": "Vitamin C Serum 15%",
-    "shortDesc": "Yüksek konsantrasyonlu C vitamini ile cilt aydınlatma",
-    "longDesc": "15% konsantrasyonunda stabil C vitamini içeren bu serum, cildi aydınlatır, lekeleri azaltır ve antioksidan koruma sağlar. Günlük kullanımda cildin daha genç ve parlak görünmesini sağlar.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-4.jpg",
+    "name": "HYALURONIC MASK",
+    "shortDesc": "%100 doğal bazımız benzersiz hyaluronik asit maskeleri yaratır. HYALURONIC MASK'ınızı oluşturmak için tozu Mixlab maske blenderımızı kullanarak suyla karıştırmalısınız. Herhangi bir mezo solüsyonundan 1 ila 2 ml ekleyerek geliştirebilirsiniz. Maske, cilt hidrasyonunu artıran düşük moleküler ağırlıklı hyaluronik asit ve sorbitolün dahil edilmesi sayesinde sıkı, ferahlatıcı ve son derece nemlendirici bir dokuya sahiptir. Bu, çeşitli cilt tipleri ve tedaviler için uygun yeni nesil özelleştirilebilir yüz maskelerini temsil eder. Tıbbi veya estetik prosedürlerden sonra, bunları iltihaplanma veya alerjik reaksiyonlara neden olmadan güvenle uygulayabilirsiniz. Maskelerimiz gerçekten inanılmazdır, her müşteri için anında taze olarak hazırlanır ve son derece uygun maliyetli bir fiyata. Hyaluronik karışım maskemizin formülasyonu, piyasada bulunan en doğal ve cilt dostu seçenektir. HYALURONIC MASK'ımız, optimal cilt hidrasyonu için spesifik doğal sakızlar, hyaluronik asit, sorbitol ve potasyumdan oluşur. Oluşan jel termo-tersinirdir, yani yüksek sıcaklıklarda akışkan hale gelir ve soğudukça daha güçlü bir jel oluşturur. Uygulama sırasında maskeyi yanlışlıkla kırarsanız, yeni bir HYALURONIC MASK oluşturmak için onu tekrar eritmeniz yeterlidir.",
+    "longDesc": "%100 doğal bazımız benzersiz hyaluronik asit maskeleri yaratır. HYALURONIC MASK'ınızı oluşturmak için tozu Mixlab maske blenderımızı kullanarak suyla karıştırmalısınız. Herhangi bir mezo solüsyonundan 1 ila 2 ml ekleyerek geliştirebilirsiniz. Maske, cilt hidrasyonunu artıran düşük moleküler ağırlıklı hyaluronik asit ve sorbitolün dahil edilmesi sayesinde sıkı, ferahlatıcı ve son derece nemlendirici bir dokuya sahiptir. Bu, çeşitli cilt tipleri ve tedaviler için uygun yeni nesil özelleştirilebilir yüz maskelerini temsil eder. Tıbbi veya estetik prosedürlerden sonra, bunları iltihaplanma veya alerjik reaksiyonlara neden olmadan güvenle uygulayabilirsiniz. Maskelerimiz gerçekten inanılmazdır, her müşteri için anında taze olarak hazırlanır ve son derece uygun maliyetli bir fiyata. Hyaluronik karışım maskemizin formülasyonu, piyasada bulunan en doğal ve cilt dostu seçenektir. HYALURONIC MASK'ımız, optimal cilt hidrasyonu için spesifik doğal sakızlar, hyaluronik asit, sorbitol ve potasyumdan oluşur. Oluşan jel termo-tersinirdir, yani yüksek sıcaklıklarda akışkan hale gelir ve soğudukça daha güçlü bir jel oluşturur. Uygulama sırasında maskeyi yanlışlıkla kırarsanız, yeni bir HYALURONIC MASK oluşturmak için onu tekrar eritmeniz yeterlidir.\n\nEndikasyonlar: – Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır.– Maskeleri kişiselleştirir.",
+    "category": "",
+    "image": "images/products/hyaluronic-mask.jpg",
+    "badge": "",
     "ingredients": [
-      "Askorbik Asit (%15)",
-      "Vitamin E",
-      "Ferulik Asit",
-      "Hyaluronik Asit"
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi aydınlatır",
-      "Lekeleri azaltır",
-      "Güçlü antioksidan koruma",
-      "Kolajen üretimini destekler"
+      "Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır.– Maskeleri kişiselleştirir."
     ],
-    "usage": "Sabah temiz cilde uygulayın, ardından güneş koruyucu kullanın."
+    "usage": ""
   },
   {
     "id": 5,
-    "name": "Hyaluronic Acid Intense",
-    "shortDesc": "Üç farklı molekül ağırlığında hyaluronik asit",
-    "longDesc": "Farklı molekül ağırlıklarında hyaluronik asit içeren bu serum, cildin tüm katmanlarında nem sağlar. Kuru, susuz ciltler için ideal bir nemlendirme çözümüdür.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-5.jpg",
+    "name": "HYALURONIC DROPS",
+    "shortDesc": "Kalıcı nem için XS hyaluronik asit ile aşılanmış Su Damlası Kremimizle derin cilt hidrasyonunu deneyimleyin. Şaşırtıcı dokusu uygulama üzerine dönüşür; ferahlatıcı derecede hafif hissettirirken koruyucu ve besleyici bir bariyer sağlar. Bu krem, transepidermal su kaybını önlemek için nemi hapseder, cildinizin uzun süreli konfor ve optimum hidrasyon seviyelerinin keyfini çıkarmasını sağlar. XS hyaluronik asit, çok düşük moleküler ağırlığı ile, bir bağ dokusu düzenleyicisi ve su tutucu bir madde olarak görev yapar. Bu üründe kullanılan sodyum hiyalüronat, kirleticilerden ve GDO'lardan arındırılmış güvenli bir biyoteknolojik süreçten elde edilir. Kullanım Alanları Yüksek moleküler ağırlıklı Hyaluronik aside kıyasla cilt yoluyla artan geçişi nedeniyle Anti-aging cilt bakımında bir yeniliği temsil eder. Viskoelastik özelliklerini İyileştirerek ve derin Kırışıklıkların görünümünü önemli ölçüde azaltarak cildi Gençleştirir.\r\n\r\nÖzel Su damlası formülasyonumuz ince çizgileri hızla azaltır ve cildi dolgunlaştırır. Tüm cilt tipleri için özel olarak tasarlanmış olan bu Hyaluronik damlalar, inanılmaz derecede etkili Nemlendiricilerdir. Ürün, yeşil yapraklar, çimen ve meyve notalarıyla taze bir koku yayar.",
+    "longDesc": "Kalıcı nem için XS hyaluronik asit ile aşılanmış Su Damlası Kremimizle derin cilt hidrasyonunu deneyimleyin. Şaşırtıcı dokusu uygulama üzerine dönüşür; ferahlatıcı derecede hafif hissettirirken koruyucu ve besleyici bir bariyer sağlar. Bu krem, transepidermal su kaybını önlemek için nemi hapseder, cildinizin uzun süreli konfor ve optimum hidrasyon seviyelerinin keyfini çıkarmasını sağlar. XS hyaluronik asit, çok düşük moleküler ağırlığı ile, bir bağ dokusu düzenleyicisi ve su tutucu bir madde olarak görev yapar. Bu üründe kullanılan sodyum hiyalüronat, kirleticilerden ve GDO'lardan arındırılmış güvenli bir biyoteknolojik süreçten elde edilir. Kullanım Alanları Yüksek moleküler ağırlıklı Hyaluronik aside kıyasla cilt yoluyla artan geçişi nedeniyle Anti-aging cilt bakımında bir yeniliği temsil eder. Viskoelastik özelliklerini İyileştirerek ve derin Kırışıklıkların görünümünü önemli ölçüde azaltarak cildi Gençleştirir.\r\n\r\nÖzel Su damlası formülasyonumuz ince çizgileri hızla azaltır ve cildi dolgunlaştırır. Tüm cilt tipleri için özel olarak tasarlanmış olan bu Hyaluronik damlalar, inanılmaz derecede etkili Nemlendiricilerdir. Ürün, yeşil yapraklar, çimen ve meyve notalarıyla taze bir koku yayar.\n\nEndikasyonlar: – Cildi nemlendirme.– Derin kırışıklıkları ve ince çizgileri azaltma.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/hyaluronic-drops.jpg",
+    "badge": "",
     "ingredients": [
-      "Yüksek Molekül Ağırlıklı HA",
-      "Orta Molekül Ağırlıklı HA",
-      "Düşük Molekül Ağırlıklı HA",
-      "Panthenol"
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Derinlemesine nemlendirme",
-      "Cildi dolgunlaştırır",
-      "İnce çizgileri azaltır",
-      "Cilt bariyerini güçlendirir"
+      "Cildi nemlendirme.– Derin kırışıklıkları ve ince çizgileri azaltma."
     ],
-    "usage": "Temiz cilde günde iki kez, nemli ciltte uygulayın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 6,
-    "name": "Retinol 0.5% Night Serum",
-    "shortDesc": "Anti-aging için etkili retinol tedavisi",
-    "longDesc": "0.5% konsantrasyonunda retinol içeren bu gece serumu, cilt yenilenme hızını artırır, kırışıklıkları azaltır ve cilt dokusunu iyileştirir. Yaşlanma karşıtı bakım rutininizin vazgeçilmez parçası.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-6.jpg",
+    "name": "GLYCOLIC B3 FOAM",
+    "shortDesc": "Daha parlak ve daha berrak bir cilt elde etmek için mükemmel bir çözüm olan Niasinamid içeren Glikolik Asit köpüren temizleyicimizi sunuyoruz. Ekibimiz tarafından formüle edilen bu temizleyici, cildi yeniler ve bariyerini güçlendirir. İçerik Glikolik asit, bir AHA, daha pürüzsüz, daha eşit bir cilt için eksfoliasyon yapar. Ayrıca, araştırmalarımıza göre, ince çizgilerin ve kırışıklıkların görünümünü azaltmaya yardımcı olur, bu da onu mükemmel bir yaşlanma karşıtı bileşen yapar. Bir B3 vitamini formu olan niasinamid, cildin dokusunu ve tonunu iyileştirir. Kızarıklığı azaltmaya yardımcı olurken, aynı zamanda sebum üretimini düzenler, bu da sivilceleri önlemeye yardımcı olabilir. Fonksiyon Birlikte, bu iki bileşen cildi derinlemesine temizlemek ve aydınlatmak için çalışırken, aynı zamanda yaşlanma karşıtı faydalar sağlar. Nazik yıkama köpüğümüz tüm cilt tipleri için uygundur ve sert kimyasallar ve kokular içermez, bu da onu günlük cilt bakım rutininize mükemmel bir ek yapar.",
+    "longDesc": "Daha parlak ve daha berrak bir cilt elde etmek için mükemmel bir çözüm olan Niasinamid içeren Glikolik Asit köpüren temizleyicimizi sunuyoruz. Ekibimiz tarafından formüle edilen bu temizleyici, cildi yeniler ve bariyerini güçlendirir. İçerik Glikolik asit, bir AHA, daha pürüzsüz, daha eşit bir cilt için eksfoliasyon yapar. Ayrıca, araştırmalarımıza göre, ince çizgilerin ve kırışıklıkların görünümünü azaltmaya yardımcı olur, bu da onu mükemmel bir yaşlanma karşıtı bileşen yapar. Bir B3 vitamini formu olan niasinamid, cildin dokusunu ve tonunu iyileştirir. Kızarıklığı azaltmaya yardımcı olurken, aynı zamanda sebum üretimini düzenler, bu da sivilceleri önlemeye yardımcı olabilir. Fonksiyon Birlikte, bu iki bileşen cildi derinlemesine temizlemek ve aydınlatmak için çalışırken, aynı zamanda yaşlanma karşıtı faydalar sağlar. Nazik yıkama köpüğümüz tüm cilt tipleri için uygundur ve sert kimyasallar ve kokular içermez, bu da onu günlük cilt bakım rutininize mükemmel bir ek yapar.\n\nEndikasyonlar: – Cilt yenileme.– Akne ve kirleri azaltma.– Pigmentasyon ve kırışıklıkları azaltma.– Makyaj ve kirleri çıkarma.",
+    "category": "",
+    "image": "images/products/glycolic-b3-foam.jpg",
+    "badge": "",
     "ingredients": [
-      "Retinol (%0.5)",
-      "Squalane",
-      "Vitamin E",
-      "Bisabolol"
+      "Glikolik asit",
+      "niasinamid."
     ],
     "benefits": [
-      "Kırışıklıkları azaltır",
-      "Cilt dokusunu düzeltir",
-      "Gözenek görünümünü iyileştirir",
-      "Cilt yenilenmesini hızlandırır"
+      "Cilt yenileme.– Akne ve kirleri azaltma.– Pigmentasyon ve kırışıklıkları azaltma.– Makyaj ve kirleri çıkarma."
     ],
-    "usage": "Akşamları temiz cilde uygulayın. Gündüz mutlaka güneş koruyucu kullanın."
+    "usage": ""
   },
   {
     "id": 7,
-    "name": "Niacinamide 10% + Zinc",
-    "shortDesc": "Gözenek ve leke azaltıcı serum",
-    "longDesc": "Yüksek konsantrasyonlu niasinamid ve çinko içeren bu serum, gözenekleri minimize eder, lekeleri azaltır ve sebum dengesini sağlar. Tüm cilt tipleri için uygundur.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-7.jpg",
+    "name": "VIT C MICRO-WATER",
+    "shortDesc": "Misellar su ile harmanlanmış ET-Vitamin C losyonumuzu keşfedin. Parlak, ışıltılı bir cilt için dinamik bir ikili. Çift Etkili Mikro-su formülü: İki Cilt bakımı temelinin gücünü devrim niteliğinde bir üründe deneyimleyin. 2'si 1 arada formülümüz, bir losyonun Nemlendirici Özelliklerini bir Misellar suyun Temizleme yetenekleriyle birleştirir, Etkinlikten ödün vermeden Cilt bakımı rejiminizi kolaylaştırır. ET-Vitamin C Teknolojisi: Gelişmiş ET-Vitamin C teknolojisi ile aşılanmış formülümüz, serbest radikal hasarı ve çevresel Stres faktörleriyle mücadele etmek için güçlü bir Antioksidan koruma dozu sunar. C vitamini, daha eşit bir cilt tonunu teşvik eden ve koyu lekelerin ve Renk bozulmasının görünümünü azaltan Parlatıcı etkileriyle ünlüdür. VİTAMİN C MİKRO-SU KULLANIRKEN KULLANIM ALANLARI Nemlendirici ve Ferahlatıcı: Nemlendirici ajanlarla formüle edilmiş losyonumuz, Uzun süreli hidrasyon sağlar, cildinizi yumuşak, esnek ve Canlanmış hissettirir. Misellar su bileşeni, Kirleri, makyajı ve fazla yağı nazikçe temizler, durulamaya gerek kalmadan cildinizi temiz ve Ferah bırakır. Doğal Temizleme ajanı: Cilde ve çevreye Saygılı doğal bir Temizleme ajanı ile zenginleştirilmiştir. %100 Ekolojik. Nazik ve Tüm Cilt Tipleri İçin Uygun: C vitamini losyonumuz ve misellar suyumuz, hassas ciltler de dahil olmak üzere tüm cilt tiplerinde günlük kullanım için yeterince naziktir. Canlı, sağlıklı bir görünüm için C vitamini misellar çözümümüzle kuruluk, donukluk veya eşit olmayan ciltle mücadele edin. Deneyim Cilt bakım rutininizi dönüştürün ve C vitamini mikro suyunun gücünü ortaya çıkarın. Cildinizin parlaklığındaki farkı ve her gün daha parlak, daha ışıltılı bir cildi deneyimleyin.",
+    "longDesc": "Misellar su ile harmanlanmış ET-Vitamin C losyonumuzu keşfedin. Parlak, ışıltılı bir cilt için dinamik bir ikili. Çift Etkili Mikro-su formülü: İki Cilt bakımı temelinin gücünü devrim niteliğinde bir üründe deneyimleyin. 2'si 1 arada formülümüz, bir losyonun Nemlendirici Özelliklerini bir Misellar suyun Temizleme yetenekleriyle birleştirir, Etkinlikten ödün vermeden Cilt bakımı rejiminizi kolaylaştırır. ET-Vitamin C Teknolojisi: Gelişmiş ET-Vitamin C teknolojisi ile aşılanmış formülümüz, serbest radikal hasarı ve çevresel Stres faktörleriyle mücadele etmek için güçlü bir Antioksidan koruma dozu sunar. C vitamini, daha eşit bir cilt tonunu teşvik eden ve koyu lekelerin ve Renk bozulmasının görünümünü azaltan Parlatıcı etkileriyle ünlüdür. VİTAMİN C MİKRO-SU KULLANIRKEN KULLANIM ALANLARI Nemlendirici ve Ferahlatıcı: Nemlendirici ajanlarla formüle edilmiş losyonumuz, Uzun süreli hidrasyon sağlar, cildinizi yumuşak, esnek ve Canlanmış hissettirir. Misellar su bileşeni, Kirleri, makyajı ve fazla yağı nazikçe temizler, durulamaya gerek kalmadan cildinizi temiz ve Ferah bırakır. Doğal Temizleme ajanı: Cilde ve çevreye Saygılı doğal bir Temizleme ajanı ile zenginleştirilmiştir. %100 Ekolojik. Nazik ve Tüm Cilt Tipleri İçin Uygun: C vitamini losyonumuz ve misellar suyumuz, hassas ciltler de dahil olmak üzere tüm cilt tiplerinde günlük kullanım için yeterince naziktir. Canlı, sağlıklı bir görünüm için C vitamini misellar çözümümüzle kuruluk, donukluk veya eşit olmayan ciltle mücadele edin. Deneyim Cilt bakım rutininizi dönüştürün ve C vitamini mikro suyunun gücünü ortaya çıkarın. Cildinizin parlaklığındaki farkı ve her gün daha parlak, daha ışıltılı bir cildi deneyimleyin.\n\nEndikasyonlar: – Cildi nemlendirir.– Serbest radikalleri nötralize eder ve hücresel DNA'yı korur.– Kirlilik karşıtı.– Kollajen güçlendirici.– Cilt tonunu eşitler.– Foto-yaşlanmayı önler.",
+    "category": "",
+    "image": "images/products/vit-c-micro-water.jpg",
+    "badge": "",
     "ingredients": [
-      "Niasinamid (%10)",
-      "Çinko PCA (%1)",
-      "Panthenol"
+      "ET-vitamin C."
     ],
     "benefits": [
-      "Gözenekleri minimize eder",
-      "Lekeleri azaltır",
-      "Sebum dengesini sağlar",
-      "Cilt tonunu eşitler"
+      "Cildi nemlendirir.– Serbest radikalleri nötralize eder ve hücresel DNA'yı korur.– Kirlilik karşıtı.– Kollajen güçlendirici.– Cilt tonunu eşitler.– Foto-yaşlanmayı önler."
     ],
-    "usage": "Temiz cilde günde bir veya iki kez uygulayın."
+    "usage": ""
   },
   {
     "id": 8,
-    "name": "Gentle Cleanser",
-    "shortDesc": "Hassas ciltler için yumuşak temizleyici",
-    "longDesc": "Hassas ciltler için özel olarak formüle edilmiş bu yumuşak temizleyici, cildi tahriş etmeden etkili şekilde temizler. pH dengeli formülü ile cilt bariyerini korur.",
-    "category": "Temizleyici",
-    "image": "images/products/product-8.jpg",
+    "name": "ESSENTIAL LOTION",
+    "shortDesc": "Hyaluronik Asit içeren temel losyonu sunuyoruz. Cildinizi Hyaluronik aside dayalı bu jel losyonla canlandırın, Parlak, Nemlenmiş bir cilde Ulaşmak için nihai çözüm. Losyonumuzu, tüm cilt tipleri için Eşsiz Nemlendirme ve Gençleştirme sağlamak üzere Hyaluronik Asit ile Titizlikle üretiyoruz. ESSENTIAL LOTION'un Teknolojisi ve formülü Gelişmiş Hidrasyon Teknolojisi: Premium sınıf Hyaluronik asitle Formüle edilmiş losyonumuz, en çok ihtiyaç duyulan yere yoğun Hidrasyon sağlamak için cilde derinlemesine Nüfuz eder. Hyaluronik asit, Nemi Çeken ve Tutan güçlü bir Nemlendirici olarak işlev görür, cildinizi esnek ve dolgun bırakır. Hafif ve Yağsız Formül: Ağır, yağlı losyonlara veda edin. Hafif formülümüz cilde hızla emilir, arkasında herhangi bir kalıntı bırakmadan anında Hidrasyon sağlar. Günlük kullanım için mükemmeldir, cildinizi ipeksi pürüzsüzlükte ve Ferahlamış hissettirir. ESSENTIAL LOTION KULLANIRKEN KULLANIM ALANLARI Yaşlanma Karşıtı Özellikler: Hyaluronik asit, Yaşlanma karşıtı faydalarıyla Ünlüdür. Nem seviyelerini Yenileyerek ve cilt Elastikiyetini İyileştirerek, losyonumuz ince çizgilerin ve Kırışıklıkların görünümünü azaltmaya yardımcı olur, size daha genç görünümlü bir cilt verir. Nazik ve Tüm Cilt Tipleri İçin Uygun: Formülümüz en hassas cilt tipleri için bile yeterince naziktir. Kuru, yağlı veya karma bir cildiniz olsun, Hyaluronik Asit Aşılanmış Losyon, nemlenmiş, sağlıklı görünen bir cilde ulaşmak için başvuracağınız çözümdür. Cildinizi dönüştürün ve Hyaluronik Asit Aşılanmış Losyon ile yeni bir Hidrasyon seviyesinin kilidini açın.",
+    "longDesc": "Hyaluronik Asit içeren temel losyonu sunuyoruz. Cildinizi Hyaluronik aside dayalı bu jel losyonla canlandırın, Parlak, Nemlenmiş bir cilde Ulaşmak için nihai çözüm. Losyonumuzu, tüm cilt tipleri için Eşsiz Nemlendirme ve Gençleştirme sağlamak üzere Hyaluronik Asit ile Titizlikle üretiyoruz. ESSENTIAL LOTION'un Teknolojisi ve formülü Gelişmiş Hidrasyon Teknolojisi: Premium sınıf Hyaluronik asitle Formüle edilmiş losyonumuz, en çok ihtiyaç duyulan yere yoğun Hidrasyon sağlamak için cilde derinlemesine Nüfuz eder. Hyaluronik asit, Nemi Çeken ve Tutan güçlü bir Nemlendirici olarak işlev görür, cildinizi esnek ve dolgun bırakır. Hafif ve Yağsız Formül: Ağır, yağlı losyonlara veda edin. Hafif formülümüz cilde hızla emilir, arkasında herhangi bir kalıntı bırakmadan anında Hidrasyon sağlar. Günlük kullanım için mükemmeldir, cildinizi ipeksi pürüzsüzlükte ve Ferahlamış hissettirir. ESSENTIAL LOTION KULLANIRKEN KULLANIM ALANLARI Yaşlanma Karşıtı Özellikler: Hyaluronik asit, Yaşlanma karşıtı faydalarıyla Ünlüdür. Nem seviyelerini Yenileyerek ve cilt Elastikiyetini İyileştirerek, losyonumuz ince çizgilerin ve Kırışıklıkların görünümünü azaltmaya yardımcı olur, size daha genç görünümlü bir cilt verir. Nazik ve Tüm Cilt Tipleri İçin Uygun: Formülümüz en hassas cilt tipleri için bile yeterince naziktir. Kuru, yağlı veya karma bir cildiniz olsun, Hyaluronik Asit Aşılanmış Losyon, nemlenmiş, sağlıklı görünen bir cilde ulaşmak için başvuracağınız çözümdür. Cildinizi dönüştürün ve Hyaluronik Asit Aşılanmış Losyon ile yeni bir Hidrasyon seviyesinin kilidini açın.\n\nEndikasyonlar: – Cildi nemlendirir.",
+    "category": "",
+    "image": "images/products/essential-lotion.jpg",
+    "badge": "",
     "ingredients": [
-      "Gliserin",
-      "Panthenol",
-      "Ceramidler",
-      "Sodyum Hyaluronat"
+      "Hyaluronik asit."
     ],
     "benefits": [
-      "Yumuşak temizleme",
-      "Cilt bariyerini korur",
-      "Tahriş etmez",
-      "Nemlendirici etki"
+      "Cildi nemlendirir."
     ],
-    "usage": "Islak cilde masaj yaparak uygulayın ve durulayın. Sabah akşam kullanılabilir."
+    "usage": ""
   },
   {
     "id": 9,
-    "name": "Glycolic Acid 7% Toner",
-    "shortDesc": "Ölü deri hücrelerini temizleyen tonik",
-    "longDesc": "7% glikolik asit içeren bu tonik, ölü deri hücrelerini nazikçe uzaklaştırarak cildin parlaklığını artırır ve gözenek görünümünü iyileştirir.",
-    "category": "Temizleyici",
-    "image": "images/products/product-9.jpg",
+    "name": "HYALURONIC PEEL",
+    "shortDesc": "Tedavilerimizi geliştirmek için, etkinliklerini artırmada hayati bir rol oynayan bir ön-peeling çözümü geliştirdik. Bu ön-peeling tedavisi, ölü cilt hücrelerini çıkarmak için tasarlanmıştır, böylece mezo solüsyonlarının daha derinlemesine nüfuz etmesini kolaylaştırır. Glukonolakton ve hyaluronik asit içeren jel formülüne sahip hyaluronik peelingimiz, yavaş kuruma etkisiyle sinerjistik bir eksfoliasyon süreci sunar.\r\n\r\nFormülümüzde bulunan polihidroksiasitler şunlardan oluşur: Nispeten büyük moleküller, cilde yavaş yavaş, katman katman nüfuz etmelerine İzin verir. FONKSİYON Bu nazik yaklaşım, tahrişe neden olmadan ölü cilt hücrelerini etkili bir şekilde temizler. Hyaluronik Asit Peelingimizde bulunan Glukonolakton, doğal bir antioksidan, etkinlik açısından tanınmış antioksidanlar C vitamini ve E vitamini ile aynı seviyededir. Ek olarak, pro-interlökin-1 sentezini inhibe ederek iltihabı azaltmada önemli bir rol oynar.\r\n\r\nFurthermore, gluconolactone’s ability to facilitate the transfer of water molecules plays a central role in skin hydration. By reaching the granular layer of the skin, water causes a decline in calcium ion concentration, signaling the body to stimulate lipid synthesis in keratinocytes.",
+    "longDesc": "Tedavilerimizi geliştirmek için, etkinliklerini artırmada hayati bir rol oynayan bir ön-peeling çözümü geliştirdik. Bu ön-peeling tedavisi, ölü cilt hücrelerini çıkarmak için tasarlanmıştır, böylece mezo solüsyonlarının daha derinlemesine nüfuz etmesini kolaylaştırır. Glukonolakton ve hyaluronik asit içeren jel formülüne sahip hyaluronik peelingimiz, yavaş kuruma etkisiyle sinerjistik bir eksfoliasyon süreci sunar.\r\n\r\nFormülümüzde bulunan polihidroksiasitler şunlardan oluşur: Nispeten büyük moleküller, cilde yavaş yavaş, katman katman nüfuz etmelerine İzin verir. FONKSİYON Bu nazik yaklaşım, tahrişe neden olmadan ölü cilt hücrelerini etkili bir şekilde temizler. Hyaluronik Asit Peelingimizde bulunan Glukonolakton, doğal bir antioksidan, etkinlik açısından tanınmış antioksidanlar C vitamini ve E vitamini ile aynı seviyededir. Ek olarak, pro-interlökin-1 sentezini inhibe ederek iltihabı azaltmada önemli bir rol oynar.\r\n\r\nFurthermore, gluconolactone’s ability to facilitate the transfer of water molecules plays a central role in skin hydration. By reaching the granular layer of the skin, water causes a decline in calcium ion concentration, signaling the body to stimulate lipid synthesis in keratinocytes.\n\nEndikasyonlar: – Cildi eksfoliye eder.– Cildi nemlendirir.– Akne ve kirleri azaltır.– Cilt tonunu eşitler.",
+    "category": "",
+    "image": "images/products/hyaluronic-peel.jpg",
+    "badge": "",
     "ingredients": [
-      "Glikolik Asit (%7)",
-      "Aloe Vera",
-      "Ginsengoside",
-      "Tasmanian Pepperberry"
+      "Glukonolakton",
+      "hyaluronik asit."
     ],
     "benefits": [
-      "Ölü derileri uzaklaştırır",
-      "Cildi parlatır",
-      "Gözenek görünümünü iyileştirir",
-      "Cilt dokusunu düzeltir"
+      "Cildi eksfoliye eder.– Cildi nemlendirir.– Akne ve kirleri azaltır.– Cilt tonunu eşitler."
     ],
-    "usage": "Akşamları temizleme sonrası pamuk ile cilde uygulayın."
+    "usage": ""
   },
   {
     "id": 10,
-    "name": "Peptide Complex Serum",
-    "shortDesc": "Çoklu peptid kompleksi ile anti-aging bakım",
-    "longDesc": "Farklı peptidlerin sinerjik etkisi ile kolajen üretimini artıran ve kırışıklıkları azaltan güçlü bir anti-aging serumu.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-10.jpg",
+    "name": "HAIR MEN MIST",
+    "shortDesc": "Androjenik Alopesi de dahil olmak üzere saç dökülmesini tedavi etmek ve önlemek için özel olarak geliştirilmiş devrim niteliğindeki erkek saç spreyimizi sunuyoruz.\r\n\r\nAndrojenik saç dökülmesi için Hyaluronik asit, asetil Tetrapeptid-3, yonca özü, EGF, FGF ve VEGF büyüme faktörleri, Karnozin, organik silikon, Panthenol, Çinko, kalsiyum, bakır ve Magnezyum içeren En çok satan etkili serumumuz.\r\n\r\nErkekler için özel olarak tasarlanmış saç spreyimiz, saç Foliküllerini Besleyerek ve Canlandırarak etkili bir şekilde çalışır. Sonuç olarak, yeni saç büyümesini Uyarır ve daha fazla saç dökülmesini önemli ölçüde önler.\r\n\r\nÜstelik, bu ürün saç gövdesini Güçlendirir ve aynı zamanda, güçlü ve esnek teller sağlamak için saç Elastikiyetini artırır.\r\n\r\nHyaluronik asit, saç derisine yoğun Nemlendirme sağlar, kuruluğa karşı savaşmaya ve Uyarmaya yardımcı olur. İçerik Asetil Tetrapeptid-3, yonca özü, EGF, FGF ve VEGF büyüme faktörleri, saç büyümesini teşvik etmek, saç Kalınlığını ve yoğunluğunu iyileştirmek ve saç yumurtası Foliküllerini güçlendirmek için birlikte çalışır. Deneyim Sprey formdaki erkek saç spreyi ile Mezoterapiden ilham alan saç bakımının değişim gücünü deneyimleyin. Saçınızı beslemek, güçlendirmek ve Canlandırmak için güçlü bir aktif bileşen karışımı ile zenginleştirilmiştir. F-HAIR MEN tarifimize dayanmaktadır.",
+    "longDesc": "Androjenik Alopesi de dahil olmak üzere saç dökülmesini tedavi etmek ve önlemek için özel olarak geliştirilmiş devrim niteliğindeki erkek saç spreyimizi sunuyoruz.\r\n\r\nAndrojenik saç dökülmesi için Hyaluronik asit, asetil Tetrapeptid-3, yonca özü, EGF, FGF ve VEGF büyüme faktörleri, Karnozin, organik silikon, Panthenol, Çinko, kalsiyum, bakır ve Magnezyum içeren En çok satan etkili serumumuz.\r\n\r\nErkekler için özel olarak tasarlanmış saç spreyimiz, saç Foliküllerini Besleyerek ve Canlandırarak etkili bir şekilde çalışır. Sonuç olarak, yeni saç büyümesini Uyarır ve daha fazla saç dökülmesini önemli ölçüde önler.\r\n\r\nÜstelik, bu ürün saç gövdesini Güçlendirir ve aynı zamanda, güçlü ve esnek teller sağlamak için saç Elastikiyetini artırır.\r\n\r\nHyaluronik asit, saç derisine yoğun Nemlendirme sağlar, kuruluğa karşı savaşmaya ve Uyarmaya yardımcı olur. İçerik Asetil Tetrapeptid-3, yonca özü, EGF, FGF ve VEGF büyüme faktörleri, saç büyümesini teşvik etmek, saç Kalınlığını ve yoğunluğunu iyileştirmek ve saç yumurtası Foliküllerini güçlendirmek için birlikte çalışır. Deneyim Sprey formdaki erkek saç spreyi ile Mezoterapiden ilham alan saç bakımının değişim gücünü deneyimleyin. Saçınızı beslemek, güçlendirmek ve Canlandırmak için güçlü bir aktif bileşen karışımı ile zenginleştirilmiştir. F-HAIR MEN tarifimize dayanmaktadır.\n\nEndikasyonlar: – Androjenik alopesi.– Saç yeniden büyümesi.\n\nBoyut: 75 ml / 2.54 fl.oz",
+    "category": "",
+    "image": "images/products/hair-men-mist.png",
+    "badge": "",
     "ingredients": [
-      "Matrixyl 3000",
-      "Argireline",
-      "Syn-Coll",
-      "Hyaluronik Asit"
+      "Hyaluronik asit XS",
+      "asetil tetrapeptid-3 + yonca özü",
+      "biyo-plasenta",
+      "karnozin",
+      "organik silisyum",
+      "pantenol",
+      "çinko & kalsiyum & bakır & magnezyum çoklu mineral kompleksi"
     ],
     "benefits": [
-      "Kolajen üretimini artırır",
-      "Kırışıklıkları azaltır",
-      "Cildi sıkılaştırır",
-      "Yaşlanma karşıtı etki"
+      "Androjenik alopesi.– Saç yeniden büyümesi."
     ],
-    "usage": "Temiz cilde günde iki kez uygulayın."
+    "usage": "75 ml / 2.54 fl.oz"
   },
   {
     "id": 11,
-    "name": "SPF 50+ Mineral Sunscreen",
-    "shortDesc": "Yüksek koruma sağlayan mineral güneş kremi",
-    "longDesc": "Çinko oksit ve titanyum dioksit bazlı mineral güneş kremi. UVA ve UVB'ye karşı geniş spektrum koruma sağlar, hassas ciltler için idealdir.",
-    "category": "Güneş Koruma",
-    "image": "images/products/product-11.jpg",
-    "badge": "Popüler",
+    "name": "HAIR MIST",
+    "shortDesc": "Saçınızı canlandırmak ve beslemek için formüle edilmiş yenilikçi sprey saç serumumuzu sunuyoruz. Panthenol, hyaluronik asit, karnozin, organik silisyum, çinko, kalsiyum, bakır ve magnezyum içeren benzersiz aktif bileşen karışımımız, güçlü mezo-iğneleme tedavisi F-HAIR'dan esinlenmiştir. Saç serumumuz, hasarlı ve zayıf saçları onarmak ve güçlendirmek için gerekli besinleri sağlayarak saç gövdesine derinlemesine nüfuz etmek üzere tasarlanmıştır. Provitamin B5 olarak da bilinen pantenol, saç elastikiyetini iyileştirmeye yardımcı olur, daha sağlıklı ve daha dirençli görünmesini sağlar. Hyaluronik asit, saça yoğun hidrasyon sağlar, kuruluğa ve kırılmaya karşı savaşmaya yardımcı olur. Deneyim Serumumuz, sprey şişesinde uygun bir şekilde paketlenmiştir, bu da saça eşit olarak uygulamayı ve dağıtmayı kolaylaştırır. Fön çekmeden önce nemli saçta veya gün boyunca canlandırmak ve tazelemek için kuru saçta kullanın. Saçınızı beslemek, güçlendirmek ve canlandırmak için güçlü bir aktif bileşen karışımı ile zenginleştirilmiş, mezoterapiden ilham alan saç bakımının dönüştürücü gücünü sprey saç serumumuzla deneyimleyin. F-HAIR formülasyonumuza dayanmaktadır.",
+    "longDesc": "Saçınızı canlandırmak ve beslemek için formüle edilmiş yenilikçi sprey saç serumumuzu sunuyoruz. Panthenol, hyaluronik asit, karnozin, organik silisyum, çinko, kalsiyum, bakır ve magnezyum içeren benzersiz aktif bileşen karışımımız, güçlü mezo-iğneleme tedavisi F-HAIR'dan esinlenmiştir. Saç serumumuz, hasarlı ve zayıf saçları onarmak ve güçlendirmek için gerekli besinleri sağlayarak saç gövdesine derinlemesine nüfuz etmek üzere tasarlanmıştır. Provitamin B5 olarak da bilinen pantenol, saç elastikiyetini iyileştirmeye yardımcı olur, daha sağlıklı ve daha dirençli görünmesini sağlar. Hyaluronik asit, saça yoğun hidrasyon sağlar, kuruluğa ve kırılmaya karşı savaşmaya yardımcı olur. Deneyim Serumumuz, sprey şişesinde uygun bir şekilde paketlenmiştir, bu da saça eşit olarak uygulamayı ve dağıtmayı kolaylaştırır. Fön çekmeden önce nemli saçta veya gün boyunca canlandırmak ve tazelemek için kuru saçta kullanın. Saçınızı beslemek, güçlendirmek ve canlandırmak için güçlü bir aktif bileşen karışımı ile zenginleştirilmiş, mezoterapiden ilham alan saç bakımının dönüştürücü gücünü sprey saç serumumuzla deneyimleyin. F-HAIR formülasyonumuza dayanmaktadır.\n\nEndikasyonlar: – Saç canlandırma & güçlendirme– İnceleyen saçlar– Saç dökülmesi– Kepeği azaltma\n\nBoyut: 75 ml / 2.54 fl.oz",
+    "category": "",
+    "image": "images/products/hair-mist.png",
+    "badge": "",
     "ingredients": [
-      "Çinko Oksit (%20)",
-      "Titanyum Dioksit (%5)",
-      "Niasinamid",
-      "Hyaluronik Asit"
+      "Dekspantenol",
+      "hyaluronik asit XS",
+      "karnozin",
+      "organik silisyum saç",
+      "Çinko & kalsiyum & bakır & magnezyum çoklu mineral kompleksi"
     ],
     "benefits": [
-      "SPF 50+ koruma",
-      "Geniş spektrum UVA/UVB",
-      "Hassas ciltler için uygun",
-      "Beyaz iz bırakmaz"
+      "Saç canlandırma & güçlendirme– İnceleyen saçlar– Saç dökülmesi– Kepeği azaltma"
     ],
-    "usage": "Güneşe çıkmadan 15 dakika önce cömertçe uygulayın. 2 saatte bir yenileyin."
+    "usage": "75 ml / 2.54 fl.oz"
   },
   {
     "id": 12,
-    "name": "Eye Contour Cream",
-    "shortDesc": "Göz çevresi için özel bakım kremi",
-    "longDesc": "Göz çevresi için özel olarak formüle edilmiş bu krem, koyu halkaları azaltır, şişlikleri giderir ve ince çizgileri minimize eder.",
-    "category": "Göz Bakımı",
-    "image": "images/products/product-12.jpg",
+    "name": "MESO LIFT CREAM",
+    "shortDesc": "MESO LIFT KREM'imizi, tipik olarak mezoterapide ve dermal dolgu maddelerinde bulunan aktif bileşenlerle özel olarak formüle ettik. Bu kombinasyon, cilt sarkmasını ve kırışıklıkları azaltmak için etkili bir çözüm sağlar. Bu yenilikçi krem, yüz hatlarını titizlikle yeniden tanımlamak için çalışır, cildinize daha genç ve daha sıkı bir görünüm kazandırır.\r\n\r\nBu kremdeki çapraz bağlı hyaluronik asit, dermal dolgu maddelerinde kullanılana benzer şekilde doğal hyaluronik asitten elde edilir. Çapraz bağlı yapısı nedeniyle aynı konsantrasyondaki normal hyaluronik asit solüsyonlarından 2-3 kat daha fazla viskozite sergiler. Bu krem, dermal dolgu maddelerinde kullanılana benzer şekilde doğal hyaluronik asitten elde edilen çapraz bağlı hyaluronik asit içerir. Cildin yüzeyinde nefes alabilen bir 3D tabaka oluşturur, cilt bariyeri fonksiyonunu artırır, kırışıklıkları doldurur, su buharlaşmasını azaltır ve UV ışınları ve kirlilik gibi dış saldırganlara karşı korur.\r\n\r\nGençleştirici kompleksimiz, büyüme faktörleri, folik asit ve asetil glutamin açısından zengin olarak plasental bileşenlerle benzerlikler paylaşır. Cilt onarımını teşvik eden, kırışıklıkları ele alan ve sıkılık ve nem sağlayan kapsamlı bir yaşlanma karşıtı çözüm olarak hizmet eder.",
+    "longDesc": "MESO LIFT KREM'imizi, tipik olarak mezoterapide ve dermal dolgu maddelerinde bulunan aktif bileşenlerle özel olarak formüle ettik. Bu kombinasyon, cilt sarkmasını ve kırışıklıkları azaltmak için etkili bir çözüm sağlar. Bu yenilikçi krem, yüz hatlarını titizlikle yeniden tanımlamak için çalışır, cildinize daha genç ve daha sıkı bir görünüm kazandırır.\r\n\r\nBu kremdeki çapraz bağlı hyaluronik asit, dermal dolgu maddelerinde kullanılana benzer şekilde doğal hyaluronik asitten elde edilir. Çapraz bağlı yapısı nedeniyle aynı konsantrasyondaki normal hyaluronik asit solüsyonlarından 2-3 kat daha fazla viskozite sergiler. Bu krem, dermal dolgu maddelerinde kullanılana benzer şekilde doğal hyaluronik asitten elde edilen çapraz bağlı hyaluronik asit içerir. Cildin yüzeyinde nefes alabilen bir 3D tabaka oluşturur, cilt bariyeri fonksiyonunu artırır, kırışıklıkları doldurur, su buharlaşmasını azaltır ve UV ışınları ve kirlilik gibi dış saldırganlara karşı korur.\r\n\r\nGençleştirici kompleksimiz, büyüme faktörleri, folik asit ve asetil glutamin açısından zengin olarak plasental bileşenlerle benzerlikler paylaşır. Cilt onarımını teşvik eden, kırışıklıkları ele alan ve sıkılık ve nem sağlayan kapsamlı bir yaşlanma karşıtı çözüm olarak hizmet eder.\n\nEndikasyonlar: – Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/meso-lift-cream.jpg",
+    "badge": "",
     "ingredients": [
-      "Kafein",
-      "Peptidler",
-      "Vitamin K",
-      "Hyaluronik Asit"
+      "Çapraz bağlı hyaluronik asit",
+      "gençleştirme kompleksi (5 büyüme faktörü + folik asit + asetil glutamin)."
     ],
     "benefits": [
-      "Koyu halkaları azaltır",
-      "Şişlikleri giderir",
-      "İnce çizgileri azaltır",
-      "Göz çevresini nemlendiri"
+      "Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir."
     ],
-    "usage": "Sabah akşam göz çevresine hafif dokunuşlarla uygulayın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 13,
-    "name": "Moisturizing Cream Rich",
-    "shortDesc": "Kuru ciltler için yoğun nemlendirici krem",
-    "longDesc": "Kuru ve çok kuru ciltler için zengin dokulu nemlendirici krem. Ceramidler ve hyaluronik asit ile cilt bariyerini güçlendirir ve uzun süreli nemlendirme sağlar.",
-    "category": "Nemlendirici",
-    "image": "images/products/product-13.jpg",
+    "name": "RADIANCE CREAM",
+    "shortDesc": "Radiance Beyazlatıcı Kremimiz, estetik tıptan elde edilen aktif bileşenlerle ferahlatıcı bir his sunar ve ilk uygulamadan itibaren yoğun bir cilt aydınlatma etkisi sağlar.\r\n\r\nBu yumuşak jel krem, heksil-resorsinol ve niasinamid içerir ve transdermal bir dağıtım sistemi ile güçlendirilmiştir. Pigmentli noktaların, lekelerin ve pigmentasyonun görünümünü hızla azaltır. Kullanıldığında Etkili Çalışmalar, Radiance beyazlatıcı kremin aktif bileşeni olan heksil-resorsinolün, parlak bir cilde ulaşmada hidrokinondan dört kat daha etkili olduğunu göstermektedir. Bunu, melanogenez yolundaki çoklu bölgeleri modüle ederek başarır. Ek olarak, glutatyon seviyelerini artırma ve glutatyon peroksidaz ve glutatyon redüktaz dahil olmak üzere antioksidan savunma enzimlerini uyarma gibi şaşırtıcı işlevler sunar. Sonuç Niasinamid, aquaporin-3 (AQP3) ekspresyonunu düzenlediği için cilt hidrasyonunu iyileştirmek için mükemmel bir ajandır. Bu üründe, cilt tonunu iyileştirmek ve pigmentasyonu azaltmak için heksil-resorsinol ile işbirliği yapar.",
+    "longDesc": "Radiance Beyazlatıcı Kremimiz, estetik tıptan elde edilen aktif bileşenlerle ferahlatıcı bir his sunar ve ilk uygulamadan itibaren yoğun bir cilt aydınlatma etkisi sağlar.\r\n\r\nBu yumuşak jel krem, heksil-resorsinol ve niasinamid içerir ve transdermal bir dağıtım sistemi ile güçlendirilmiştir. Pigmentli noktaların, lekelerin ve pigmentasyonun görünümünü hızla azaltır. Kullanıldığında Etkili Çalışmalar, Radiance beyazlatıcı kremin aktif bileşeni olan heksil-resorsinolün, parlak bir cilde ulaşmada hidrokinondan dört kat daha etkili olduğunu göstermektedir. Bunu, melanogenez yolundaki çoklu bölgeleri modüle ederek başarır. Ek olarak, glutatyon seviyelerini artırma ve glutatyon peroksidaz ve glutatyon redüktaz dahil olmak üzere antioksidan savunma enzimlerini uyarma gibi şaşırtıcı işlevler sunar. Sonuç Niasinamid, aquaporin-3 (AQP3) ekspresyonunu düzenlediği için cilt hidrasyonunu iyileştirmek için mükemmel bir ajandır. Bu üründe, cilt tonunu iyileştirmek ve pigmentasyonu azaltmak için heksil-resorsinol ile işbirliği yapar.\n\nEndikasyonlar: – Pigmentasyonu azaltır.– Koyu lekeleri azaltır.– Genel cilt tonunu iyileştirir.– Cildi nemlendirir.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/radiance-cream.jpg",
+    "badge": "",
     "ingredients": [
-      "Ceramid NP",
-      "Ceramid AP",
-      "Ceramid EOP",
-      "Hyaluronik Asit",
-      "Kolesterol"
+      "Niasinamid",
+      "heksil-resorsinol."
     ],
     "benefits": [
-      "Yoğun nemlendirme",
-      "Cilt bariyerini onarır",
-      "Kuru cildi yumuşatır",
-      "Uzun süreli rahatlık"
+      "Pigmentasyonu azaltır.– Koyu lekeleri azaltır.– Genel cilt tonunu iyileştirir.– Cildi nemlendirir."
     ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 14,
-    "name": "Salicylic Acid 2% Solution",
-    "shortDesc": "Akne ve siyah nokta tedavisi",
-    "longDesc": "2% salisilik asit içeren bu solüsyon, gözeneklerin derinlemesine temizlenmesini sağlar, akne ve siyah noktaları azaltır.",
-    "category": "Tedavi Ürünleri",
-    "image": "images/products/product-14.jpg",
+    "name": "PROBIOTIX CREAM",
+    "shortDesc": "Bu Probiyotik Cilt Bakım Kremi, kuru ve hassas cildi özel olarak beslemek için tasarlanmış, zengin ve Besleyici bir Su içinde yağ karışımıdır.\r\n\r\nBu Probiyotik Cilt Bakım Kreminin özü, Bir Prebiyotik/Probiyotik kompleksini Sergiler. Saf bitki suyundan Enzimatik sentez ile Alfa-glukooligosakkaritler içerir. Ve Lactobacillus Probiyotik Bakterileri (Tindalizasyon ve liyofilizasyon yoluyla Deaktive edilmiş). Kremi kullanmanın faydaları nelerdir? Dengeli bir cilt Mikrobiyotasını Teşvik ederek, bu krem faydalı bakteriler için Besin görevi görür, böylece cildin doğal bariyerlerini Güçlendirir. GOS ve FOS gibi doğal şekerlerle dolu olarak, sadece cildin Estetiğini artırmakla kalmaz, aynı zamanda yatıştırır, Aydınlık bir cilde yol açar ve kuru ve hassas cilt tipleriyle ilişkili tipik rahatsızlığı hafifletir.\r\n\r\nEk olarak, XS hyaluronik asit ustalıkla dahil edilmiştir, bağ dokusunu yapılandırmaya ve nemi tutmaya yarayan minimal bir moleküler boyuta sahiptir. Burada kullanılan sodyum hiyalüronat, kirlilikten ve genetik modifikasyonlardan arındırılmış temiz bir biyoteknoloji süreci yoluyla elde edilir, olağanüstü cilt nüfuz yetenekleri ile yaşlanma karşıtı bakımda bir sıçramayı simgeler, elastikiyeti iyileştirir ve derin kırışıklıkları gözle görülür şekilde azaltır.",
+    "longDesc": "Bu Probiyotik Cilt Bakım Kremi, kuru ve hassas cildi özel olarak beslemek için tasarlanmış, zengin ve Besleyici bir Su içinde yağ karışımıdır.\r\n\r\nBu Probiyotik Cilt Bakım Kreminin özü, Bir Prebiyotik/Probiyotik kompleksini Sergiler. Saf bitki suyundan Enzimatik sentez ile Alfa-glukooligosakkaritler içerir. Ve Lactobacillus Probiyotik Bakterileri (Tindalizasyon ve liyofilizasyon yoluyla Deaktive edilmiş). Kremi kullanmanın faydaları nelerdir? Dengeli bir cilt Mikrobiyotasını Teşvik ederek, bu krem faydalı bakteriler için Besin görevi görür, böylece cildin doğal bariyerlerini Güçlendirir. GOS ve FOS gibi doğal şekerlerle dolu olarak, sadece cildin Estetiğini artırmakla kalmaz, aynı zamanda yatıştırır, Aydınlık bir cilde yol açar ve kuru ve hassas cilt tipleriyle ilişkili tipik rahatsızlığı hafifletir.\r\n\r\nEk olarak, XS hyaluronik asit ustalıkla dahil edilmiştir, bağ dokusunu yapılandırmaya ve nemi tutmaya yarayan minimal bir moleküler boyuta sahiptir. Burada kullanılan sodyum hiyalüronat, kirlilikten ve genetik modifikasyonlardan arındırılmış temiz bir biyoteknoloji süreci yoluyla elde edilir, olağanüstü cilt nüfuz yetenekleri ile yaşlanma karşıtı bakımda bir sıçramayı simgeler, elastikiyeti iyileştirir ve derin kırışıklıkları gözle görülür şekilde azaltır.\n\nEndikasyonlar: – Cildi besler.– Mikro-florayı onarır.– Biyolojik savunmaları iyileştirir.– Aşırı duyarlılığı azaltır.– Kızarıklık ve kuperozu azaltır.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/probiotix-cream.jpg",
+    "badge": "",
     "ingredients": [
-      "Salisilik Asit (%2)",
-      "Hamamelis Ekstresi",
-      "Panthenol"
+      "XS hyaluronik asit",
+      "probiyotik kompleks."
     ],
     "benefits": [
-      "Gözenekleri temizler",
-      "Akneyi azaltır",
-      "Siyah noktaları önler",
-      "Sebum dengesini sağlar"
+      "Cildi besler.– Mikro-florayı onarır.– Biyolojik savunmaları iyileştirir.– Aşırı duyarlılığı azaltır.– Kızarıklık ve kuperozu azaltır."
     ],
-    "usage": "Akşamları temiz cilde uygulayın, sorunlu bölgelere odaklanın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 15,
-    "name": "AHA 30% + BHA 2% Peeling",
-    "shortDesc": "Profesyonel düzeyde kimyasal peeling",
-    "longDesc": "Alfa hidroksi asitler ve beta hidroksi asit kombinasyonu ile güçlü eksfoliyasyon sağlayan peeling maskesi. Cildi yeniler, parlaklık kazandırır.",
-    "category": "Maske",
-    "image": "images/products/product-15.jpg",
-    "badge": "Profesyonel",
+    "name": "EYE SORBET",
+    "shortDesc": "Estetik tıptan elde edilen aktif bileşenlerle formüle edilmiş, dakikalar içinde kırışıklıkları en aza indirmek için tasarlanmış ultra ferahlatıcı bir göz kremi. Bu ürünün arkasındaki yenilik, sadece cilt sıcaklığını düşürmekle kalmayıp aynı zamanda hidrasyonu önemli ölçüde artıran özel dokusunda yatmaktadır.\r\n\r\nKırışıklıklar üzerinde yumuşak odak (soft-focus) etkisi yaratarak, onları bir makyaj bazı gibi etkili bir şekilde gizler. Soğutma etkisi mikro dolaşımı uyarır, birikmiş sıvıların daha hızlı drenajını teşvik eder ve göz torbalarının ve koyu halkaların görünümünü azaltır.\r\n\r\nBu göz kremi, bu hassas bölgedeki nemlendirme ve kırışıklıkları azaltmaya adanmış bir aktif bileşen karışımı ile daha da güçlendirilmiştir. Dermal dolgu maddelerinde kullanılanlara benzerlik gösteren doğal hyaluronik asitten (HA) türetilen bir polimer olan çapraz bağlı hyaluronik asit.\r\n\r\nBenzersiz çapraz bağlı yapısı, aynı konsantrasyondaki normal HA solüsyonlarının 2-3 katı bir viskoziteye yol açar. Bu, daha fazla su molekülünü bağlama yeteneğini gösterir, cilde sürekli su sağlayan bir 'mikro rezervuar' gibi davranır. Cildin yüzeyinde 'nefes alabilen' 3D bir tabaka oluşturur, cilt bariyeri fonksiyonunu artırır, kırışıklıkları doldurur, su buharlaşmasını azaltır ve UV ışınları ve kirlilik gibi dış saldırganlara karşı korur.\r\n\r\nGençleştirme kompleksi, büyüme faktörleri, folik asit ve asetil glutamin açısından zengin olan plasenta özütüne benzer bir bileşime sahiptir. Bu kapsamlı yaşlanma karşıtı çözüm, cilt onarımı, kırışıklık azaltma, cilt sıkılaştırma ve nemlendirme dahil olmak üzere çok sayıda fayda sunar.",
+    "longDesc": "Estetik tıptan elde edilen aktif bileşenlerle formüle edilmiş, dakikalar içinde kırışıklıkları en aza indirmek için tasarlanmış ultra ferahlatıcı bir göz kremi. Bu ürünün arkasındaki yenilik, sadece cilt sıcaklığını düşürmekle kalmayıp aynı zamanda hidrasyonu önemli ölçüde artıran özel dokusunda yatmaktadır.\r\n\r\nKırışıklıklar üzerinde yumuşak odak (soft-focus) etkisi yaratarak, onları bir makyaj bazı gibi etkili bir şekilde gizler. Soğutma etkisi mikro dolaşımı uyarır, birikmiş sıvıların daha hızlı drenajını teşvik eder ve göz torbalarının ve koyu halkaların görünümünü azaltır.\r\n\r\nBu göz kremi, bu hassas bölgedeki nemlendirme ve kırışıklıkları azaltmaya adanmış bir aktif bileşen karışımı ile daha da güçlendirilmiştir. Dermal dolgu maddelerinde kullanılanlara benzerlik gösteren doğal hyaluronik asitten (HA) türetilen bir polimer olan çapraz bağlı hyaluronik asit.\r\n\r\nBenzersiz çapraz bağlı yapısı, aynı konsantrasyondaki normal HA solüsyonlarının 2-3 katı bir viskoziteye yol açar. Bu, daha fazla su molekülünü bağlama yeteneğini gösterir, cilde sürekli su sağlayan bir 'mikro rezervuar' gibi davranır. Cildin yüzeyinde 'nefes alabilen' 3D bir tabaka oluşturur, cilt bariyeri fonksiyonunu artırır, kırışıklıkları doldurur, su buharlaşmasını azaltır ve UV ışınları ve kirlilik gibi dış saldırganlara karşı korur.\r\n\r\nGençleştirme kompleksi, büyüme faktörleri, folik asit ve asetil glutamin açısından zengin olan plasenta özütüne benzer bir bileşime sahiptir. Bu kapsamlı yaşlanma karşıtı çözüm, cilt onarımı, kırışıklık azaltma, cilt sıkılaştırma ve nemlendirme dahil olmak üzere çok sayıda fayda sunar.\n\nEndikasyonlar: – Kırışıklıkları azaltır.– Göz torbalarını azaltır.– Koyu halkaları azaltır.\n\nBoyut: 30 ml / 1.0 fl.oz",
+    "category": "",
+    "image": "images/products/eye-sorbet.jpg",
+    "badge": "",
     "ingredients": [
-      "Glikolik Asit",
-      "Laktik Asit",
-      "Tartarik Asit",
-      "Sitrik Asit",
-      "Salisilik Asit"
+      "Çapraz bağlı hyaluronik asit",
+      "gençleştirme kompleksi (5 büyüme faktörü + folik asit + asetil glutamin)."
     ],
     "benefits": [
-      "Güçlü eksfoliyasyon",
-      "Cildi yeniler",
-      "Lekeleri azaltır",
-      "Cilt dokusunu düzeltir"
+      "Kırışıklıkları azaltır.– Göz torbalarını azaltır.– Koyu halkaları azaltır."
     ],
-    "usage": "Haftada bir kez, temiz cilde maksimum 10 dakika uygulayın. İyice durulayın."
+    "usage": "30 ml / 1.0 fl.oz"
   },
   {
     "id": 16,
-    "name": "Azelaic Acid 10%",
-    "shortDesc": "Leke ve akne tedavisi için azelaik asit",
-    "longDesc": "10% azelaik asit içeren bu serum, lekeleri azaltır, akne izlerini hafifletir ve cilt tonunu eşitler. Hassas ciltler için bile uygundur.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-16.jpg",
+    "name": "HYALURONIC MOISTURIZER",
+    "shortDesc": "HYALURONIC MOISTURIZER'ımız, Estetik tıptan Hyaluronik asit ile üretilmiş, eriyen bir Mikro emülsiyondur. HYALURONIC MOISTURIZER'ımız, yenilikçi tasarımı sayesinde yoğun nem sağlar ve kırışıklıkları gözle görülür şekilde azaltır. Düşük moleküler ağırlıklı Hyaluronik asit ile dolu olan Nemlendiricimiz, Eşsiz derin Nemlendirme sunar. Hyaluronik Nemlendirici, bilimin bildiği en nemlendirici biyopolimerlerden biri olarak durmaktadır. Canlı dokularda, bir bağ dokusu düzenleyici ve su tutucu bir madde olarak hizmet eder. HYALURONIC MOISTURIZER'ımız, en yüksek saflığı sağlamak için kirleticilerden ve GDO'lardan arındırılmış bir biyoteknolojik süreçle elde edilen sodyum hiyalüronat kullanır. Bu HYALURONIC MOISTURIZER, yüksek moleküler ağırlıklı muadillerine göre cilde daha etkili nüfuz ederek yaşlanma karşıtı bakımda önemli bir atılımı temsil eder. Viskoelastik özelliklerini iyileştirerek ve derin kırışıklıkların görünümünü önemli ölçüde azaltarak cildi gençleştirir.",
+    "longDesc": "HYALURONIC MOISTURIZER'ımız, Estetik tıptan Hyaluronik asit ile üretilmiş, eriyen bir Mikro emülsiyondur. HYALURONIC MOISTURIZER'ımız, yenilikçi tasarımı sayesinde yoğun nem sağlar ve kırışıklıkları gözle görülür şekilde azaltır. Düşük moleküler ağırlıklı Hyaluronik asit ile dolu olan Nemlendiricimiz, Eşsiz derin Nemlendirme sunar. Hyaluronik Nemlendirici, bilimin bildiği en nemlendirici biyopolimerlerden biri olarak durmaktadır. Canlı dokularda, bir bağ dokusu düzenleyici ve su tutucu bir madde olarak hizmet eder. HYALURONIC MOISTURIZER'ımız, en yüksek saflığı sağlamak için kirleticilerden ve GDO'lardan arındırılmış bir biyoteknolojik süreçle elde edilen sodyum hiyalüronat kullanır. Bu HYALURONIC MOISTURIZER, yüksek moleküler ağırlıklı muadillerine göre cilde daha etkili nüfuz ederek yaşlanma karşıtı bakımda önemli bir atılımı temsil eder. Viskoelastik özelliklerini iyileştirerek ve derin kırışıklıkların görünümünü önemli ölçüde azaltarak cildi gençleştirir.\n\nEndikasyonlar: – Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/hyaluronic-moisturizer.jpg",
+    "badge": "",
     "ingredients": [
-      "Azelaik Asit (%10)",
-      "Niasinamid",
-      "Çinko PCA"
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Lekeleri azaltır",
-      "Akne izlerini hafifletir",
-      "Cilt tonunu eşitler",
-      "Anti-bakteriyel etki"
+      "Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır."
     ],
-    "usage": "Günde bir veya iki kez temiz cilde uygulayın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 17,
-    "name": "Lactic Acid 10% + HA",
-    "shortDesc": "Yumuşak eksfoliyasyon ve nemlendirme",
-    "longDesc": "Laktik asit ile nazik eksfoliyasyon sağlarken hyaluronik asit ile cildi nemlendiren dengeli bir formül. Hassas ciltler için ideal peeling alternatifi.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-17.jpg",
+    "name": "CERAMID MOISTURIZER",
+    "shortDesc": "Seramid Nemlendirici Kremimiz, kuru ve hassas ciltler için özel olarak tasarlanmış su içinde yağ çözeltisine sahip zengin ve besleyici bir kremdir. Sfingolipidleri ve fosfolipidleri artıran özel bir işlemle pirinçten ekstrakte edilen Vegan Seramidler ile bu krem, cildin stratum korneumunun yapısını ve kalitesini güçlendirir.\r\n\r\nSeramidler, hücreler arası lipid çimentosunun ana bileşenlerini (%40) oluşturur ve aşağıdakiler de dahil olmak üzere birçok önemli biyolojik fonksiyonu yönetirler: Trans-epidermal su akışının düzenlenmesi. Stratum korneum katmanlarının bütünlüğü. Cilt koruması. Cilt bariyerinin restorasyonu. 11 sağlıklı gönüllü üzerinde yürütülen bir klinik çalışmada, Vegan Seramidler cilt hidrasyonunda önemli iyileşmeler göstermiştir. Sonuçlar, plaseboya kıyasla sadece 30 dakika sonra +%73 ve 8 saat sonra plaseboya kıyasla %53 artış göstermiştir.",
+    "longDesc": "Seramid Nemlendirici Kremimiz, kuru ve hassas ciltler için özel olarak tasarlanmış su içinde yağ çözeltisine sahip zengin ve besleyici bir kremdir. Sfingolipidleri ve fosfolipidleri artıran özel bir işlemle pirinçten ekstrakte edilen Vegan Seramidler ile bu krem, cildin stratum korneumunun yapısını ve kalitesini güçlendirir.\r\n\r\nSeramidler, hücreler arası lipid çimentosunun ana bileşenlerini (%40) oluşturur ve aşağıdakiler de dahil olmak üzere birçok önemli biyolojik fonksiyonu yönetirler: Trans-epidermal su akışının düzenlenmesi. Stratum korneum katmanlarının bütünlüğü. Cilt koruması. Cilt bariyerinin restorasyonu. 11 sağlıklı gönüllü üzerinde yürütülen bir klinik çalışmada, Vegan Seramidler cilt hidrasyonunda önemli iyileşmeler göstermiştir. Sonuçlar, plaseboya kıyasla sadece 30 dakika sonra +%73 ve 8 saat sonra plaseboya kıyasla %53 artış göstermiştir.\n\nEndikasyonlar: – Cildi nemlendirir.– Trans-epidermal su akışını düzenler.– Cildi korur.– Cildin koruyucu bariyerinin restorasyonu.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/ceramid-moisturizer.jpg",
+    "badge": "",
     "ingredients": [
-      "Laktik Asit (%10)",
-      "Hyaluronik Asit",
-      "Tasmanian Pepperberry"
+      "Vegan seramidler"
     ],
     "benefits": [
-      "Nazik eksfoliyasyon",
-      "Cildi parlatır",
-      "Nemlendirici etki",
-      "Hassas ciltler için uygun"
+      "Cildi nemlendirir.– Trans-epidermal su akışını düzenler.– Cildi korur.– Cildin koruyucu bariyerinin restorasyonu."
     ],
-    "usage": "Akşamları temiz cilde uygulayın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 18,
-    "name": "Caffeine Solution 5%",
-    "shortDesc": "Göz altı şişliklerine karşı kafein serumu",
-    "longDesc": "Yüksek konsantrasyonlu kafein ve EGCG içeren bu serum, göz altı şişliklerini azaltır ve koyu halkaları hafifletir.",
-    "category": "Göz Bakımı",
-    "image": "images/products/product-18.jpg",
+    "name": "MESO REPAIR CREAM",
+    "shortDesc": "“Meso Repair Cream”imiz, estetik tıp tedavilerinden sonra cildin etkili bir şekilde onarılmasına yardımcı olmak için mezoterapiden türetilen bileşenleri aktif olarak içerir.\r\n\r\nGelişmiş onarım kompleksimiz iyileşme sürecini hızlandırır ve etkileyici sonuçlar gösterir. Sadece 24 saat sonra, kuru cilde bağlı kızarıklığı plaseboya kıyasla %37'ye kadar ve 48 saat sonra %52'ye kadar azaltabilir. Dahası, DNA seviyesinde çalışarak, çeşitli hasar türlerine, özellikle de UV maruziyetinin neden olduğu hasara karşı koruma sağlar.\r\n\r\nBu ürünün benzersiz dondurma benzeri dokusu, etkinliğinde önemli bir rol oynar. Cilde nazikçe eridikçe, cilt sıcaklığını düşürür, böylece kızarıklığı azaltır ve yatıştırıcı bir rahatlama sağlar. Ek olarak, bileşimde bulunan çeşitli mumlar, cildin yüzeyinde ultra koruyucu bir bariyer oluşturur.\r\n\r\nDaha da belirgin bir yatıştırıcı etki için, kremi serin bir yerde, ideal olarak 15 ila 20 santigrat derece arasında saklamayı düşünün.",
+    "longDesc": "“Meso Repair Cream”imiz, estetik tıp tedavilerinden sonra cildin etkili bir şekilde onarılmasına yardımcı olmak için mezoterapiden türetilen bileşenleri aktif olarak içerir.\r\n\r\nGelişmiş onarım kompleksimiz iyileşme sürecini hızlandırır ve etkileyici sonuçlar gösterir. Sadece 24 saat sonra, kuru cilde bağlı kızarıklığı plaseboya kıyasla %37'ye kadar ve 48 saat sonra %52'ye kadar azaltabilir. Dahası, DNA seviyesinde çalışarak, çeşitli hasar türlerine, özellikle de UV maruziyetinin neden olduğu hasara karşı koruma sağlar.\r\n\r\nBu ürünün benzersiz dondurma benzeri dokusu, etkinliğinde önemli bir rol oynar. Cilde nazikçe eridikçe, cilt sıcaklığını düşürür, böylece kızarıklığı azaltır ve yatıştırıcı bir rahatlama sağlar. Ek olarak, bileşimde bulunan çeşitli mumlar, cildin yüzeyinde ultra koruyucu bir bariyer oluşturur.\r\n\r\nDaha da belirgin bir yatıştırıcı etki için, kremi serin bir yerde, ideal olarak 15 ila 20 santigrat derece arasında saklamayı düşünün.\n\nEndikasyonlar: – Prosedürlerden sonra cildi onarır.– Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.",
+    "category": "",
+    "image": "images/products/meso-repair-cream.jpg",
+    "badge": "",
     "ingredients": [
-      "Kafein (%5)",
-      "EGCG (Yeşil Çay)",
-      "Hyaluronik Asit"
+      "ATP ile onarım karışımı",
+      "amino asitler",
+      "prolin",
+      "asetil tirozin",
+      "5 büyüme faktörlü gençleştirme kompleksi",
+      "folik asit",
+      "asetil glutamin."
     ],
     "benefits": [
-      "Şişlikleri azaltır",
-      "Koyu halkaları hafifletir",
-      "Göz çevresini canlandırır",
-      "Antioksidan koruma"
+      "Prosedürlerden sonra cildi onarır.– Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır."
     ],
-    "usage": "Sabah akşam göz çevresine uygulayın."
+    "usage": ""
   },
   {
     "id": 19,
-    "name": "Mandelic Acid 10%",
-    "shortDesc": "Hassas ciltler için nazik asit tedavisi",
-    "longDesc": "Mandelik asit, en nazik AHA'lardan biridir. Bu serum, hassas ciltlerde bile eksfoliyasyon sağlar, gözenekleri temizler ve cilt tonunu eşitler.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-19.jpg",
+    "name": "CICA POST-CARE",
+    "shortDesc": "CICA, iyileştirici özellikleriyle bilinir, cildimiz için gereklidir, genellikle ilk savunma hattımız olarak kabul edilir, çünkü hasar gördüğünde iyileşmek için zamana ihtiyaç duyar. Normal, sağlıklı bir görünüme kavuşmak bir gecede olmaz. CICA cilt onarımına yardımcı olur, ancak onun yardımıyla bile iyileşme sürecini potansiyel olarak uzatabilecek zorluklar ortaya çıkabilir.\r\n\r\nBu zorluk, özellikle hamilelik sırasında belirgindir ve çatlakların ortaya çıkmasına neden olur. Bu süre zarfında, cilt kendini doğru bir şekilde yeniden yapılandırmakta zorlanır ve genellikle sıkılıktan yoksundur. İçerik Centella asiatica'nın Titre Edilmiş Ekstraktı, yaygın olarak CICA veya Kaplan otu olarak bilinir. Bu bitkide bulunan en güçlü moleküllerin oldukça saflaştırılmış bir bileşimini temsil eder. CICA, hasarlı cildin onarımını hızlandırmak ve bütünlüğünü geri kazandırmak için özenle çalışır. Bunu, dermis içindeki hayati proteinlerin üretimini artırarak ve yatıştırıcı bir etki sağlayarak başarır. Ekstraktımız, Madagaskar'da hasat edilen yabani Centella asiatica'dan elde edilir. Formülasyonumuzda, CICA'yı nemlendirme ve cilt bütünlüğünün restorasyonunu teşvik etme yeteneği ile bilinen Provitamin B5, yani pantenol ile birleştiriyoruz.\r\n\r\nTopikal olarak uygulandığında, pantenol epidermise nüfuz eder, burada cilt hücreleri tarafından emilir ve pantotenik aside dönüştürülür. Stratum korneumun hidrasyonuna yardımcı olduğu bu aşamadadır. Ek olarak, pantenol cildin hidrolipidik filmini güçlendirmeye yardımcı olur, su kaybı ve dehidrasyonla etkili bir şekilde mücadele eder.",
+    "longDesc": "CICA, iyileştirici özellikleriyle bilinir, cildimiz için gereklidir, genellikle ilk savunma hattımız olarak kabul edilir, çünkü hasar gördüğünde iyileşmek için zamana ihtiyaç duyar. Normal, sağlıklı bir görünüme kavuşmak bir gecede olmaz. CICA cilt onarımına yardımcı olur, ancak onun yardımıyla bile iyileşme sürecini potansiyel olarak uzatabilecek zorluklar ortaya çıkabilir.\r\n\r\nBu zorluk, özellikle hamilelik sırasında belirgindir ve çatlakların ortaya çıkmasına neden olur. Bu süre zarfında, cilt kendini doğru bir şekilde yeniden yapılandırmakta zorlanır ve genellikle sıkılıktan yoksundur. İçerik Centella asiatica'nın Titre Edilmiş Ekstraktı, yaygın olarak CICA veya Kaplan otu olarak bilinir. Bu bitkide bulunan en güçlü moleküllerin oldukça saflaştırılmış bir bileşimini temsil eder. CICA, hasarlı cildin onarımını hızlandırmak ve bütünlüğünü geri kazandırmak için özenle çalışır. Bunu, dermis içindeki hayati proteinlerin üretimini artırarak ve yatıştırıcı bir etki sağlayarak başarır. Ekstraktımız, Madagaskar'da hasat edilen yabani Centella asiatica'dan elde edilir. Formülasyonumuzda, CICA'yı nemlendirme ve cilt bütünlüğünün restorasyonunu teşvik etme yeteneği ile bilinen Provitamin B5, yani pantenol ile birleştiriyoruz.\r\n\r\nTopikal olarak uygulandığında, pantenol epidermise nüfuz eder, burada cilt hücreleri tarafından emilir ve pantotenik aside dönüştürülür. Stratum korneumun hidrasyonuna yardımcı olduğu bu aşamadadır. Ek olarak, pantenol cildin hidrolipidik filmini güçlendirmeye yardımcı olur, su kaybı ve dehidrasyonla etkili bir şekilde mücadele eder.\n\nEndikasyonlar: – Kuru cilde bağlı kızarıklık ve iltihabı azaltır.– Estetik prosedürlerden sonra önerilir.– Cilt yeniden şekillendirme.– Sıkılaştırma.– Çatlaklar.",
+    "category": "",
+    "image": "images/products/cica-post-care.jpg",
+    "badge": "",
     "ingredients": [
-      "Mandelik Asit (%10)",
-      "Hyaluronik Asit"
+      "Asiaticoside",
+      "madecassic asit",
+      "asiatic asit",
+      "pantenol (%1)."
     ],
     "benefits": [
-      "Hassas ciltler için uygun",
-      "Nazik eksfoliyasyon",
-      "Gözenek temizliği",
-      "Cilt tonunu eşitler"
+      "Kuru cilde bağlı kızarıklık ve iltihabı azaltır.– Estetik prosedürlerden sonra önerilir.– Cilt yeniden şekillendirme.– Sıkılaştırma.– Çatlaklar."
     ],
-    "usage": "Akşamları temiz cilde uygulayın."
+    "usage": ""
   },
   {
     "id": 20,
-    "name": "Amino Acids + B5",
-    "shortDesc": "Cilt barrier desteği için amino asitler",
-    "longDesc": "17 farklı amino asit ve provitamin B5 içeren bu serum, cilt bariyerini güçlendirir ve nemlenmeyi destekler.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-20.jpg",
+    "name": "LIFT SLEEPING MASK",
+    "shortDesc": "Hyaluronik asit, büyüme faktörleri, glutamin ve folik asit açısından zengin Lift uyku maskemiz - tümü estetik tıptan türetilmiştir - kapsamlı bir yaşlanma karşıtı ve kırışıklık karşıtı etki sunar. Görkemli bir su içinde yağ dokusuyla tasarlanan bu krem maske, gece boyunca yoğun beslenme sağlar. Siz uyurken, cildiniz dış etkenlerden etkili bir şekilde korunur, derin restorasyon ve yenilenme sağlar. Artı, gece cilt bakım deneyiminizi geliştirmek için %100 doğal, mandalina esansiyel yağı bazlı bir kokuya sahiptir. Gençleştirme kompleksi, büyüme faktörleri, folik asit ve asetil glutamin açısından zengin olan plasenta ile benzer bir bileşime sahiptir. Uyku maskemizde küresel bir yaşlanma karşıtı çözüm olarak hizmet eder. Ürünlerin kullanımı XS hyaluronik asit, çok düşük moleküler ağırlığı ile karakterize edilir, bir bağ dokusu düzenleyici ve su tutucu madde olarak işlev görür. Sodyum hiyalüronat, kirleticilerden ve GDO'lardan arındırılmış, biyoteknolojik olarak güvenli bir süreçle elde edilir.\r\n\r\nBu, yüksek moleküler ağırlıklı Hyaluronik aside kıyasla cilt yoluyla artan nüfuzu nedeniyle Anti-aging cilt bakımında bir yeniliği temsil eder. Lift uyku maskesi, viskoelastik özelliklerini iyileştirerek ve derin Kırışıklıkların görünümünü önemli ölçüde azaltarak cildi Gençleştirir.",
+    "longDesc": "Hyaluronik asit, büyüme faktörleri, glutamin ve folik asit açısından zengin Lift uyku maskemiz - tümü estetik tıptan türetilmiştir - kapsamlı bir yaşlanma karşıtı ve kırışıklık karşıtı etki sunar. Görkemli bir su içinde yağ dokusuyla tasarlanan bu krem maske, gece boyunca yoğun beslenme sağlar. Siz uyurken, cildiniz dış etkenlerden etkili bir şekilde korunur, derin restorasyon ve yenilenme sağlar. Artı, gece cilt bakım deneyiminizi geliştirmek için %100 doğal, mandalina esansiyel yağı bazlı bir kokuya sahiptir. Gençleştirme kompleksi, büyüme faktörleri, folik asit ve asetil glutamin açısından zengin olan plasenta ile benzer bir bileşime sahiptir. Uyku maskemizde küresel bir yaşlanma karşıtı çözüm olarak hizmet eder. Ürünlerin kullanımı XS hyaluronik asit, çok düşük moleküler ağırlığı ile karakterize edilir, bir bağ dokusu düzenleyici ve su tutucu madde olarak işlev görür. Sodyum hiyalüronat, kirleticilerden ve GDO'lardan arındırılmış, biyoteknolojik olarak güvenli bir süreçle elde edilir.\r\n\r\nBu, yüksek moleküler ağırlıklı Hyaluronik aside kıyasla cilt yoluyla artan nüfuzu nedeniyle Anti-aging cilt bakımında bir yeniliği temsil eder. Lift uyku maskesi, viskoelastik özelliklerini iyileştirerek ve derin Kırışıklıkların görünümünü önemli ölçüde azaltarak cildi Gençleştirir.\n\nEndikasyonlar: – Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir.",
+    "category": "",
+    "image": "images/products/lift-sleeping-mask.jpg",
+    "badge": "",
     "ingredients": [
-      "Amino Asit Kompleksi",
-      "Panthenol (Provitamin B5)",
-      "Arginin",
-      "Serin"
+      "Gençleştirme kompleksi (5 büyüme faktörü + folik asit + asetil glutamin)",
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cilt bariyerini güçlendirir",
-      "Nemlendirmeyi destekler",
-      "Cildi yumuşatır",
-      "Tahrişi azaltır"
+      "Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir."
     ],
-    "usage": "Temiz cilde günde iki kez uygulayın."
+    "usage": ""
   },
   {
     "id": 21,
-    "name": "Alpha Arbutin 2% + HA",
-    "shortDesc": "Leke azaltıcı serum",
-    "longDesc": "Alpha arbutin ve hyaluronik asit içeren bu serum, lekeleri azaltır ve cilt tonunu eşitler. Daha aydınlık ve eşit bir cilt tonu için.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-21.jpg",
+    "name": "GLOW SLEEPING MASK",
+    "shortDesc": "Glow Uyku Maskemizi sunuyoruz – cilt tonunu iyileştirmek ve pigmentasyonu azaltmak isteyenler için ideal çözüm. Bu son derece etkili uyku maskesi, niasinamid, traneksamik asit ve gliserin dahil olmak üzere güçlü bir bileşen karışımı ile formüle edilmiştir. İÇERİKLER Niasinamid, cildi aydınlattığı ve pigmentasyonu azalttığı bilinen güçlü bir bileşendir. Ayrıca cilt elastikiyetini ve hidrasyon seviyelerini artırarak daha pürüzsüz ve daha parlak bir cilde yol açar. Traneksamik asit, ciltteki melanin üretimini engelleyen son derece etkili bir bileşendir, böylece koyu lekelerin ve hiperpigmentasyonun görünümünü azaltır. Ayrıca genel cilt görünümünü iyileştirdiği, daha parlak ve daha eşit tonlu bir cildi teşvik ettiği kanıtlanmıştır. Gliserin, cilde nem çeken güçlü bir nemlendiricidir, onu iyi nemlendirilmiş ve esnek bırakır. Ek olarak, kirlilik ve serbest radikaller gibi dış saldırganlara karşı koruma sağlar. GLOW SLEEPING MASK KULLANIRKEN ETKİLERİ Glow uyku maskemiz, cildi canlandıran ferahlatıcı bir aloe vera kokusuna sahiptir. Gece cilt bakım rutininize mükemmel bir ek olarak hizmet eder, siz dinlenirken cildinizi beslemek ve yenilemek için çalışır.\r\n\r\nDüzenli kullanımla, glow uyku maskemiz cilt tonunuzu iyileştirecek ve pigmentasyonu azaltacak, cildinizi daha parlak, daha eşit tonlu ve ışıltılı bir şekilde güzel bırakacaktır.",
+    "longDesc": "Glow Uyku Maskemizi sunuyoruz – cilt tonunu iyileştirmek ve pigmentasyonu azaltmak isteyenler için ideal çözüm. Bu son derece etkili uyku maskesi, niasinamid, traneksamik asit ve gliserin dahil olmak üzere güçlü bir bileşen karışımı ile formüle edilmiştir. İÇERİKLER Niasinamid, cildi aydınlattığı ve pigmentasyonu azalttığı bilinen güçlü bir bileşendir. Ayrıca cilt elastikiyetini ve hidrasyon seviyelerini artırarak daha pürüzsüz ve daha parlak bir cilde yol açar. Traneksamik asit, ciltteki melanin üretimini engelleyen son derece etkili bir bileşendir, böylece koyu lekelerin ve hiperpigmentasyonun görünümünü azaltır. Ayrıca genel cilt görünümünü iyileştirdiği, daha parlak ve daha eşit tonlu bir cildi teşvik ettiği kanıtlanmıştır. Gliserin, cilde nem çeken güçlü bir nemlendiricidir, onu iyi nemlendirilmiş ve esnek bırakır. Ek olarak, kirlilik ve serbest radikaller gibi dış saldırganlara karşı koruma sağlar. GLOW SLEEPING MASK KULLANIRKEN ETKİLERİ Glow uyku maskemiz, cildi canlandıran ferahlatıcı bir aloe vera kokusuna sahiptir. Gece cilt bakım rutininize mükemmel bir ek olarak hizmet eder, siz dinlenirken cildinizi beslemek ve yenilemek için çalışır.\r\n\r\nDüzenli kullanımla, glow uyku maskemiz cilt tonunuzu iyileştirecek ve pigmentasyonu azaltacak, cildinizi daha parlak, daha eşit tonlu ve ışıltılı bir şekilde güzel bırakacaktır.\n\nEndikasyonlar: – Cilt tonunu aydınlatır.– Yaşlılık lekelerini ve pigmentasyonu azaltır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Besleyici.",
+    "category": "",
+    "image": "images/products/glow-sleeping-mask.jpg",
+    "badge": "",
     "ingredients": [
-      "Alpha Arbutin (%2)",
-      "Hyaluronik Asit",
-      "Sodyum Hyaluronat"
+      "Traneksamik asit",
+      "niasinamid",
+      "flavonoidler",
+      "kaktik asit esteri",
+      "doğal gliserin."
     ],
     "benefits": [
-      "Lekeleri azaltır",
-      "Cilt tonunu eşitler",
-      "Cildi aydınlatır",
-      "Güvenli ve etkili"
+      "Cilt tonunu aydınlatır.– Yaşlılık lekelerini ve pigmentasyonu azaltır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Besleyici."
     ],
-    "usage": "Günde iki kez temiz cilde uygulayın."
+    "usage": ""
   },
   {
     "id": 22,
-    "name": "Resveratrol 3% + Ferulic Acid 3%",
-    "shortDesc": "Güçlü antioksidan kombinasyonu",
-    "longDesc": "Resveratrol ve ferulik asit içeren bu serum, güçlü antioksidan koruma sağlar ve erken yaşlanma belirtilerini azaltır.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-22.jpg",
+    "name": "HYALURONIC CRYO-MASK",
+    "shortDesc": "Hyaluronik Asit Cryo Maskesini sunuyoruz: Hyaluronik asidin gücü ve yenilikçi cilt soğutma teknolojisi ile aşılanmış bu maske, Ferahlatıcı bir Nemlendirme patlaması sunar, cildinizi dolgun, parlak ve Canlanmış bırakır. Hyaluronik Asit ile Gelişmiş Hidrasyon: Cryo maskemiz, cildi derinlemesine nemlendirme ve besleme yeteneği ile Ünlü bir Güç merkezi bileşen olan Premium sınıf hyaluronik asit ile Zenginleştirilmiştir. Hyaluronik asit, Nemi çeker ve tutar, cildin doğal Nem dengesini Geri kazandırır ve nemli, esnek bir Cilt görünümünü Teşvik eder. Cilt Soğutma Teknolojisi: Benzersiz cilt soğutma teknolojimizle cildiniz için nihai Ferahlığı yaşayın. Uygulama üzerine, maske anında bir soğutma hissi sağlar, cildi yatıştırmaya ve sakinleştirmeye yardımcı olurken, maksimum Etkinlik için aktif bileşenlerin Emilimini Artırır. HYALURONIC CRYO-MASK KULLANIRKEN KULLANIM ALANLARI Yoğun Nemlendirme: Kuru, donuk cilde veda edin. Cryo maskemiz, Yoğun, Uzun süreli nem sağlar, Dehidrasyon belirtileriyle etkili bir şekilde Savaşır ve yorgun, Cansız cilde canlılığı Geri kazandırır. Her kullanımla daha pürüzsüz, daha parlak bir Cilt ortaya çıkarın. Kolay Uygulama ve Anında Sonuçlar: Cildinizi nihai Şımartmayla şımartın. Cryo maskeyi temiz, kuru cilde cömert bir tabaka halinde uygulayın, göz bölgesinden Kaçının. 10-15 dakika bekletin, ardından Ilık suyla durulayın. Sadece bir kullanımdan sonra anında Nemlendirme ve Canlanmış bir cilt deneyimleyin. Hyaluronik Asit Cryo Maske ile cildinize nihai Nemlendirme deneyimini yaşatın. Donuk, Dehidre olmuş cildinizi, göründüğü kadar Ferahlatıcı ve Gençleşmiş hissettiren parlak bir Cilde dönüştürmek için Hyaluronik asit cryo maskemizi kullanın.",
+    "longDesc": "Hyaluronik Asit Cryo Maskesini sunuyoruz: Hyaluronik asidin gücü ve yenilikçi cilt soğutma teknolojisi ile aşılanmış bu maske, Ferahlatıcı bir Nemlendirme patlaması sunar, cildinizi dolgun, parlak ve Canlanmış bırakır. Hyaluronik Asit ile Gelişmiş Hidrasyon: Cryo maskemiz, cildi derinlemesine nemlendirme ve besleme yeteneği ile Ünlü bir Güç merkezi bileşen olan Premium sınıf hyaluronik asit ile Zenginleştirilmiştir. Hyaluronik asit, Nemi çeker ve tutar, cildin doğal Nem dengesini Geri kazandırır ve nemli, esnek bir Cilt görünümünü Teşvik eder. Cilt Soğutma Teknolojisi: Benzersiz cilt soğutma teknolojimizle cildiniz için nihai Ferahlığı yaşayın. Uygulama üzerine, maske anında bir soğutma hissi sağlar, cildi yatıştırmaya ve sakinleştirmeye yardımcı olurken, maksimum Etkinlik için aktif bileşenlerin Emilimini Artırır. HYALURONIC CRYO-MASK KULLANIRKEN KULLANIM ALANLARI Yoğun Nemlendirme: Kuru, donuk cilde veda edin. Cryo maskemiz, Yoğun, Uzun süreli nem sağlar, Dehidrasyon belirtileriyle etkili bir şekilde Savaşır ve yorgun, Cansız cilde canlılığı Geri kazandırır. Her kullanımla daha pürüzsüz, daha parlak bir Cilt ortaya çıkarın. Kolay Uygulama ve Anında Sonuçlar: Cildinizi nihai Şımartmayla şımartın. Cryo maskeyi temiz, kuru cilde cömert bir tabaka halinde uygulayın, göz bölgesinden Kaçının. 10-15 dakika bekletin, ardından Ilık suyla durulayın. Sadece bir kullanımdan sonra anında Nemlendirme ve Canlanmış bir cilt deneyimleyin. Hyaluronik Asit Cryo Maske ile cildinize nihai Nemlendirme deneyimini yaşatın. Donuk, Dehidre olmuş cildinizi, göründüğü kadar Ferahlatıcı ve Gençleşmiş hissettiren parlak bir Cilde dönüştürmek için Hyaluronik asit cryo maskemizi kullanın.\n\nEndikasyonlar: – Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır.",
+    "category": "",
+    "image": "images/products/hyaluronic-cryo-mask.jpg",
+    "badge": "",
     "ingredients": [
-      "Resveratrol (%3)",
-      "Ferulik Asit (%3)",
-      "Vitamin E"
+      "XS hyaluronik asit."
     ],
     "benefits": [
-      "Güçlü antioksidan",
-      "Serbest radikallere karşı koruma",
-      "Anti-aging etki",
-      "Cildi canlandırır"
+      "Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır."
     ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
+    "usage": ""
   },
   {
     "id": 23,
-    "name": "Squalane 100%",
-    "shortDesc": "Saf squalane ile nemlendirme ve yumuşatma",
-    "longDesc": "100% bitki bazlı squalane yağı. Cildi nemlendrir, yumuşatır ve korur. Tüm cilt tipleri için hafif, emilimi kolay bir yağ.",
-    "category": "Yağlar",
-    "image": "images/products/product-23.jpg",
+    "name": "RETINOL 1.0",
+    "shortDesc": "RETINOL 1.0 Yüksek Konsantrasyonlu Serum: Benzersiz formülümüz özellikle Kırışıklıkları ve Foto-yaşlanmayı hedefler. Cilt gün içinde daha genç görünür, Daha Az kırışıklık ve daha düzgün bir ton Sergiler.\r\n\r\nTaze, Canlandırıcı bir narenciye karışımı bu ürünün kokusunu Tamamlar. Atılım, saf retinolün Stabilizasyonudur, onu seçkin yağlar ve antioksidanlarla karıştırırız.\r\n\r\nSaf retinol, ışık, üründeki çözünmüş oksijen ve depolama sıcaklığı dalgalanmalarının neden olduğu oksidasyon nedeniyle kısa bir süre içinde cilt bakım ürünlerinde etkinliğini sıkça kaybeder.\r\n\r\nBirçok marka, önemli ölçüde daha düşük verimlilik sergileyen retinol türevlerini kullanmaya başvurur. Benzersiz yağ karışımımız etkili bir şekilde: Retinolü oksidasyondan Korur, 12 aylık depolamadan sonra bile aktif retinolün %80'inden fazlasını Korur. Üretim süreci Üretim süreci sırasında, tüm oksijen üründen bir vakum süreciyle çıkarılır ve ürün daha sonra havasız şişelere mühürlenir.\r\n\r\nAyrıca, formülasyon, retinolün epidermisin en derin katmanlarına nüfuz etmesini artırmak için transdermal bir güçlendirici içerir.",
+    "longDesc": "RETINOL 1.0 Yüksek Konsantrasyonlu Serum: Benzersiz formülümüz özellikle Kırışıklıkları ve Foto-yaşlanmayı hedefler. Cilt gün içinde daha genç görünür, Daha Az kırışıklık ve daha düzgün bir ton Sergiler.\r\n\r\nTaze, Canlandırıcı bir narenciye karışımı bu ürünün kokusunu Tamamlar. Atılım, saf retinolün Stabilizasyonudur, onu seçkin yağlar ve antioksidanlarla karıştırırız.\r\n\r\nSaf retinol, ışık, üründeki çözünmüş oksijen ve depolama sıcaklığı dalgalanmalarının neden olduğu oksidasyon nedeniyle kısa bir süre içinde cilt bakım ürünlerinde etkinliğini sıkça kaybeder.\r\n\r\nBirçok marka, önemli ölçüde daha düşük verimlilik sergileyen retinol türevlerini kullanmaya başvurur. Benzersiz yağ karışımımız etkili bir şekilde: Retinolü oksidasyondan Korur, 12 aylık depolamadan sonra bile aktif retinolün %80'inden fazlasını Korur. Üretim süreci Üretim süreci sırasında, tüm oksijen üründen bir vakum süreciyle çıkarılır ve ürün daha sonra havasız şişelere mühürlenir.\r\n\r\nAyrıca, formülasyon, retinolün epidermisin en derin katmanlarına nüfuz etmesini artırmak için transdermal bir güçlendirici içerir.\n\nEndikasyonlar: – Cildi kaldırır ve sıkılaştırır.– Foto-yaşlanmayı azaltır.– Cilt yenilenmesini hızlandırır.",
+    "category": "",
+    "image": "images/products/retinol-10.jpg",
+    "badge": "",
     "ingredients": [
-      "Squalane (%100)"
+      "Retinol."
     ],
     "benefits": [
-      "Yoğun nemlendirme",
-      "Hafif doku",
-      "Tüm cilt tipleri için uygun",
-      "Cilt bariyerini destekler"
+      "Cildi kaldırır ve sıkılaştırır.– Foto-yaşlanmayı azaltır.– Cilt yenilenmesini hızlandırır."
     ],
-    "usage": "Gece rutininizin son adımı olarak birkaç damla uygulayın."
+    "usage": ""
   },
   {
     "id": 24,
-    "name": "Rosehip Seed Oil",
-    "shortDesc": "Kuşburnu yağı ile besleyici bakım",
-    "longDesc": "Soğuk sıkım kuşburnu yağı. Vitamin A, C ve E ile zenginleştirilmiş bu yağ, cildi besler, izleri azaltır ve nemlendirme sağlar.",
-    "category": "Yağlar",
-    "image": "images/products/product-24.jpg",
+    "name": "NIACINAMIDE 5.0",
+    "shortDesc": "Yüksek Konsantrasyonlu Bir Formül. Bu güçlü serum, kızarıklığı, kuru Cilt kaynaklı kaşıntıyı, Pigmentasyon sorunlarını ve Kirleri hedefler. Niasinamid, Kapsamlı bir şekilde incelenmiş ve en iyi Cilt bakımı bileşenlerinden biri olarak kabul edilmiş olup, temel aktif element olarak hizmet eder.\r\n\r\nCildi Aydınlatma, akne ve Lekeleri Azaltma, cilt bariyerini Güçlendirme ve cildin Mikro-biyomuna dengeyi Geri kazandırma dahil olmak üzere çok sayıda çalışma ile Onaylanmış zengin cilt faydalarına sahiptir.\r\n\r\nNiasinamid, cilt Pigmentasyonunu azaltmada Kanıtlanabilir olumlu bir etkiye sahiptir, bu da daha eşit ve tek tip bir cilt tonuna yol açar.\r\n\r\nAQP3 ekspresyonunu olumlu yönde etkileyerek, bu NIACINAMIDE 5.0 bileşeni cilt hidrasyonunda dikkate değer bir iyileşmeye yol açar. Aquaporinler (AQP'ler), suyun ve küçük çözünen maddelerin hücre zarları boyunca hareketi için çok önemli olan bir taşıma proteinleri ailesidir. Niasinamid, cildin nem bariyerini oluşturmak ve korumak için çok önemli olan birkaç proteinin ekspresyonunu aktif olarak etkiler. Ayrıca, lekelerde bir azalmaya katkıda bulunan C. acnes seviyelerini ve büyümesini azaltarak cilt mikrobiyomunu düzenlemede rol oynar. Sonuç olarak, günde iki kez bir NIACINAMIDE 5.0 serumu uygulamak, özellikle en önemli faydaları belirten yağlı cilde sahip bireyler için olağanüstü etkinlik gösterir.",
+    "longDesc": "Yüksek Konsantrasyonlu Bir Formül. Bu güçlü serum, kızarıklığı, kuru Cilt kaynaklı kaşıntıyı, Pigmentasyon sorunlarını ve Kirleri hedefler. Niasinamid, Kapsamlı bir şekilde incelenmiş ve en iyi Cilt bakımı bileşenlerinden biri olarak kabul edilmiş olup, temel aktif element olarak hizmet eder.\r\n\r\nCildi Aydınlatma, akne ve Lekeleri Azaltma, cilt bariyerini Güçlendirme ve cildin Mikro-biyomuna dengeyi Geri kazandırma dahil olmak üzere çok sayıda çalışma ile Onaylanmış zengin cilt faydalarına sahiptir.\r\n\r\nNiasinamid, cilt Pigmentasyonunu azaltmada Kanıtlanabilir olumlu bir etkiye sahiptir, bu da daha eşit ve tek tip bir cilt tonuna yol açar.\r\n\r\nAQP3 ekspresyonunu olumlu yönde etkileyerek, bu NIACINAMIDE 5.0 bileşeni cilt hidrasyonunda dikkate değer bir iyileşmeye yol açar. Aquaporinler (AQP'ler), suyun ve küçük çözünen maddelerin hücre zarları boyunca hareketi için çok önemli olan bir taşıma proteinleri ailesidir. Niasinamid, cildin nem bariyerini oluşturmak ve korumak için çok önemli olan birkaç proteinin ekspresyonunu aktif olarak etkiler. Ayrıca, lekelerde bir azalmaya katkıda bulunan C. acnes seviyelerini ve büyümesini azaltarak cilt mikrobiyomunu düzenlemede rol oynar. Sonuç olarak, günde iki kez bir NIACINAMIDE 5.0 serumu uygulamak, özellikle en önemli faydaları belirten yağlı cilde sahip bireyler için olağanüstü etkinlik gösterir.\n\nEndikasyonlar: – Pigmentasyon.– Kızarıklık ve kaşıntı.– Foto-yaşlanma.– Kuruluk.– Kirli cilt.",
+    "category": "",
+    "image": "images/products/niacinamide-50.jpg",
+    "badge": "",
     "ingredients": [
-      "Kuşburnu Yağı (%100)",
-      "Doğal Vitamin A",
-      "Omega Yağ Asitleri"
+      "Niasinamid %5."
     ],
     "benefits": [
-      "İzleri azaltır",
-      "Cildi besler",
-      "Yoğun nemlendirme",
-      "Anti-aging etki"
+      "Pigmentasyon.– Kızarıklık ve kaşıntı.– Foto-yaşlanma.– Kuruluk.– Kirli cilt."
     ],
-    "usage": "Gece bakımınızda birkaç damla uygulayın."
+    "usage": ""
   },
   {
     "id": 25,
-    "name": "Matrixyl 10% + HA",
-    "shortDesc": "Peptid kompleksi ile kırışıklık azaltma",
-    "longDesc": "Yüksek konsantrasyonlu Matrixyl peptid kompleksi içeren bu serum, kolajen üretimini artırır ve kırışıklık görünümünü azaltır.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-25.jpg",
+    "name": "HA DEEP FILLER",
+    "shortDesc": "Hyaluronik Asit Enjeksiyonlarının Artırılmış Etkinliği\r\n\r\nArtırılmış Performans: Serumumuz, Hyaluronik asit Enjeksiyonlarının gücünü Artırır. Tıbbi uygulamalarda kullanılana benzer güçlü, Çapraz bağlı Hyaluronik asit ile cildinizi dolgunlaştırır ve Kırışıklıkları yumuşatır. Lüks Bir Serum Deneyimi Pürüzsüz Uygulama: Her kullanımda serumun Tüy gibi hafif dokunuşunun keyfini çıkarın. Dahası, gelişmiş yumuşak odak teknolojisi sadece pürüzsüzleştirmekle kalmaz, aynı zamanda cildinizin görünümünü önemli ölçüde iyileştirir, daha parlak görünmesini sağlar. Narenciye Tazeliği: Canlı narenciye kokusunun her seferinde ruh halinizi tazelemesine izin verin. Ürünün Arkasındaki Bilim Yenilikçi Karışım: Serum, özel olarak tasarlanmış, Çapraz bağlı bir Hyaluronik asit içerir. Ek olarak, bu HYALURONİK ASİT ile güçlendirilmiş versiyonun, geleneksel dolgu maddelerinden daha güçlü olduğu kanıtlanmıştır ve üstün sonuçlar sunar. Derin Hidrasyon: Lüks bir Kıvam, formülümüzün Nemi daha iyi tutması anlamına gelir, cildinizi derinlemesine Nemli tutar. Nem Cenneti: Bu ürünü cildinizin kişisel Hidrasyon Sığınağı olarak düşünün, sürekli Nem sağlar. Koruyucu Bariyer: Artı, serum cildi Güçlendiren, Kırışıklıkları dolduran, Nemi koruyan ve güneşe ve Kirleticilere karşı koruyan Nefes alabilen bir tabaka oluşturur.",
+    "longDesc": "Hyaluronik Asit Enjeksiyonlarının Artırılmış Etkinliği\r\n\r\nArtırılmış Performans: Serumumuz, Hyaluronik asit Enjeksiyonlarının gücünü Artırır. Tıbbi uygulamalarda kullanılana benzer güçlü, Çapraz bağlı Hyaluronik asit ile cildinizi dolgunlaştırır ve Kırışıklıkları yumuşatır. Lüks Bir Serum Deneyimi Pürüzsüz Uygulama: Her kullanımda serumun Tüy gibi hafif dokunuşunun keyfini çıkarın. Dahası, gelişmiş yumuşak odak teknolojisi sadece pürüzsüzleştirmekle kalmaz, aynı zamanda cildinizin görünümünü önemli ölçüde iyileştirir, daha parlak görünmesini sağlar. Narenciye Tazeliği: Canlı narenciye kokusunun her seferinde ruh halinizi tazelemesine izin verin. Ürünün Arkasındaki Bilim Yenilikçi Karışım: Serum, özel olarak tasarlanmış, Çapraz bağlı bir Hyaluronik asit içerir. Ek olarak, bu HYALURONİK ASİT ile güçlendirilmiş versiyonun, geleneksel dolgu maddelerinden daha güçlü olduğu kanıtlanmıştır ve üstün sonuçlar sunar. Derin Hidrasyon: Lüks bir Kıvam, formülümüzün Nemi daha iyi tutması anlamına gelir, cildinizi derinlemesine Nemli tutar. Nem Cenneti: Bu ürünü cildinizin kişisel Hidrasyon Sığınağı olarak düşünün, sürekli Nem sağlar. Koruyucu Bariyer: Artı, serum cildi Güçlendiren, Kırışıklıkları dolduran, Nemi koruyan ve güneşe ve Kirleticilere karşı koruyan Nefes alabilen bir tabaka oluşturur.\n\nEndikasyonlar: – Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir.",
+    "category": "",
+    "image": "images/products/ha-deep-filler.jpg",
+    "badge": "",
     "ingredients": [
-      "Matrixyl 3000 (%10)",
-      "Matrixyl Synthe'6",
-      "Hyaluronik Asit"
+      "Çapraz bağlı hyaluronik asit."
     ],
     "benefits": [
-      "Kolajen sentezini artırır",
-      "Kırışıklıkları azaltır",
-      "Cildi sıkılaştırır",
-      "Dolgunluk sağlar"
+      "Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir."
     ],
-    "usage": "Temiz cilde günde iki kez uygulayın."
+    "usage": ""
   },
   {
     "id": 26,
-    "name": "Buffet + Copper Peptides 1%",
-    "shortDesc": "Çoklu peptid ve bakır peptid kompleksi",
-    "longDesc": "Farklı peptidler ve bakır peptidlerin sinerjik etkisi ile kapsamlı anti-aging bakım. Cilt yenilenmesini ve onarımını destekler.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-26.jpg",
-    "badge": "Gelişmiş",
+    "name": "MESO SHIELD 50",
+    "shortDesc": "Güneş koruyucu SPF 50, bu yüksek korumalı güneş kremi, estetik tıp prosedürlerinden sonra uygulanmak üzere özel olarak formüle edilmiştir. Şaşırtıcı derecede hafif dokusu, UVA/UVB ışınlarına karşı mükemmel koruma sağlar. Tüp ambalajında uygun bir şekilde paketlenmiş olup, gün boyunca yanınızda taşımanız kolaydır. Bu yenilikçi koruyucu gündüz kremi birçok fayda sunar.\r\n\r\nGüneş koruyucu SPF 50 formülü, cildin yüzeyinde tere dayanıklı, uzun ömürlü bir film oluşturur, makyaj uygulaması için ideal bir baz sağlarken güneş koruyucuların cilde nüfuz etmesini önler. Gözlere karşı naziktir ve en hassas cilt tipleri için bile uygundur. Kritik faktörler UV koruma ürünlerindeki kritik faktörlerden biri, Radyasyon spektrumunda cilde potansiyel olarak zarar verebilecek herhangi bir boşluk olmadan hem UVA hem de UVB ışınlarına karşı tutarlı Kapsamlı kapsama sağlamaktır. 'İdeal bir güneş koruyucu', tüm dalga boylarında aynı koruma seviyesini sunan tek tip yoğunlukta bir filtre görevi görmelidir. Ürün verimliliği Bunu başarmak için, formülasyonumuz UVA ve UVB ışınlarına karşı mümkün olan en iyi oranı ve korumayı sağlamak için dört tür UV filtresi içerir. Yüksek verimlilikleri ve endokrin bozucu özelliklerin bulunmaması ile bilinen piyasadaki en yeni ve en etkili UV filtrelerini kullanıyoruz.\r\n\r\nGüneş koruyucu SPF 50'miz, her %1 UV filtresi içeriği için etkileyici bir 2.8 SPF puanı oranıyla övünen diğer ürünlere kıyasla olağanüstü yüksek bir etkinlik sunar.",
+    "longDesc": "Güneş koruyucu SPF 50, bu yüksek korumalı güneş kremi, estetik tıp prosedürlerinden sonra uygulanmak üzere özel olarak formüle edilmiştir. Şaşırtıcı derecede hafif dokusu, UVA/UVB ışınlarına karşı mükemmel koruma sağlar. Tüp ambalajında uygun bir şekilde paketlenmiş olup, gün boyunca yanınızda taşımanız kolaydır. Bu yenilikçi koruyucu gündüz kremi birçok fayda sunar.\r\n\r\nGüneş koruyucu SPF 50 formülü, cildin yüzeyinde tere dayanıklı, uzun ömürlü bir film oluşturur, makyaj uygulaması için ideal bir baz sağlarken güneş koruyucuların cilde nüfuz etmesini önler. Gözlere karşı naziktir ve en hassas cilt tipleri için bile uygundur. Kritik faktörler UV koruma ürünlerindeki kritik faktörlerden biri, Radyasyon spektrumunda cilde potansiyel olarak zarar verebilecek herhangi bir boşluk olmadan hem UVA hem de UVB ışınlarına karşı tutarlı Kapsamlı kapsama sağlamaktır. 'İdeal bir güneş koruyucu', tüm dalga boylarında aynı koruma seviyesini sunan tek tip yoğunlukta bir filtre görevi görmelidir. Ürün verimliliği Bunu başarmak için, formülasyonumuz UVA ve UVB ışınlarına karşı mümkün olan en iyi oranı ve korumayı sağlamak için dört tür UV filtresi içerir. Yüksek verimlilikleri ve endokrin bozucu özelliklerin bulunmaması ile bilinen piyasadaki en yeni ve en etkili UV filtrelerini kullanıyoruz.\r\n\r\nGüneş koruyucu SPF 50'miz, her %1 UV filtresi içeriği için etkileyici bir 2.8 SPF puanı oranıyla övünen diğer ürünlere kıyasla olağanüstü yüksek bir etkinlik sunar.\n\nEndikasyonlar: – UV'den korur ve foto-yaşlanmayı önler.\n\nBoyut: 50 ml / 1.7 fl.oz",
+    "category": "",
+    "image": "images/products/meso-shield-50.jpg",
+    "badge": "",
     "ingredients": [
-      "Bakır Peptidler (%1)",
-      "Matrixyl 3000",
-      "Syn-Coll",
-      "Argirelox",
-      "Relistase"
+      "UVA/UVA güneş koruyucuları"
     ],
     "benefits": [
-      "Kapsamlı anti-aging",
-      "Cilt onarımı",
-      "Kırışıklık azaltma",
-      "Cilt yenileme"
+      "UV'den korur ve foto-yaşlanmayı önler."
     ],
-    "usage": "Akşamları temiz cilde uygulayın."
+    "usage": "50 ml / 1.7 fl.oz"
   },
   {
     "id": 27,
-    "name": "EUK 134 0.1%",
-    "shortDesc": "İleri düzey antioksidan molekül",
-    "longDesc": "EUK 134, sentetik bir antioksidan enzim. Serbest radikallere karşı güçlü koruma sağlar ve oksidatif stresi azaltır.",
-    "category": "Antioksidanlar",
-    "image": "images/products/product-27.jpg",
+    "name": "MELA DROPS",
+    "shortDesc": "Güçlü cilt bakım serumumuz Mela Drops ile nihai cilt aydınlatma çözümünü deneyimleyin. Glikolik asit ve niasinamid içeren Mela Drops, cilt tonunuzu aydınlatır. Ayrıca E vitamini ve skualan ile derinlemesine nemlendirir ve besler. Mela Drops'un İçindekiler Glikolik asit, bir alfa-hidroksi asit türü: cildi nazikçe eksfoliye etmeye yardımcı olur, ölü cilt hücrelerini temizler, daha parlak, daha pürüzsüz bir cilt ortaya çıkarır. Vitamin B3 olarak da bilinen niasinamid, hiperpigmentasyon ve koyu lekelerin görünümünü azaltmaya yardımcı olurken, aynı zamanda cilt bariyerini güçlendirir. Traneksamik asit ve heksil-resorsinol, koyu lekeleri soldurmak ve daha eşit bir cilt tonunu teşvik etmek için birlikte çalışan güçlü cilt aydınlatıcı ajanlardır. E vitamini ve skualan, yoğun hidrasyon ve beslenme sağlar, dokuyu iyileştirmeye yardımcı olur ve cildinizi yumuşak ve esnek hissettirir. Kullanımdan sonra etkili Herkes için ideal olan bu serum, koyu lekeleri ve akne izlerini hedefler. Parlak bir cilt sağlar. Mela Drops'un düzenli kullanımı, fark edilir cilt iyileşmelerini ortaya çıkarır. Genç, parlak bir görünümün keyfini çıkarın.",
+    "longDesc": "Güçlü cilt bakım serumumuz Mela Drops ile nihai cilt aydınlatma çözümünü deneyimleyin. Glikolik asit ve niasinamid içeren Mela Drops, cilt tonunuzu aydınlatır. Ayrıca E vitamini ve skualan ile derinlemesine nemlendirir ve besler. Mela Drops'un İçindekiler Glikolik asit, bir alfa-hidroksi asit türü: cildi nazikçe eksfoliye etmeye yardımcı olur, ölü cilt hücrelerini temizler, daha parlak, daha pürüzsüz bir cilt ortaya çıkarır. Vitamin B3 olarak da bilinen niasinamid, hiperpigmentasyon ve koyu lekelerin görünümünü azaltmaya yardımcı olurken, aynı zamanda cilt bariyerini güçlendirir. Traneksamik asit ve heksil-resorsinol, koyu lekeleri soldurmak ve daha eşit bir cilt tonunu teşvik etmek için birlikte çalışan güçlü cilt aydınlatıcı ajanlardır. E vitamini ve skualan, yoğun hidrasyon ve beslenme sağlar, dokuyu iyileştirmeye yardımcı olur ve cildinizi yumuşak ve esnek hissettirir. Kullanımdan sonra etkili Herkes için ideal olan bu serum, koyu lekeleri ve akne izlerini hedefler. Parlak bir cilt sağlar. Mela Drops'un düzenli kullanımı, fark edilir cilt iyileşmelerini ortaya çıkarır. Genç, parlak bir görünümün keyfini çıkarın.\n\nEndikasyonlar: – Pigmentasyonu tedavi etmek için yoğun tedavi.– Kahverengi lekeler.– Cilt beyazlatma.",
+    "category": "",
+    "image": "images/products/mela-drops.png",
+    "badge": "",
     "ingredients": [
-      "EUK-134 (%0.1)"
+      "Traneksamik asit",
+      "heksil-resorsinol",
+      "glikolik asit",
+      "niasinamid",
+      "E vitamini",
+      "zeytinyağı skualanı"
     ],
     "benefits": [
-      "Güçlü antioksidan",
-      "Oksidatif stresi azaltır",
-      "Çevresel hasardan korur",
-      "Anti-aging destek"
+      "Pigmentasyonu tedavi etmek için yoğun tedavi.– Kahverengi lekeler.– Cilt beyazlatma."
     ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
+    "usage": ""
   },
   {
     "id": 28,
-    "name": "Pycnogenol 5%",
-    "shortDesc": "Çam kabuğu özü ile antioksidan koruma",
-    "longDesc": "Çam kabuğundan elde edilen güçlü antioksidan. Kolajeni korur, iltihabı azaltır ve cildi çevresel faktörlere karşı korur.",
-    "category": "Antioksidanlar",
-    "image": "images/products/product-28.jpg",
+    "name": "EXOSOMES SERUM",
+    "shortDesc": "Eksozom Serumu, cildi güçlendirmek, nemlendirmek ve korumak için tasarlanmış bilimsel olarak gelişmiş bir cilt bakımı çözümüdür.\r\nBu hafif serum, kalıcı hidrasyon sağlamak, cildin doğal bariyerini güçlendirmek ve çevresel stres faktörlerine karşı korumak için Lactobacillus Eksozomları, Ektoin, Skualan ve Pirinçten Elde Edilen Seramidler dahil olmak üzere son teknoloji bileşenleri birleştirir. Birincil bileşen olan Lactobacillus Eksozomları, mikrobiyom cilt bakımında bir atılımı temsil eder. Eksozomlar, Lactobacillus bakterilerinden türetilen, doğal olarak hücre iletişimini ve yenilenmesini destekleyen faydalı biyoaktif molekülleri taşıyan küçük hücre dışı veziküllerdir. Topikal olarak uygulandığında, bu eksozomlar cildin doğal savunmasını güçlendirmek, dengeli bir mikrobiyomu teşvik etmek ve daha sağlıklı, daha dirençli bir bariyeri teşvik etmek için çalışır.",
+    "longDesc": "Eksozom Serumu, cildi güçlendirmek, nemlendirmek ve korumak için tasarlanmış bilimsel olarak gelişmiş bir cilt bakımı çözümüdür.\r\nBu hafif serum, kalıcı hidrasyon sağlamak, cildin doğal bariyerini güçlendirmek ve çevresel stres faktörlerine karşı korumak için Lactobacillus Eksozomları, Ektoin, Skualan ve Pirinçten Elde Edilen Seramidler dahil olmak üzere son teknoloji bileşenleri birleştirir. Birincil bileşen olan Lactobacillus Eksozomları, mikrobiyom cilt bakımında bir atılımı temsil eder. Eksozomlar, Lactobacillus bakterilerinden türetilen, doğal olarak hücre iletişimini ve yenilenmesini destekleyen faydalı biyoaktif molekülleri taşıyan küçük hücre dışı veziküllerdir. Topikal olarak uygulandığında, bu eksozomlar cildin doğal savunmasını güçlendirmek, dengeli bir mikrobiyomu teşvik etmek ve daha sağlıklı, daha dirençli bir bariyeri teşvik etmek için çalışır.\n\nEndikasyonlar: – Cilt bariyerini güçlendirir.– Kırışıklıkları onarır ve azaltır.– Derinlemesine Nemlendirir.– Çevresel stres faktörlerinden koruma.– Cilt mikrobiyomunu dengeler.– Pürüzsüzleştirir & aydınlatır.",
+    "category": "",
+    "image": "images/products/exosomes-serum.jpg",
+    "badge": "",
     "ingredients": [
-      "Pycnogenol (%5)",
-      "Propanediol"
+      "Lactobacillus eksozomları",
+      "Ektoin",
+      "Bitkisel seramidler",
+      "Skualan"
     ],
     "benefits": [
-      "Güçlü antioksidan",
-      "Kolajen koruma",
-      "İltihap azaltma",
-      "Cilt elastikiyetini artırır"
+      "Cilt bariyerini güçlendirir.– Kırışıklıkları onarır ve azaltır.– Derinlemesine Nemlendirir.– Çevresel stres faktörlerinden koruma.– Cilt mikrobiyomunu dengeler.– Pürüzsüzleştirir & aydınlatır."
     ],
-    "usage": "Günde iki kez temiz cilde uygulayın."
-  },
-  {
-    "id": 29,
-    "name": "Granactive Retinoid 2%",
-    "shortDesc": "Yeni nesil retinoid tahriş etmeden",
-    "longDesc": "HPR (Hydroxypinacolone Retinoate), tahriş yapmadan retinoid faydası sağlayan yeni nesil bir bileşen. Hassas ciltler için idealdir.",
-    "category": "Retinoidler",
-    "image": "images/products/product-29.jpg",
-    "ingredients": [
-      "Hydroxypinacolone Retinoate (%2)",
-      "Squalane"
-    ],
-    "benefits": [
-      "Retinoid faydaları",
-      "Minimal tahriş",
-      "Anti-aging etki",
-      "Hassas ciltler için uygun"
-    ],
-    "usage": "Akşamları temiz cilde uygulayın."
-  },
-  {
-    "id": 30,
-    "name": "Retinol 1% in Squalane",
-    "shortDesc": "Yüksek konsantrasyonlu retinol tedavisi",
-    "longDesc": "1% konsantrasyonunda retinol içeren güçlü anti-aging serum. Squalane bazlı formülü ile tahriş riskini minimize eder.",
-    "category": "Retinoidler",
-    "image": "images/products/product-30.jpg",
-    "badge": "İleri Düzey",
-    "ingredients": [
-      "Retinol (%1)",
-      "Squalane"
-    ],
-    "benefits": [
-      "Güçlü anti-aging",
-      "Kırışıklık azaltma",
-      "Cilt yenileme",
-      "Doku iyileştirme"
-    ],
-    "usage": "Akşamları, retinol deneyimi olan ciltler için. Yavaşça başlayın."
-  },
-  {
-    "id": 31,
-    "name": "Natural Moisturizing Factors + HA",
-    "shortDesc": "Doğal nemlendirme faktörleri",
-    "longDesc": "Cildin doğal nemlendirme sistemini taklit eden amino asitler, PCA, lactate ve hyaluronik asit içeren hafif nemlendirici.",
-    "category": "Nemlendirici",
-    "image": "images/products/product-31.jpg",
-    "ingredients": [
-      "Amino Asitler",
-      "PCA",
-      "Sodyum Laktat",
-      "Hyaluronik Asit"
-    ],
-    "benefits": [
-      "Doğal nemlendirme",
-      "Hafif doku",
-      "Tüm cilt tipleri",
-      "Cilt bariyeri desteği"
-    ],
-    "usage": "Günde iki kez nemlendirici olarak kullanın."
-  },
-  {
-    "id": 32,
-    "name": "Marine Hyaluronics",
-    "shortDesc": "Deniz kaynaklı nemlendirici",
-    "longDesc": "Deniz yosunundan elde edilen elektrolitlerin hyaluronik asitle kombinasyonu. Cildi derinlemesine nemlendirir ve tazelik verir.",
-    "category": "Nemlendirici",
-    "image": "images/products/product-32.jpg",
-    "ingredients": [
-      "Sodyum Hyaluronat",
-      "Deniz Ekstresi",
-      "Glycerin"
-    ],
-    "benefits": [
-      "Derinlemesine nemlendirme",
-      "Cilt tazeleme",
-      "Mineral desteği",
-      "Hafif doku"
-    ],
-    "usage": "Temiz cilde günde iki kez uygulayın."
-  },
-  {
-    "id": 33,
-    "name": "100% Organic Cold-Pressed Rose Hip Seed Oil",
-    "shortDesc": "Organik soğuk sıkım kuşburnu yağı",
-    "longDesc": "Sertifikalı organik kuşburnu yağı. Pro-vitamin A ve esansiyel yağ asitleri ile zengin, cildi besler ve yeniler.",
-    "category": "Yağlar",
-    "image": "images/products/product-33.jpg",
-    "badge": "Organik",
-    "ingredients": [
-      "Organik Kuşburnu Yağı (%100)"
-    ],
-    "benefits": [
-      "Organik ve doğal",
-      "İzleri iyileştirir",
-      "Cildi besler",
-      "Pro-vitamin A kaynağı"
-    ],
-    "usage": "Gece bakımında birkaç damla kullanın."
-  },
-  {
-    "id": 34,
-    "name": "100% Plant-Derived Squalane",
-    "shortDesc": "Bitki bazlı saf squalane",
-    "longDesc": "Şeker kamışından elde edilen 100% bitki bazlı squalane. Hafif, emilimi kolay, tüm cilt tipleri için ideal nemlendirici yağ.",
-    "category": "Yağlar",
-    "image": "images/products/product-34.jpg",
-    "ingredients": [
-      "Bitki Bazlı Squalane (%100)"
-    ],
-    "benefits": [
-      "Hafif nemlendirme",
-      "Hızlı emilim",
-      "Vegan ve sürdürülebilir",
-      "Cilt bariyeri desteği"
-    ],
-    "usage": "Sabah veya akşam birkaç damla uygulayın."
-  },
-  {
-    "id": 35,
-    "name": "100% Organic Virgin Sea-Buckthorn Fruit Oil",
-    "shortDesc": "Organik yabani şeftali yağı",
-    "longDesc": "Omega 7 ve diğer yağ asitleri açısından zengin organik yabani şeftali yağı. Cildi besler ve onarır.",
-    "category": "Yağlar",
-    "image": "images/products/product-35.jpg",
-    "badge": "Organik",
-    "ingredients": [
-      "Organik Yabani Şeftali Yağı (%100)"
-    ],
-    "benefits": [
-      "Omega 7 kaynağı",
-      "Cilt onarımı",
-      "Besleyici",
-      "Anti-inflammatory"
-    ],
-    "usage": "Gece bakımında az miktarda kullanın."
-  },
-  {
-    "id": 36,
-    "name": "B Oil",
-    "shortDesc": "Çoklu yağ karışımı",
-    "longDesc": "Çeşitli bitki yağlarının karışımı ile cildi besleyen ve yumuşatan yağ serumu. Kuru ciltler için ideal.",
-    "category": "Yağlar",
-    "image": "images/products/product-36.jpg",
-    "ingredients": [
-      "Marula Yağı",
-      "Baobab Yağı",
-      "Rosehip Yağı",
-      "Argan Yağı"
-    ],
-    "benefits": [
-      "Çoklu yağ faydası",
-      "Besleyici",
-      "Yumuşatıcı",
-      "Kuru ciltler için"
-    ],
-    "usage": "Akşamları yüze ve boyuna uygulayın."
-  },
-  {
-    "id": 37,
-    "name": "Hemi-Squalane",
-    "shortDesc": "Hafif squalane alternatifi",
-    "longDesc": "Daha hafif ve hızlı emilen squalane türevi. Yağlı ciltler için ideal nemlendirici yağ.",
-    "category": "Yağlar",
-    "image": "images/products/product-37.jpg",
-    "ingredients": [
-      "Hemi-Squalane (%100)"
-    ],
-    "benefits": [
-      "Çok hafif doku",
-      "Hızlı emilim",
-      "Yağlı ciltler için uygun",
-      "Gözenek tıkamaz"
-    ],
-    "usage": "Nemlendirici yerine veya sonrasında kullanın."
-  },
-  {
-    "id": 38,
-    "name": "Vitamin C Suspension 23% + HA Spheres 2%",
-    "shortDesc": "Yüksek konsantrasyonlu C vitamini suspansiyonu",
-    "longDesc": "23% L-ascorbic acid içeren güçlü vitamin C formülü. Aydınlatıcı ve anti-aging etki için maksimum konsantrasyon.",
-    "category": "Vitamin C",
-    "image": "images/products/product-38.jpg",
-    "badge": "Yüksek Güç",
-    "ingredients": [
-      "L-Ascorbic Acid (%23)",
-      "HA Spheres (%2)"
-    ],
-    "benefits": [
-      "Maksimum aydınlatma",
-      "Güçlü antioksidan",
-      "Kolajen desteği",
-      "Leke azaltma"
-    ],
-    "usage": "Akşamları deneyimli ciltler için. Az miktarda kullanın."
-  },
-  {
-    "id": 39,
-    "name": "Vitamin C Suspension 30% in Silicone",
-    "shortDesc": "En yüksek konsantrasyonlu C vitamini",
-    "longDesc": "30% L-ascorbic acid içeren en güçlü vitamin C formülasyonu. Silikon bazlı dokusu ile kaygan uygulama.",
-    "category": "Vitamin C",
-    "image": "images/products/product-39.jpg",
-    "badge": "Ultra Güç",
-    "ingredients": [
-      "L-Ascorbic Acid (%30)",
-      "Silikon Baz"
-    ],
-    "benefits": [
-      "En güçlü formül",
-      "Maksimum etki",
-      "Aydınlatma",
-      "Anti-aging"
-    ],
-    "usage": "Akşamları, deneyimli ciltler için."
-  },
-  {
-    "id": 40,
-    "name": "Ascorbyl Glucoside Solution 12%",
-    "shortDesc": "Stabil C vitamini türevi",
-    "longDesc": "Su bazlı, stabil vitamin C türevi. Hassas ciltler için tahriş etmeyen aydınlatıcı serum.",
-    "category": "Vitamin C",
-    "image": "images/products/product-40.jpg",
-    "ingredients": [
-      "Ascorbyl Glucoside (%12)",
-      "Glycerin"
-    ],
-    "benefits": [
-      "Stabil formül",
-      "Hassas ciltler için",
-      "Aydınlatıcı",
-      "Tahriş etmez"
-    ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 41,
-    "name": "Magnesium Ascorbyl Phosphate 10%",
-    "shortDesc": "Su bazlı C vitamini",
-    "longDesc": "Magnezyum ascorbyl phosphate ile cildi aydınlatan ve kolajen üretimini destekleyen hassas formül.",
-    "category": "Vitamin C",
-    "image": "images/products/product-41.jpg",
-    "ingredients": [
-      "Magnesium Ascorbyl Phosphate (%10)",
-      "Glycerin"
-    ],
-    "benefits": [
-      "Nazik aydınlatma",
-      "Kolajen desteği",
-      "Su bazlı",
-      "Hassas ciltler için"
-    ],
-    "usage": "Sabah veya akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 42,
-    "name": "Ascorbyl Tetraisopalmitate Solution 20%",
-    "shortDesc": "Yağda çözünür C vitamini",
-    "longDesc": "Yağda çözünen stabil C vitamini formu. Daha derin penetrasyon ve güçlü anti-aging etki.",
-    "category": "Vitamin C",
-    "image": "images/products/product-42.jpg",
-    "ingredients": [
-      "Ascorbyl Tetraisopalmitate (%20)",
-      "Squalane"
-    ],
-    "benefits": [
-      "Derin penetrasyon",
-      "Stabil formül",
-      "Anti-aging",
-      "Yağ bazlı"
-    ],
-    "usage": "Akşamları yüze uygulayın."
-  },
-  {
-    "id": 43,
-    "name": "Ethylated Ascorbic Acid 15%",
-    "shortDesc": "Yüksek stabilite C vitamini",
-    "longDesc": "Ethyl ascorbic acid ile stabil ve etkili vitamin C bakımı. Aydınlatıcı ve kolajen destekleyici.",
-    "category": "Vitamin C",
-    "image": "images/products/product-43.jpg",
-    "ingredients": [
-      "Ethyl Ascorbic Acid (%15)",
-      "Propanediol"
-    ],
-    "benefits": [
-      "Yüksek stabilite",
-      "Etkili aydınlatma",
-      "Kolajen sentezi",
-      "Leke azaltma"
-    ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 44,
-    "name": "Azelaic Acid Suspension 10%",
-    "shortDesc": "Leke ve akne için azelaik asit kremi",
-    "longDesc": "10% azelaik asit içeren krem formülü. Lekeleri azaltır, akneyi tedavi eder ve cilt tonunu eşitler.",
-    "category": "Tedavi Ürünleri",
-    "image": "images/products/product-44.jpg",
-    "ingredients": [
-      "Azelaik Asit (%10)",
-      "Caprylic/Capric Triglyceride"
-    ],
-    "benefits": [
-      "Leke azaltma",
-      "Akne tedavisi",
-      "Ton eşitleme",
-      "Rosacea desteği"
-    ],
-    "usage": "Günde bir veya iki kez uygulayın."
-  },
-  {
-    "id": 45,
-    "name": "Niacinamide 10% + Zinc 1%",
-    "shortDesc": "Gözenek ve sebum kontrolü",
-    "longDesc": "Yüksek konsantrasyonlu niasinamid ve çinko ile gözenekleri minimize eden, sebum dengesini sağlayan serum.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-45.jpg",
-    "badge": "Çok Satan",
-    "ingredients": [
-      "Niasinamid (%10)",
-      "Çinko PCA (%1)"
-    ],
-    "benefits": [
-      "Gözenek minimizasyonu",
-      "Sebum kontrolü",
-      "Leke azaltma",
-      "Cilt tonu eşitleme"
-    ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 46,
-    "name": "Alpha Lipoic Acid 5%",
-    "shortDesc": "Güçlü antioksidan asit",
-    "longDesc": "5% alpha lipoic acid ile güçlü antioksidan ve anti-aging bakım. Çevresel hasarı azaltır ve cildi yeniler.",
-    "category": "Antioksidanlar",
-    "image": "images/products/product-46.jpg",
-    "ingredients": [
-      "Alpha Lipoic Acid (%5)"
-    ],
-    "benefits": [
-      "Güçlü antioksidan",
-      "Anti-aging",
-      "Gözenek sıkılaştırma",
-      "Cilt yenileme"
-    ],
-    "usage": "Akşamları temiz cilde uygulayın."
-  },
-  {
-    "id": 47,
-    "name": "Hyaluronic Acid 2% + B5",
-    "shortDesc": "Çok katmanlı nemlendirme",
-    "longDesc": "Farklı boyutlarda hyaluronik asit ve provitamin B5 ile çok katmanlı nemlendirme sağlayan serum.",
-    "category": "Nemlendirici",
-    "image": "images/products/product-47.jpg",
-    "badge": "Popüler",
-    "ingredients": [
-      "Sodyum Hyaluronat",
-      "Panthenol",
-      "Vegetable Amino Acids"
-    ],
-    "benefits": [
-      "Çok katmanlı nemlendirme",
-      "Dolgunluk",
-      "Yumuşatma",
-      "Cilt onarımı"
-    ],
-    "usage": "Nemli cilde günde iki kez uygulayın."
-  },
-  {
-    "id": 48,
-    "name": "Amino Acids + B5",
-    "shortDesc": "Cilt desteği ve onarım",
-    "longDesc": "17 amino asit ve B5 vitamini ile cilt bariyerini destekleyen ve onarımı hızlandıran serum.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-48.jpg",
-    "ingredients": [
-      "17 Amino Asit",
-      "Panthenol",
-      "Dermatopoietin"
-    ],
-    "benefits": [
-      "Cilt bariyeri desteği",
-      "Onarım hızlandırma",
-      "Nemlendirme",
-      "Yumuşatma"
-    ],
-    "usage": "Günde iki kez temiz cilde uygulayın."
-  },
-  {
-    "id": 49,
-    "name": "Buffet",
-    "shortDesc": "Çoklu teknoloji peptid serumu",
-    "longDesc": "Farklı peptid ve amino asit teknolojilerinin kombinasyonu ile kapsamlı anti-aging bakım sunan serum.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-49.jpg",
-    "badge": "Kapsamlı",
-    "ingredients": [
-      "Matrixyl 3000",
-      "Matrixyl Synthe'6",
-      "Syn-Coll",
-      "Relistase",
-      "Argirelox"
-    ],
-    "benefits": [
-      "Kapsamlı anti-aging",
-      "Çoklu peptid etkisi",
-      "Kırışıklık azaltma",
-      "Cilt sıkılaştırma"
-    ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 50,
-    "name": "Argireline Solution 10%",
-    "shortDesc": "Topical Botox alternatifi",
-    "longDesc": "Yüksek konsantrasyonlu Argireline peptidi ile mimik çizgilerini azaltan 'topical botox' olarak bilinen serum.",
-    "category": "Peptidler",
-    "image": "images/products/product-50.jpg",
-    "ingredients": [
-      "Argireline (%10)",
-      "Hyaluronik Asit"
-    ],
-    "benefits": [
-      "Mimik çizgilerini azaltır",
-      "Kas gevşetici etki",
-      "Kırışıklık önleme",
-      "Botox alternatifi"
-    ],
-    "usage": "Günde iki kez, mimik çizgilerine odaklanarak uygulayın."
-  },
-  {
-    "id": 51,
-    "name": "Multi-Peptide Serum for Hair Density",
-    "shortDesc": "Saç yoğunluğu için peptid serumu",
-    "longDesc": "Saç yoğunluğunu artırmak ve saç dökülmesini azaltmak için geliştirilmiş çoklu peptid içeren saç derisi serumu.",
-    "category": "Saç Bakımı",
-    "image": "images/products/product-51.jpg",
-    "ingredients": [
-      "Redensyl",
-      "Procapil",
-      "Capixyl",
-      "Baicapil",
-      "AnaGain"
-    ],
-    "benefits": [
-      "Saç yoğunluğunu artırır",
-      "Saç dökülmesini azaltır",
-      "Saç köklerini güçlendirir",
-      "Yeni saç büyümesini destekler"
-    ],
-    "usage": "Günde bir kez, tercihen akşamları saç derisine uygulayın."
-  },
-  {
-    "id": 52,
-    "name": "Stem Cell Serum",
-    "shortDesc": "Kök hücre teknolojisi ile yenilenme",
-    "longDesc": "Bitki kök hücre ekstreleriile cildin doğal yenilenme sürecini destekleyen ileri teknoloji serum.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-52.jpg",
-    "badge": "İnovatif",
-    "ingredients": [
-      "Apple Stem Cells",
-      "Argania Stem Cells",
-      "Edelweiss Stem Cells",
-      "Peptid Kompleksi"
-    ],
-    "benefits": [
-      "Cilt yenilenmesi",
-      "Anti-aging",
-      "Hücre koruma",
-      "Uzun ömürlülük"
-    ],
-    "usage": "Sabah akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 53,
-    "name": "Ceramide Complex Serum",
-    "shortDesc": "Cilt bariyeri onarımı",
-    "longDesc": "5 farklı ceramid ile cilt bariyerini onarıp güçlendiren yoğun bakım serumu. Hassas ve kuru ciltler için idealdir.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-53.jpg",
-    "ingredients": [
-      "Ceramid NP",
-      "Ceramid AP",
-      "Ceramid EOP",
-      "Ceramid NG",
-      "Ceramid NS"
-    ],
-    "benefits": [
-      "Bariyer onarımı",
-      "Uzun süreli nemlendirme",
-      "Hassasiyet azaltma",
-      "Cilt koruma"
-    ],
-    "usage": "Günde iki kez, nemlendirmeden önce uygulayın."
-  },
-  {
-    "id": 54,
-    "name": "Collagen Booster Serum",
-    "shortDesc": "Kolajen üretimini maksimize eden formül",
-    "longDesc": "Peptidler, C vitamini ve bakır peptidlerin sinerjisi ile kolajen üretimini maksimize eden güçlü anti-aging serum.",
-    "category": "Serum & Booster",
-    "image": "images/products/product-54.jpg",
-    "badge": "Güçlü",
-    "ingredients": [
-      "Palmitoyl Tripeptide-5",
-      "Bakır Peptidler",
-      "Vitamin C",
-      "Silisyum"
-    ],
-    "benefits": [
-      "Kolajen sentezini artırır",
-      "Cildi sıkılaştırır",
-      "Kırışıklıkları azaltır",
-      "Elastikiyet sağlar"
-    ],
-    "usage": "Sabah veya akşam temiz cilde uygulayın."
-  },
-  {
-    "id": 55,
-    "name": "Brightening Mask",
-    "shortDesc": "Aydınlatıcı ve ton eşitleyici maske",
-    "longDesc": "C vitamini, niasinamid ve alpha arbutin ile cildi aydınlatan ve ton eşitliğini sağlayan haftalık maske.",
-    "category": "Maske",
-    "image": "images/products/product-55.jpg",
-    "ingredients": [
-      "Vitamin C",
-      "Niasinamid",
-      "Alpha Arbutin",
-      "Licorice Extract",
-      "Kojic Acid"
-    ],
-    "benefits": [
-      "Cildi aydınlatır",
-      "Lekeleri azaltır",
-      "Ton eşitliği",
-      "Parlaklık"
-    ],
-    "usage": "Haftada 2-3 kez, temiz cilde 15-20 dakika uygulayın."
-  },
-  {
-    "id": 56,
-    "name": "Detox Charcoal Mask",
-    "shortDesc": "Aktif kömür ile detoks maskesi",
-    "longDesc": "Aktif kömür ve kil ile gözenekleri derinlemesine temizleyen, toksinleri çeken detoks maskesi. Yağlı ve karma ciltler için.",
-    "category": "Maske",
-    "image": "images/products/product-56.jpg",
-    "ingredients": [
-      "Aktif Kömür",
-      "Kaolin Kili",
-      "Bentonit Kili",
-      "Salisilik Asit"
-    ],
-    "benefits": [
-      "Derinlemesine temizlik",
-      "Gözenek temizliği",
-      "Toksin atılımı",
-      "Mat görünüm"
-    ],
-    "usage": "Haftada bir kez, yüzde 10 dakika bekletin ve durulayın."
+    "usage": ""
   }
 ]

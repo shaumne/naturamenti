@@ -114,65 +114,20 @@
         <div class="slider-dots" id="sliderDots"></div>
     </section>
 
-    <!-- Featured Products -->
-    <section class="featured-products">
+    <!-- Products Slider -->
+    <section class="products-slider-section">
         <div class="container">
-            <div class="featured-grid">
-                <div class="featured-item">
-                    <div class="featured-image">
-                        <img src="images/products/acn-corrector.jpg" alt="ACN Corrector">
-                    </div>
-                    <div class="featured-content">
-                        <h3>ACN corrector</h3>
-                        <p>Akneye eğilimli cilt tipleri için yeni çözüm</p>
-                        <p class="ingredients">Hyaluronik asit XS (%1) Asetil-glukozamin (%1) ZincPCA (%1) Niasinamid USP (%5) Betain salisilat (%0,5) Panthenol (%0,25)</p>
-                        <a href="product-detail.html?id=1" class="btn btn-secondary">Şimdi Keşfet</a>
-                    </div>
+            <h2 class="section-title">TÜM ÜRÜNLERİMİZ</h2>
+            <div class="products-slider-wrapper">
+                <button class="products-slider-nav prev" id="productsPrevBtn" aria-label="Önceki">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="products-slider-container" id="productsSlider">
+                    <!-- Products will be loaded here dynamically -->
                 </div>
-                
-                <div class="featured-item">
-                    <div class="featured-image">
-                        <img src="images/products/glow-mask.jpg" alt="Glow Sleeping Mask">
-                    </div>
-                    <div class="featured-content">
-                        <h3>Glow sleeping mask</h3>
-                        <p>Cilt tonunu eşitlemek ve cildi gece boyunca beslemek için mükemmel maske</p>
-                        <a href="product-detail.html?id=2" class="btn btn-secondary">Şimdi Keşfet</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Categories -->
-    <section class="categories">
-        <div class="container">
-            <h2 class="section-title">KATEGORİLER</h2>
-            <div class="categories-grid">
-                <div class="category-item">
-                    <img src="images/categories/cleanser.jpg" alt="Temizleyici ve Peeling">
-                    <h3>Temizleyici & Peeling</h3>
-                </div>
-                <div class="category-item">
-                    <img src="images/categories/serums.jpg" alt="Serum ve Booster">
-                    <h3>Serum & Booster</h3>
-                </div>
-                <div class="category-item">
-                    <img src="images/categories/creams.jpg" alt="Kremler">
-                    <h3>Kremler</h3>
-                </div>
-                <div class="category-item">
-                    <img src="images/categories/masks.jpg" alt="Maskeler">
-                    <h3>Maskeler</h3>
-                </div>
-                <div class="category-item">
-                    <img src="images/categories/sunscreen.jpg" alt="Güneş Koruma">
-                    <h3>Güneş Koruma</h3>
-                </div>
-                <div class="category-item">
-                    <img src="images/categories/repair.jpg" alt="Onarıcı Kremler">
-                    <h3>Onarıcı Kremler</h3>
-                </div>
+                <button class="products-slider-nav next" id="productsNextBtn" aria-label="Sonraki">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
             </div>
         </div>
     </section>
@@ -321,46 +276,6 @@
         </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="testimonials">
-        <div class="container">
-            <h2 class="section-title">UZMANLAR NE DİYOR</h2>
-            <div class="testimonials-slider">
-                <div class="testimonial active">
-                    <p class="testimonial-text">"Son 2 yıldır Naturamenti ile çalışıyorum ve cihazlarının ve ürünlerinin sonuçları ve kalitesi ile çok etkilendim. İngiltere'nin her yerinden müşterilerim tedavi için beni görmeye geliyor. Naturamenti ile çalışmak yaptığım en iyi iş kararlarından biriydi."</p>
-                    <p class="testimonial-author">Kolaine Waterfield</p>
-                    <p class="testimonial-company">Kolaine Beauty Lounge (İngiltere)</p>
-                </div>
-                
-                <div class="testimonial">
-                    <p class="testimonial-text">"2015'ten beri Naturamenti ile çalışıyorum. Akne, Rozase, Cuperoz, Çatlaklar ve İzler gibi endikasyonlarda Mikroneedling'de ilk tedaviden itibaren en iyi sonuçları alıyoruz. Steril ve sonrası bakım ürünleri en iyisi. Naturamenti benim için en iyi marka!"</p>
-                    <p class="testimonial-author">Nadine Cotte</p>
-                    <p class="testimonial-company">WOW Studio (Almanya)</p>
-                </div>
-                
-                <div class="testimonial">
-                    <p class="testimonial-text">"Naturamenti yıllar önce benim için oyunun kurallarını değiştirdi. Anti-aging alanında yoğun tedavilerde uzmanlaştım. Garanti edilen harika sonuçlar ve müşterilerim çok mutlu ve sadık! Bundan daha iyisi olamaz!"</p>
-                    <p class="testimonial-author">Carmen Brinkmann</p>
-                    <p class="testimonial-company">Pssst Premium (Almanya)</p>
-                </div>
-                
-                <div class="testimonial">
-                    <p class="testimonial-text">"Naturamenti ile çalışmayı kesinlikle seviyorum, müşterilerim de öyle. İçerikler ve ürünler, müşterilerimin bayıldığı harika sonuçlar sunuyor!! Çok yüksek kaliteli estetik tıp cilt bakımı, gerçekten en iyisi!"</p>
-                    <p class="testimonial-author">Ian Bilton</p>
-                    <p class="testimonial-company">Face It by Ian (İngiltere)</p>
-                </div>
-                
-                <div class="testimonial">
-                    <p class="testimonial-text">"Birkaç yıldır Naturamenti ile çalıştıktan sonra, elde edilen sonuçlardan hala etkileniyorum. Basit, güvenli ve etkili. Müşterilerim arasında favori."</p>
-                    <p class="testimonial-author">Kjersti Antonsen</p>
-                    <p class="testimonial-company">Glow Klinikken (Norveç)</p>
-                </div>
-            </div>
-            
-            <div class="testimonial-dots" id="testimonialDots"></div>
-        </div>
-    </section>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -407,6 +322,7 @@
 
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
+    <script src="js/products-slider.js"></script>
 </body>
 </html>
 
