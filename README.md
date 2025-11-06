@@ -1,6 +1,6 @@
 # Naturamenti Türkiye - Web Sitesi
 
-Naturamenti'nin Türkiye distribütörü için hazırlanan resmi web sitesi.
+Naturamenti Türkiye için hazırlanan resmi web sitesi.
 
 ## 📋 Özellikler
 
