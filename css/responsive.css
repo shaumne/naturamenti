@@ -82,7 +82,7 @@
 
     /* Brand Values */
     .values-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 
@@ -273,7 +273,7 @@
     
     /* Brand Values */
     .values-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 30px;
     }
 
@@ -502,7 +502,7 @@
     
     /* Statistics Section */
     .brand-values .values-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 25px;
     }
     
@@ -1092,7 +1092,7 @@
     
     /* Statistics Section */
     .brand-values .values-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
         gap: 30px;
     }
     
@@ -1136,6 +1136,241 @@
     
     .subtitle {
         margin-bottom: 25px;
+    }
+}
+
+/* Extra Small Mobile Styles (326px and below) */
+@media (max-width: 326px) {
+    /* Container ve genel layout */
+    .container {
+        padding: 0 12px;
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    body {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    html {
+        overflow-x: hidden;
+        width: 100%;
+    }
+    
+    /* Section başlıkları */
+    .section-title {
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+    
+    .subtitle {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    
+    /* Hero Slider */
+    .hero-slider {
+        height: 350px;
+    }
+    
+    .slide-text {
+        padding-left: 40px;
+    }
+    
+    .slide-text h1 {
+        font-size: 20px;
+        letter-spacing: 0.5px;
+    }
+    
+    .slide-text p {
+        font-size: 13px;
+    }
+    
+    .slider-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    .slider-btn.prev {
+        left: 5px;
+    }
+    
+    .slider-btn.next {
+        right: 5px;
+    }
+    
+    /* Products Slider */
+    .products-slider-section {
+        padding: 30px 0;
+    }
+    
+    .products-slider-wrapper {
+        padding: 0 40px;
+    }
+    
+    .product-slide {
+        min-width: calc(100% - 10px);
+        max-width: calc(100% - 10px);
+    }
+    
+    .products-slider-nav {
+        width: 35px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
+    .products-slider-nav.prev {
+        left: 3px;
+    }
+    
+    .products-slider-nav.next {
+        right: 3px;
+    }
+    
+    /* Results Section */
+    .results-section {
+        padding: 30px 0;
+    }
+    
+    .before-after-container {
+        gap: 25px;
+    }
+    
+    .result-info {
+        padding: 20px;
+    }
+    
+    .result-info h3 {
+        font-size: 20px;
+    }
+    
+    /* About Section */
+    .about-section {
+        padding: 30px 0;
+    }
+    
+    /* Brand Values */
+    .brand-values {
+        padding: 30px 0;
+    }
+    
+    .values-grid {
+        gap: 25px;
+        margin-top: 25px;
+    }
+    
+    .value-item {
+        padding: 15px;
+    }
+    
+    .value-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+    }
+    
+    .value-item h3 {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    
+    .value-item h4 {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    
+    .value-item p {
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    /* Header */
+    .header {
+        padding: 10px 0;
+    }
+    
+    .logo-img {
+        height: 30px;
+        max-width: 130px;
+    }
+    
+    /* Navigation */
+    .nav-menu {
+        top: 70px;
+    }
+    
+    /* Footer */
+    .footer {
+        padding: 30px 0 15px;
+    }
+    
+    .footer-content {
+        gap: 25px;
+    }
+    
+    /* Page Header */
+    .page-header {
+        padding: 30px 0;
+    }
+    
+    .page-header h1 {
+        font-size: 24px;
+    }
+    
+    .page-header p {
+        font-size: 13px;
+    }
+    
+    /* Products Page */
+    .products-grid {
+        gap: 15px;
+    }
+    
+    .product-image {
+        height: 200px;
+    }
+    
+    /* Product Detail */
+    .product-detail-info h1 {
+        font-size: 22px;
+    }
+    
+    /* Contact Page */
+    .contact-info,
+    .contact-form {
+        padding: 20px;
+    }
+    
+    /* Dealers */
+    .dealer-card {
+        padding: 15px;
+    }
+    
+    .dealer-header h3 {
+        font-size: 14px;
+    }
+    
+    .dealer-company {
+        font-size: 14px;
+    }
+    
+    /* Tüm genişlikleri kontrol et */
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Scrollbar gizle */
+    ::-webkit-scrollbar {
+        width: 0;
+        background: transparent;
     }
 }
 
