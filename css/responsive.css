@@ -22,23 +22,10 @@
     }
 
     /* Hero Slider */
-    .slide-wrapper {
-        grid-template-columns: 1fr;
-        gap: 40px;
-    }
-    
-    .slide-image {
-        justify-content: center;
-        order: -1;
-    }
-    
-    .slide-image img {
-        max-height: 300px;
-    }
-    
     .slide-text {
-        text-align: center;
-        max-width: 100%;
+        text-align: left;
+        max-width: 500px;
+        padding-left: 70px;
     }
     
     .slide-text h1 {
@@ -196,10 +183,10 @@
 
     .nav-menu {
         position: fixed;
-        top: 130px;
+        top: 80px;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 130px);
+        height: calc(100vh - 80px);
         background-color: var(--white);
         transition: left 0.3s ease;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -228,29 +215,28 @@
     .search-box {
         display: none;
     }
+    
+    .header-social-links {
+        display: none;
+    }
 
     /* Hero Slider */
     .hero-slider {
         height: 500px;
     }
     
-    .slide-wrapper {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-    
-    .slide-image {
-        justify-content: center;
-        order: -1;
-    }
-    
-    .slide-image img {
-        max-height: 250px;
-    }
-    
     .slide-text {
-        text-align: center;
-        max-width: 100%;
+        text-align: left;
+        max-width: 450px;
+        padding-left: 60px;
+    }
+    
+    .slider-btn.prev {
+        left: 10px;
+    }
+    
+    .slider-btn.next {
+        right: 10px;
     }
 
     .slide-text h1 {
@@ -639,23 +625,24 @@
         height: 400px;
     }
     
-    .slide-wrapper {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .slide-image {
-        justify-content: center;
-        order: -1;
-    }
-    
-    .slide-image img {
-        max-height: 200px;
-    }
-    
     .slide-text {
-        text-align: center;
+        text-align: left;
         max-width: 100%;
+        padding-left: 50px;
+    }
+    
+    .slider-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .slider-btn.prev {
+        left: 10px;
+    }
+    
+    .slider-btn.next {
+        right: 10px;
     }
 
     .slide-text h1 {
