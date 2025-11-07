@@ -22,6 +22,25 @@
     }
 
     /* Hero Slider */
+    .slide-wrapper {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .slide-image {
+        justify-content: center;
+        order: -1;
+    }
+    
+    .slide-image img {
+        max-height: 300px;
+    }
+    
+    .slide-text {
+        text-align: center;
+        max-width: 100%;
+    }
+    
     .slide-text h1 {
         font-size: 42px;
     }
@@ -41,6 +60,18 @@
     
     .slide-ingredients li {
         font-size: 14px;
+    }
+    
+    /* Product Details Grid */
+    .product-details-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    /* Benefits Usage Grid */
+    .benefits-usage-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
     }
 
     /* Featured Products */
@@ -202,6 +233,25 @@
     .hero-slider {
         height: 500px;
     }
+    
+    .slide-wrapper {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .slide-image {
+        justify-content: center;
+        order: -1;
+    }
+    
+    .slide-image img {
+        max-height: 250px;
+    }
+    
+    .slide-text {
+        text-align: center;
+        max-width: 100%;
+    }
 
     .slide-text h1 {
         font-size: 32px;
@@ -215,8 +265,30 @@
         font-size: 15px;
     }
     
+    .slide-ingredients {
+        grid-template-columns: 1fr;
+    }
+    
     .slide-ingredients li {
         font-size: 13px;
+    }
+    
+    /* Product Details Grid */
+    .product-details-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    /* Benefits Usage Grid */
+    .benefits-usage-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    /* Brand Values */
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
     }
 
     .slider-btn {
@@ -566,6 +638,25 @@
     .hero-slider {
         height: 400px;
     }
+    
+    .slide-wrapper {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .slide-image {
+        justify-content: center;
+        order: -1;
+    }
+    
+    .slide-image img {
+        max-height: 200px;
+    }
+    
+    .slide-text {
+        text-align: center;
+        max-width: 100%;
+    }
 
     .slide-text h1 {
         font-size: 24px;
@@ -575,6 +666,18 @@
     .slide-text p {
         font-size: 14px;
         margin-bottom: 20px;
+    }
+    
+    /* Product Details Grid */
+    .product-details-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    /* Benefits Usage Grid */
+    .benefits-usage-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 
     .btn {

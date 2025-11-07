@@ -62,23 +62,72 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log(`${products.length} ürün render edildi.`);
     }
     
+    // Extract "ne işe yarar" bilgisi
+    function extractUsageInfo(product) {
+        let text = product.shortDesc || product.longDesc || '';
+        
+        // HTML etiketlerini temizle
+        text = text.replace(/<[^>]*>/g, '');
+        // \r\n ve \n karakterlerini boşluğa çevir
+        text = text.replace(/\r\n/g, ' ').replace(/\n/g, ' ');
+        // Fazla boşlukları temizle
+        text = text.replace(/\s+/g, ' ').trim();
+        
+        // Benefits varsa onu kullan - madde madde göster
+        if (product.benefits && product.benefits.length > 0) {
+            let benefitsHTML = '';
+            product.benefits.forEach(benefit => {
+                // Benefit string'ini "-" veya "–" ile ayır
+                const items = benefit.split(/[–-]/).filter(item => item.trim());
+                if (items.length > 1) {
+                    items.forEach(item => {
+                        const trimmed = item.trim();
+                        if (trimmed) {
+                            benefitsHTML += `<span class="benefit-item-inline">– ${trimmed}</span>`;
+                        }
+                    });
+                } else {
+                    const trimmed = benefit.trim();
+                    if (trimmed) {
+                        benefitsHTML += `<span class="benefit-item-inline">– ${trimmed}</span>`;
+                    }
+                }
+            });
+            if (benefitsHTML) {
+                return benefitsHTML;
+            }
+        }
+        
+        // İlk cümleyi veya "için" kelimesinden önceki kısmı al
+        const sentences = text.split(/[.!?]/);
+        if (sentences.length > 0 && sentences[0].trim().length > 20) {
+            let firstSentence = sentences[0].trim();
+            // "için" kelimesini içeriyorsa ondan önceki kısmı al
+            const icinIndex = firstSentence.indexOf(' için');
+            if (icinIndex > 0) {
+                firstSentence = firstSentence.substring(0, icinIndex + 5);
+            }
+            if (firstSentence.length > 150) {
+                firstSentence = firstSentence.substring(0, 150) + '...';
+            }
+            return firstSentence;
+        }
+        
+        // İlk 150 karakteri al
+        if (text.length > 150) {
+            return text.substring(0, 150) + '...';
+        }
+        
+        return text || 'Ürün bilgisi bulunamadı.';
+    }
+    
     // Create product card HTML
     function createProductCard(product) {
         const card = document.createElement('div');
         card.className = 'product-slide';
         
-        // Kısa açıklamayı temizle ve kısalt
-        let shortDesc = product.shortDesc || product.longDesc || 'Açıklama bulunamadı.';
-        // HTML etiketlerini temizle
-        shortDesc = shortDesc.replace(/<[^>]*>/g, '');
-        // \r\n ve \n karakterlerini boşluğa çevir
-        shortDesc = shortDesc.replace(/\r\n/g, ' ').replace(/\n/g, ' ');
-        // Fazla boşlukları temizle
-        shortDesc = shortDesc.replace(/\s+/g, ' ').trim();
-        // İlk 150 karakteri al
-        if (shortDesc.length > 150) {
-            shortDesc = shortDesc.substring(0, 150) + '...';
-        }
+        // "Ne işe yarar" bilgisini çıkar
+        const usageInfo = extractUsageInfo(product);
         
         const badgeHTML = product.badge ? `<div class="product-slide-badge">${product.badge}</div>` : '';
         const productImage = product.image || 'images/products/placeholder.jpg';
@@ -92,7 +141,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="product-slide-content">
                 <h3 class="product-slide-title">${productName}</h3>
-                <p class="product-slide-desc">${shortDesc}</p>
+                <p class="product-slide-desc">${usageInfo}</p>
                 <div class="product-slide-link">
                     <a href="product-detail.html?id=${productId}" class="btn btn-primary">Detayları Gör</a>
                 </div>

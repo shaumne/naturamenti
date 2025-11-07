@@ -28,6 +28,65 @@ document.addEventListener('DOMContentLoaded', async function() {
     }
 });
 
+// Extract "ne işe yarar" bilgisi
+function extractUsageInfo(product) {
+    let text = product.shortDesc || product.longDesc || '';
+    
+    // HTML etiketlerini temizle
+    text = text.replace(/<[^>]*>/g, '');
+    // \r\n ve \n karakterlerini boşluğa çevir
+    text = text.replace(/\r\n/g, ' ').replace(/\n/g, ' ');
+    // Fazla boşlukları temizle
+    text = text.replace(/\s+/g, ' ').trim();
+    
+    // Benefits varsa onu kullan - madde madde göster
+    if (product.benefits && product.benefits.length > 0) {
+        let benefitsHTML = '';
+        product.benefits.forEach(benefit => {
+            // Benefit string'ini "-" veya "–" ile ayır
+            const items = benefit.split(/[–-]/).filter(item => item.trim());
+            if (items.length > 1) {
+                items.forEach(item => {
+                    const trimmed = item.trim();
+                    if (trimmed) {
+                        benefitsHTML += `<span class="benefit-item-inline">– ${trimmed}</span>`;
+                    }
+                });
+            } else {
+                const trimmed = benefit.trim();
+                if (trimmed) {
+                    benefitsHTML += `<span class="benefit-item-inline">– ${trimmed}</span>`;
+                }
+            }
+        });
+        if (benefitsHTML) {
+            return benefitsHTML;
+        }
+    }
+    
+    // İlk cümleyi veya "için" kelimesinden önceki kısmı al
+    const sentences = text.split(/[.!?]/);
+    if (sentences.length > 0 && sentences[0].trim().length > 20) {
+        let firstSentence = sentences[0].trim();
+        // "için" kelimesini içeriyorsa ondan önceki kısmı al
+        const icinIndex = firstSentence.indexOf(' için');
+        if (icinIndex > 0) {
+            firstSentence = firstSentence.substring(0, icinIndex + 5);
+        }
+        if (firstSentence.length > 150) {
+            firstSentence = firstSentence.substring(0, 150) + '...';
+        }
+        return firstSentence;
+    }
+    
+    // İlk 150 karakteri al
+    if (text.length > 150) {
+        return text.substring(0, 150) + '...';
+    }
+    
+    return text || 'Ürün bilgisi bulunamadı.';
+}
+
 // Display products in grid
 function displayProducts(products) {
     const productsGrid = document.getElementById('productsGrid');
@@ -44,7 +103,9 @@ function displayProducts(products) {
     productsGrid.style.display = 'grid';
     if (noResults) noResults.style.display = 'none';
     
-    productsGrid.innerHTML = products.map(product => `
+    productsGrid.innerHTML = products.map(product => {
+        const usageInfo = extractUsageInfo(product);
+        return `
         <div class="product-card" onclick="goToProduct(${product.id})">
             <div class="product-image">
                 <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.jpg'">
@@ -52,11 +113,12 @@ function displayProducts(products) {
             </div>
             <div class="product-info">
                 <h3 class="product-name">${product.name}</h3>
-                <p class="product-desc">${product.shortDesc}</p>
+                <p class="product-desc">${usageInfo}</p>
                 <button class="product-btn">Detayları Gör</button>
             </div>
         </div>
-    `).join('');
+    `;
+    }).join('');
 }
 
 // Filter products based on search term
@@ -166,6 +228,51 @@ async function loadProductDetail(productId) {
     }
 }
 
+// Parse "-" ile başlayan metinleri liste maddesi yap
+function parseDescription(description) {
+    if (!description) return '';
+    
+    // HTML etiketlerini temizle
+    let text = description.replace(/<[^>]*>/g, '');
+    // \r\n ve \n karakterlerini normalize et
+    text = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+    
+    // "-" ile başlayan satırları bul
+    const lines = text.split('\n');
+    const listItems = [];
+    let regularText = [];
+    
+    lines.forEach(line => {
+        const trimmed = line.trim();
+        if (trimmed.startsWith('–') || trimmed.startsWith('-')) {
+            // Liste maddesi
+            const item = trimmed.replace(/^[–-]\s*/, '').trim();
+            if (item) {
+                listItems.push(item);
+            }
+        } else if (trimmed.length > 0) {
+            // Normal metin
+            regularText.push(trimmed);
+        }
+    });
+    
+    let result = '';
+    
+    // Normal metni ekle
+    if (regularText.length > 0) {
+        result = '<p>' + regularText.join('</p><p>') + '</p>';
+    }
+    
+    // Liste maddelerini ekle
+    if (listItems.length > 0) {
+        result += '<ul class="description-list">' + 
+            listItems.map(item => `<li>${item}</li>`).join('') + 
+            '</ul>';
+    }
+    
+    return result || description;
+}
+
 function displayProductDetail(product) {
     // Update page title
     document.title = `${product.name} | Naturamenti Türkiye`;
@@ -181,49 +288,65 @@ function displayProductDetail(product) {
     // Display product info
     const infoContainer = document.querySelector('.product-detail-info');
     if (infoContainer) {
+        // Açıklamayı parse et
+        const description = parseDescription(product.longDesc || product.shortDesc);
+        
         let html = `
             <h1>${product.name}</h1>
             ${product.category ? `<span class="product-category">${product.category}</span>` : ''}
-            <p class="product-description">${product.longDesc || product.shortDesc}</p>
+            <div class="product-description">${description}</div>
         `;
         
-        // Ingredients
-        if (product.ingredients && product.ingredients.length > 0) {
-            html += `
-                <div class="product-details-section">
-                    <h3><i class="fas fa-flask"></i> İçerikler</h3>
-                    <ul class="ingredients-list">
-                        ${product.ingredients.map(ing => `<li>${ing}</li>`).join('')}
-                    </ul>
-                </div>
-            `;
-        }
+        // Ingredients, Benefits ve Usage 3 kolon halinde
+        const hasIngredients = product.ingredients && product.ingredients.length > 0;
+        const hasBenefits = product.benefits && product.benefits.length > 0;
+        const hasUsage = product.usage;
         
-        // Benefits
-        if (product.benefits && product.benefits.length > 0) {
-            html += `
-                <div class="product-details-section">
-                    <h3><i class="fas fa-check-circle"></i> Faydaları</h3>
-                    <div class="benefits-grid">
-                        ${product.benefits.map(benefit => `
-                            <div class="benefit-item">
-                                <i class="fas fa-check"></i>
-                                <span>${benefit}</span>
-                            </div>
-                        `).join('')}
+        if (hasIngredients || hasBenefits || hasUsage) {
+            html += `<div class="product-details-grid">`;
+            
+            // Ingredients
+            if (hasIngredients) {
+                html += `
+                    <div class="product-details-section">
+                        <h3><i class="fas fa-flask"></i> İçerikler</h3>
+                        <ul class="ingredients-list">
+                            ${product.ingredients.map(ing => `<li>${ing}</li>`).join('')}
+                        </ul>
                     </div>
-                </div>
-            `;
-        }
-        
-        // Usage
-        if (product.usage) {
-            html += `
-                <div class="product-details-section">
-                    <h3><i class="fas fa-info-circle"></i> Kullanım</h3>
-                    <p>${product.usage}</p>
-                </div>
-            `;
+                `;
+            }
+            
+            // Benefits
+            if (hasBenefits) {
+                html += `
+                    <div class="product-details-section">
+                        <h3><i class="fas fa-check-circle"></i> Faydaları</h3>
+                        <ul class="benefits-list">
+                            ${product.benefits.map(benefit => {
+                                // Benefit string'ini "-" ile ayır
+                                const items = benefit.split(/[–-]/).filter(item => item.trim());
+                                if (items.length > 1) {
+                                    return items.map(item => `<li>${item.trim()}</li>`).join('');
+                                }
+                                return `<li>${benefit}</li>`;
+                            }).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            // Usage
+            if (hasUsage) {
+                html += `
+                    <div class="product-details-section">
+                        <h3><i class="fas fa-info-circle"></i> Kullanım</h3>
+                        <p>${product.usage}</p>
+                    </div>
+                `;
+            }
+            
+            html += `</div>`;
         }
         
         infoContainer.innerHTML = html;
