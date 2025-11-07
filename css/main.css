@@ -526,13 +526,13 @@ ul {
 
 /* About Section */
 .about-section {
-    padding: 80px 0;
+    padding: var(--spacing-2xl) 0;
     background-color: var(--light-gray);
 }
 
 /* Brand Values */
 .brand-values {
-    padding: 80px 0;
+    padding: var(--spacing-2xl) 0 var(--spacing-3xl) 0;
 }
 
 .values-grid {
@@ -606,7 +606,7 @@ ul {
 
 /* Results Section - Before/After */
 .results-section {
-    padding: 80px 0;
+    padding: var(--spacing-2xl) 0;
 }
 
 .before-after-container {
@@ -867,7 +867,7 @@ ul {
 
 /* Products Slider */
 .products-slider-section {
-    padding: 80px 0;
+    padding: var(--spacing-3xl) 0 var(--spacing-2xl) 0;
     background-color: var(--white);
 }
 
