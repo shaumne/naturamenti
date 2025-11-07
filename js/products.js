@@ -317,19 +317,80 @@ function displayProductDetail(product) {
                 `;
             }
             
-            // Benefits
+            // Benefits (Endikasyonlar)
             if (hasBenefits) {
                 html += `
                     <div class="product-details-section">
-                        <h3><i class="fas fa-check-circle"></i> Faydaları</h3>
+                        <h3><i class="fas fa-check-circle"></i> Endikasyonlar</h3>
                         <ul class="benefits-list">
                             ${product.benefits.map(benefit => {
-                                // Benefit string'ini "-" ile ayır
-                                const items = benefit.split(/[–-]/).filter(item => item.trim());
-                                if (items.length > 1) {
-                                    return items.map(item => `<li>${item.trim()}</li>`).join('');
+                                if (!benefit || typeof benefit !== 'string') return '';
+                                
+                                // "Foto-yaşlanma" gibi kelimelerdeki "-" işaretini korumak için
+                                const protectedPatterns = [
+                                    /Foto-yaşlanma/gi,
+                                    /foto-yaşlanma/gi,
+                                    /Mikro-flora/gi,
+                                    /mikro-flora/gi,
+                                    /Trans-epidermal/gi,
+                                    /trans-epidermal/gi
+                                ];
+                                
+                                const replacements = [];
+                                let protectedText = benefit;
+                                let counter = 0;
+                                
+                                protectedPatterns.forEach(pattern => {
+                                    let match;
+                                    while ((match = pattern.exec(benefit)) !== null) {
+                                        const placeholder = `__PROT${counter}__`;
+                                        replacements.push({ placeholder, original: match[0] });
+                                        protectedText = protectedText.replace(match[0], placeholder);
+                                        counter++;
+                                    }
+                                });
+                                
+                                // "- " veya "– " ile ayır (kelime içindeki "-" korunmuş olacak)
+                                let items = protectedText.split(/\s*[–-]\s+/).filter(item => item.trim());
+                                
+                                // Eğer split çalışmadıysa, manuel olarak ayır
+                                if (items.length <= 1) {
+                                    items = [];
+                                    // Nokta sonrası "- " veya "– " ile başlayan yerlerden ayır
+                                    const parts = protectedText.split(/(?<=\.)\s*[–-]\s+/);
+                                    parts.forEach(part => {
+                                        const trimmed = part.trim();
+                                        if (trimmed) {
+                                            items.push(trimmed);
+                                        }
+                                    });
                                 }
-                                return `<li>${benefit}</li>`;
+                                
+                                // Her item'ı işle
+                                return items.map(item => {
+                                    // Protected kelimeleri geri değiştir
+                                    replacements.forEach(({ placeholder, original }) => {
+                                        item = item.replace(new RegExp(placeholder, 'g'), original);
+                                    });
+                                    
+                                    // Başındaki nokta ve boşlukları temizle
+                                    item = item.replace(/^\.\s*/, '').trim();
+                                    
+                                    // Nokta ile bitmiyorsa ekle
+                                    if (item && !item.endsWith('.')) {
+                                        item += '.';
+                                    }
+                                    
+                                    // İlk harfi büyük yap (sadece küçük harfle başlıyorsa)
+                                    if (item && item.length > 0) {
+                                        const firstChar = item[0];
+                                        if (firstChar === firstChar.toLowerCase() && firstChar !== firstChar.toUpperCase()) {
+                                            item = item.charAt(0).toUpperCase() + item.slice(1);
+                                        }
+                                    }
+                                    
+                                    return item ? `<li>${item}</li>` : '';
+                                }).join('');
                             }).join('')}
                         </ul>
                     </div>

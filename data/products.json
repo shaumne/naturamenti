@@ -13,7 +13,7 @@
       "Asetil tetrapeptid-5"
     ],
     "benefits": [
-      "Göz torbalarını azaltır– Koyu halkaları azaltır– Kırışıklıkları ve ince çizgileri azaltır"
+      "- Göz torbalarını azaltır. - Koyu halkaları azaltır. - Kırışıklıkları ve ince çizgileri azaltır."
     ],
     "usage": "5 flakon x 3 ml"
   },
@@ -34,7 +34,7 @@
       "2 indirgeyici ajan."
     ],
     "benefits": [
-      "Canlandırma.– Hücresel beslenme.– Cilt yaşlanması belirtileri."
+      "- Canlandırma. - Hücresel beslenme. - Cilt yaşlanması belirtileri."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -42,7 +42,7 @@
     "id": 3,
     "name": "F-XFC+ FACE",
     "shortDesc": "",
-    "longDesc": "Endikasyonlar: – Cilt sıkılaştırma.– Derin kırışıklıklar ve ince çizgiler.– Cilt hacmi.\n\nBoyut: 5 flakon x 10 ml",
+    "longDesc": "Endikasyonlar:\n- Cilt sıkılaştırma.\n- Derin kırışıklıklar ve ince çizgiler.\n- Cilt hacmi.\n\nBoyut: 5 flakon x 10 ml",
     "category": "",
     "image": "images/products/f-xfc-face.jpg",
     "badge": "Yeni",
@@ -52,7 +52,7 @@
       "hyaluronik asit."
     ],
     "benefits": [
-      "Cilt sıkılaştırma.– Derin kırışıklıklar ve ince çizgiler.– Cilt hacmi."
+      "- Cilt sıkılaştırma. - Derin kırışıklıklar ve ince çizgiler. - Cilt hacmi."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -60,7 +60,7 @@
     "id": 4,
     "name": "F-LIFT+ FACE",
     "shortDesc": "",
-    "longDesc": "Endikasyonlar: – Cilt sıkılaştırma.– Derin kırışıklıklar ve ince çizgiler.– Cilt hacmi.– Cilt tonu.\n\nBoyut: 5 flakon x 5 ml",
+    "longDesc": "Endikasyonlar:\n- Cilt sıkılaştırma.\n- Derin kırışıklıklar ve ince çizgiler.\n- Cilt hacmi.\n- Cilt tonu.\n\nBoyut: 5 flakon x 5 ml",
     "category": "",
     "image": "images/products/f-lift-face.jpg",
     "badge": "Yeni",
@@ -73,7 +73,7 @@
       "hekzapeptid-10."
     ],
     "benefits": [
-      "Cilt sıkılaştırma.– Derin kırışıklıklar ve ince çizgiler.– Cilt hacmi.– Cilt tonu."
+      "- Cilt sıkılaştırma. - Derin kırışıklıklar ve ince çizgiler. - Cilt hacmi. - Cilt tonu."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -91,7 +91,7 @@
       "hyaluronik asit."
     ],
     "benefits": [
-      "İfade kırışıklıkları ve ince çizgiler.– Cilt hacmi."
+      "- İfade kırışıklıkları ve ince çizgiler. - Cilt hacmi."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -107,7 +107,7 @@
       "Niasinamid"
     ],
     "benefits": [
-      "Hidrasyonu iyileştirir.– Cilt dokusunu iyileştirir.– Serbest radikallere karşı korur.– Cilt tonunu eşitler."
+      "- Hidrasyonu iyileştirir. - Cilt dokusunu iyileştirir. - Serbest radikallere karşı korur. - Cilt tonunu eşitler."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -130,7 +130,7 @@
       "hyaluronik asit."
     ],
     "benefits": [
-      "Canlandırma.– Hücresel beslenme.– Cilt yaşlanması belirtileri.– Derin kırışıklıklar ve ince çizgiler."
+      "- Canlandırma. - Hücresel beslenme. - Cilt yaşlanması belirtileri. - Derin kırışıklıklar ve ince çizgiler."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -149,7 +149,7 @@
       "cica – centella asiatica özü."
     ],
     "benefits": [
-      "Yara izleri & çatlaklar.– Akne izleri.– Cilt sıkılaştırma.– Derin kırışıklıklar ve ince çizgiler."
+      "- Yara izleri & çatlaklar. - Akne izleri. - Cilt sıkılaştırma. - Derin kırışıklıklar ve ince çizgiler."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -168,7 +168,7 @@
       "hyaluronik asit."
     ],
     "benefits": [
-      "Vücut sıkılaştırma.– Vücut kaldırma."
+      "- Vücut sıkılaştırma. - Vücut kaldırma."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -185,7 +185,7 @@
       "selüloz."
     ],
     "benefits": [
-      "Cildi nemlendirme.– Maskeleri kişiselleştirme.– Steril maskeler."
+      "- Cildi nemlendirme. - Maskeleri kişiselleştirme. - Steril maskeler."
     ],
     "usage": ""
   },
@@ -203,7 +203,7 @@
       "sodyum laktat."
     ],
     "benefits": [
-      "Cilt yenileme.– Transepidermal su kaybını azaltma.– Uzun süreli cilt hidrasyonunu iyileştirme."
+      "- Cilt yenileme. - Transepidermal su kaybını azaltma. - Uzun süreli cilt hidrasyonunu iyileştirme."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -227,7 +227,7 @@
       "asetil glisil beta-alanin peptid."
     ],
     "benefits": [
-      "Cilt sıkılaştırma.– Derin kırışıklıklar ve ince çizgiler.– Pigmentasyon.– Cilt tonu & kahverengi lekeler."
+      "- Cilt sıkılaştırma. - Derin kırışıklıklar ve ince çizgiler. - Pigmentasyon. - Cilt tonu & kahverengi lekeler."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -246,7 +246,7 @@
       "sodyum piruvat."
     ],
     "benefits": [
-      "Oksidatif stres.– Cilt tonunu aydınlatma.– Foto-yaşlanma.– Serbest radikaller.– Kollajen üretimi."
+      "- Oksidatif stres. - Cilt tonunu aydınlatma. - Foto-yaşlanma. - Serbest radikaller. - Kollajen üretimi."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -262,7 +262,7 @@
       "Non-retiküle (çapraz bağlı olmayan) hyaluronik asit yüksek moleküler ağırlık 2.3M Dalton."
     ],
     "benefits": [
-      "Derin kırışıklıklar ve ince çizgiler.– Cilt hacmi.– Hidrasyon."
+      "- Derin kırışıklıklar ve ince çizgiler. - Cilt hacmi. - Hidrasyon."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -279,7 +279,7 @@
       "büyüme faktörleri EGF + FGF."
     ],
     "benefits": [
-      "Derin kırışıklıklar ve ince çizgiler.– Cilt hacmi.– Hidrasyon."
+      "- Derin kırışıklıklar ve ince çizgiler. - Cilt hacmi. - Hidrasyon."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -306,7 +306,7 @@
       "çinko."
     ],
     "benefits": [
-      "Saç canlandırma & güçlendirme.– İnceleyen saçlar.– Saç dökülmesi."
+      "- Saç canlandırma & güçlendirme. - İnceleyen saçlar. - Saç dökülmesi."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -324,7 +324,7 @@
       "VEGF büyüme faktörü."
     ],
     "benefits": [
-      "Dudak hacmini iyileştirir.– Dudak adipositlerinde (yağ hücrelerinde) yağ depolanmasını artırır.– Dudak mikro dolaşımını ve rengini iyileştirir."
+      "- Dudak hacmini iyileştirir. - Dudak adipositlerinde (yağ hücrelerinde) yağ depolanmasını artırır. - Dudak mikro dolaşımını ve rengini iyileştirir."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -340,7 +340,7 @@
       "C Vitamini."
     ],
     "benefits": [
-      "Cilt tonunu aydınlatma.– Foto yaşlanma.– Serbest radikaller.– Elastikiyet ve sıkılık eksikliği."
+      "- Cilt tonunu aydınlatma. - Foto yaşlanma. - Serbest radikaller. - Elastikiyet ve sıkılık eksikliği."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -358,7 +358,7 @@
       "E vitamini."
     ],
     "benefits": [
-      "Oksidatif stres.– Cilt tonunu aydınlatma.– Foto yaşlanma.– Serbest radikaller.– Yağlı cilt ve açık gözenekler."
+      "- Oksidatif stres. - Cilt tonunu aydınlatma. - Foto yaşlanma. - Serbest radikaller. - Yağlı cilt ve açık gözenekler."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -381,7 +381,7 @@
       "2 indirgeyici ajan."
     ],
     "benefits": [
-      "Canlandırma.– Hücresel beslenme.– Cilt yaşlanması belirtileri.– Derin kırışıklıklar ve ince çizgiler.– Yüz yağ hacimleri."
+      "- Canlandırma. - Hücresel beslenme. - Cilt yaşlanması belirtileri. - Derin kırışıklıklar ve ince çizgiler. - Yüz yağ hacimleri."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -398,7 +398,7 @@
       "yumuşatıcılar."
     ],
     "benefits": [
-      "Nemlendirme.– Tedavilerden sonra cildi koruma."
+      "- Nemlendirme. - Tedavilerden sonra cildi koruma."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -419,7 +419,7 @@
       "kafein."
     ],
     "benefits": [
-      "Göz torbaları.– Koyu halkalar.– Kırışıklıklar ve ince çizgiler."
+      "- Göz torbaları. - Koyu halkalar. - Kırışıklıklar ve ince çizgiler."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -439,7 +439,7 @@
       "arbutin."
     ],
     "benefits": [
-      "Melazma.– Düzensiz cilt tonu.– Hiperpigmentasyon– Lokalize koyu lekeler."
+      "- Melazma. - Düzensiz cilt tonu. - Hiperpigmentasyon. - Lokalize koyu lekeler."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -455,7 +455,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi nemlendirme."
+      "- Cildi nemlendirme."
     ],
     "usage": ""
   },
@@ -471,7 +471,7 @@
       "Traneksamik asit"
     ],
     "benefits": [
-      "Cilt tonunu aydınlatma.– Foto yaşlanmayı önleme.– Kızarıklığı azaltma.– Melazma ve hiperpigmentasyon."
+      "- Cilt tonunu aydınlatma. - Foto yaşlanmayı önleme. - Kızarıklığı azaltma. - Melazma ve hiperpigmentasyon."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -492,7 +492,7 @@
       "C vitamini."
     ],
     "benefits": [
-      "Melazma.– Pigmentasyon.– Cilt tonu & kahverengi lekeler."
+      "- Melazma. - Pigmentasyon. - Cilt tonu & kahverengi lekeler."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -510,7 +510,7 @@
       "hyaluronik asit MW ve FGF büyüme faktörleri."
     ],
     "benefits": [
-      "Yara izlerini & çatlakları azaltır– Pigmentasyonu azaltır"
+      "- Yara izlerini & çatlakları azaltır. - Pigmentasyonu azaltır."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -527,7 +527,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Pigmentasyonu azaltır.– Kahverengi lekeleri azaltır.– Serbest radikalleri nötralize eder ve hücresel DNA'yı korur.– Kirlilik karşıtı.– Kollajen güçlendirici.– Cilt tonunu eşitler.– Foto-yaşlanmayı önler."
+      "- Pigmentasyonu azaltır. - Kahverengi lekeleri azaltır. - Serbest radikalleri nötralize eder ve hücresel DNA'yı korur. - Kirlilik karşıtı. - Kollajen güçlendirici. - Cilt tonunu eşitler. - Foto-yaşlanmayı önler."
     ],
     "usage": ""
   },
@@ -543,7 +543,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır.– Maskeleri kişiselleştirir."
+      "- Cildi nemlendirir. - Derin kırışıklıkları ve ince çizgileri azaltır. - Maskeleri kişiselleştirir."
     ],
     "usage": ""
   },
@@ -559,7 +559,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi nemlendirme.– Derin kırışıklıkları ve ince çizgileri azaltma."
+      "- Cildi nemlendirme. - Derin kırışıklıkları ve ince çizgileri azaltma."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -595,7 +595,7 @@
       "troxerutin."
     ],
     "benefits": [
-      "Yağ birikintileri.– Kompakt ve ödemli selülit.– Drenaj."
+      "- Yağ birikintileri. - Kompakt ve ödemli selülit. - Drenaj."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -620,7 +620,7 @@
       "Bakır tripeptid-1."
     ],
     "benefits": [
-      "Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir.– Cildi dermal seviyede nemlendirir.– Canlandırma.– Hücresel beslenme."
+      "- Derin kırışıklıkları ve ince çizgileri azaltır. - Cilt hacmini iyileştirir. - Cildi dermal seviyede nemlendirir. - Canlandırma. - Hücresel beslenme."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -636,7 +636,7 @@
       "Enginar özü."
     ],
     "benefits": [
-      "Ağır bacaklar.– Vücut detoksu.– Drenaj."
+      "- Ağır bacaklar. - Vücut detoksu. - Drenaj."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -653,7 +653,7 @@
       "troxerutin."
     ],
     "benefits": [
-      "Ödemli Selülit."
+      "- Ödemli Selülit."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -669,7 +669,7 @@
       "L-karnitin."
     ],
     "benefits": [
-      "Yağ birikintileri.– Selülit."
+      "- Yağ birikintileri. - Selülit."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -685,7 +685,7 @@
       "Ginkgo özü."
     ],
     "benefits": [
-      "Kuru cilde bağlı kızarıklık.– Mikro dolaşım."
+      "- Kuru cilde bağlı kızarıklık. - Mikro dolaşım."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -704,7 +704,7 @@
       "troxerutin."
     ],
     "benefits": [
-      "Drenaj.– Ağır bacaklar.– Vücut sıkılaştırma."
+      "- Drenaj. - Ağır bacaklar. - Vücut sıkılaştırma."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -720,7 +720,7 @@
       "Organik silisyum."
     ],
     "benefits": [
-      "Vücut sıkılaştırma.– Çatlaklar."
+      "- Vücut sıkılaştırma. - Çatlaklar."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -737,7 +737,7 @@
       "niasinamid."
     ],
     "benefits": [
-      "Cilt yenileme.– Akne ve kirleri azaltma.– Pigmentasyon ve kırışıklıkları azaltma.– Makyaj ve kirleri çıkarma."
+      "- Cilt yenileme. - Akne ve kirleri azaltma. - Pigmentasyon ve kırışıklıkları azaltma. - Makyaj ve kirleri çıkarma."
     ],
     "usage": ""
   },
@@ -753,7 +753,7 @@
       "ET-vitamin C."
     ],
     "benefits": [
-      "Cildi nemlendirir.– Serbest radikalleri nötralize eder ve hücresel DNA'yı korur.– Kirlilik karşıtı.– Kollajen güçlendirici.– Cilt tonunu eşitler.– Foto-yaşlanmayı önler."
+      "- Cildi nemlendirir. - Serbest radikalleri nötralize eder ve hücresel DNA'yı korur. - Kirlilik karşıtı. - Kollajen güçlendirici. - Cilt tonunu eşitler. - Foto-yaşlanmayı önler."
     ],
     "usage": ""
   },
@@ -769,7 +769,7 @@
       "Hyaluronik asit."
     ],
     "benefits": [
-      "Cildi nemlendirir."
+      "- Cildi nemlendirir."
     ],
     "usage": ""
   },
@@ -786,7 +786,7 @@
       "hyaluronik asit."
     ],
     "benefits": [
-      "Cildi eksfoliye eder.– Cildi nemlendirir.– Akne ve kirleri azaltır.– Cilt tonunu eşitler."
+      "- Cildi eksfoliye eder. - Cildi nemlendirir. - Akne ve kirleri azaltır. - Cilt tonunu eşitler."
     ],
     "usage": ""
   },
@@ -808,7 +808,7 @@
       "çinko & kalsiyum & bakır & magnezyum çoklu mineral kompleksi"
     ],
     "benefits": [
-      "Androjenik alopesi.– Saç yeniden büyümesi."
+      "- Androjenik alopesi. - Saç yeniden büyümesi."
     ],
     "usage": "75 ml / 2.54 fl.oz"
   },
@@ -828,7 +828,7 @@
       "Çinko & kalsiyum & bakır & magnezyum çoklu mineral kompleksi"
     ],
     "benefits": [
-      "Saç canlandırma & güçlendirme– İnceleyen saçlar– Saç dökülmesi– Kepeği azaltma"
+      "- Saç canlandırma & güçlendirme. - İnceleyen saçlar. - Saç dökülmesi. - Kepeği azaltma."
     ],
     "usage": "75 ml / 2.54 fl.oz"
   },
@@ -845,7 +845,7 @@
       "gençleştirme kompleksi (5 büyüme faktörü + folik asit + asetil glutamin)."
     ],
     "benefits": [
-      "Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir."
+      "- Cildi kaldırır ve sıkılaştırır. - Derin kırışıklıkları ve ince çizgileri azaltır. - Cilt hacmini iyileştirir."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -862,7 +862,7 @@
       "heksil-resorsinol."
     ],
     "benefits": [
-      "Pigmentasyonu azaltır.– Koyu lekeleri azaltır.– Genel cilt tonunu iyileştirir.– Cildi nemlendirir."
+      "- Pigmentasyonu azaltır. - Koyu lekeleri azaltır. - Genel cilt tonunu iyileştirir. - Cildi nemlendirir."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -879,7 +879,7 @@
       "probiyotik kompleks."
     ],
     "benefits": [
-      "Cildi besler.– Mikro-florayı onarır.– Biyolojik savunmaları iyileştirir.– Aşırı duyarlılığı azaltır.– Kızarıklık ve kuperozu azaltır."
+      "- Cildi besler. - Mikro. - Florayı onarır. - Biyolojik savunmaları iyileştirir. - Aşırı duyarlılığı azaltır. - Kızarıklık ve kuperozu azaltır."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -896,7 +896,7 @@
       "gençleştirme kompleksi (5 büyüme faktörü + folik asit + asetil glutamin)."
     ],
     "benefits": [
-      "Kırışıklıkları azaltır.– Göz torbalarını azaltır.– Koyu halkaları azaltır."
+      "- Kırışıklıkları azaltır. - Göz torbalarını azaltır. - Koyu halkaları azaltır."
     ],
     "usage": "30 ml / 1.0 fl.oz"
   },
@@ -912,7 +912,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır."
+      "- Cildi nemlendirir. - Derin kırışıklıkları ve ince çizgileri azaltır."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -928,7 +928,7 @@
       "Vegan seramidler"
     ],
     "benefits": [
-      "Cildi nemlendirir.– Trans-epidermal su akışını düzenler.– Cildi korur.– Cildin koruyucu bariyerinin restorasyonu."
+      "- Cildi nemlendirir. - Trans. - Epidermal su akışını düzenler. - Cildi korur. - Cildin koruyucu bariyerinin restorasyonu."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -950,7 +950,7 @@
       "asetil glutamin."
     ],
     "benefits": [
-      "Prosedürlerden sonra cildi onarır.– Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır."
+      "- Prosedürlerden sonra cildi onarır. - Cildi kaldırır ve sıkılaştırır. - Derin kırışıklıkları ve ince çizgileri azaltır."
     ],
     "usage": ""
   },
@@ -969,7 +969,7 @@
       "pantenol (%1)."
     ],
     "benefits": [
-      "Kuru cilde bağlı kızarıklık ve iltihabı azaltır.– Estetik prosedürlerden sonra önerilir.– Cilt yeniden şekillendirme.– Sıkılaştırma.– Çatlaklar."
+      "- Kuru cilde bağlı kızarıklık ve iltihabı azaltır. - Estetik prosedürlerden sonra önerilir. - Cilt yeniden şekillendirme. - Sıkılaştırma. - Çatlaklar."
     ],
     "usage": ""
   },
@@ -986,7 +986,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir."
+      "- Cildi kaldırır ve sıkılaştırır. - Derin kırışıklıkları ve ince çizgileri azaltır. - Cilt hacmini iyileştirir."
     ],
     "usage": ""
   },
@@ -1006,7 +1006,7 @@
       "doğal gliserin."
     ],
     "benefits": [
-      "Cilt tonunu aydınlatır.– Yaşlılık lekelerini ve pigmentasyonu azaltır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Besleyici."
+      "- Cilt tonunu aydınlatır. - Yaşlılık lekelerini ve pigmentasyonu azaltır. - Derin kırışıklıkları ve ince çizgileri azaltır. - Besleyici."
     ],
     "usage": ""
   },
@@ -1022,7 +1022,7 @@
       "XS hyaluronik asit."
     ],
     "benefits": [
-      "Cildi nemlendirir.– Derin kırışıklıkları ve ince çizgileri azaltır."
+      "- Cildi nemlendirir. - Derin kırışıklıkları ve ince çizgileri azaltır."
     ],
     "usage": ""
   },
@@ -1038,7 +1038,7 @@
       "Retinol."
     ],
     "benefits": [
-      "Cildi kaldırır ve sıkılaştırır.– Foto-yaşlanmayı azaltır.– Cilt yenilenmesini hızlandırır."
+      "- Cildi kaldırır ve sıkılaştırır. - Foto-yaşlanmayı azaltır. - Cilt yenilenmesini hızlandırır."
     ],
     "usage": ""
   },
@@ -1054,7 +1054,7 @@
       "Niasinamid %5."
     ],
     "benefits": [
-      "Pigmentasyon.– Kızarıklık ve kaşıntı.– Foto-yaşlanma.– Kuruluk.– Kirli cilt."
+      "- Pigmentasyon. - Kızarıklık ve kaşıntı. - Foto-yaşlanma. - Kuruluk. - Kirli cilt."
     ],
     "usage": ""
   },
@@ -1070,7 +1070,7 @@
       "Çapraz bağlı hyaluronik asit."
     ],
     "benefits": [
-      "Cildi kaldırır ve sıkılaştırır.– Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir."
+      "- Cildi kaldırır ve sıkılaştırır. - Derin kırışıklıkları ve ince çizgileri azaltır. - Cilt hacmini iyileştirir."
     ],
     "usage": ""
   },
@@ -1086,7 +1086,7 @@
       "UVA/UVA güneş koruyucuları"
     ],
     "benefits": [
-      "UV'den korur ve foto-yaşlanmayı önler."
+      "- UV'den korur ve foto-yaşlanmayı önler."
     ],
     "usage": "50 ml / 1.7 fl.oz"
   },
@@ -1107,7 +1107,7 @@
       "zeytinyağı skualanı"
     ],
     "benefits": [
-      "Pigmentasyonu tedavi etmek için yoğun tedavi.– Kahverengi lekeler.– Cilt beyazlatma."
+      "- Pigmentasyonu tedavi etmek için yoğun tedavi. - Kahverengi lekeler. - Cilt beyazlatma."
     ],
     "usage": ""
   },
@@ -1125,7 +1125,7 @@
       "Lactobacillus eksozomları (Maks %1=10.000.000.000 eksozom/ml)"
     ],
     "benefits": [
-      "Derin kırışıklıkların ve ince çizgilerin görünümünü azaltır.– Cilt hacmini iyileştirir.– Cilt tonunu ve parlaklığını iyileştirir.– Kuru cilde bağlı kızarıklığı azaltır."
+      "- Derin kırışıklıkların ve ince çizgilerin görünümünü azaltır. - Cilt hacmini iyileştirir. - Cilt tonunu ve parlaklığını iyileştirir. - Kuru cilde bağlı kızarıklığı azaltır."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -1141,7 +1141,7 @@
       "DMAE."
     ],
     "benefits": [
-      "Derin kırışıklıklar ve ince çizgiler."
+      "- Derin kırışıklıklar ve ince çizgiler."
     ],
     "usage": "5 flakon x 10 ml"
   },
@@ -1161,7 +1161,7 @@
       "ginkgo özü."
     ],
     "benefits": [
-      "Kızarıklık.– Kuperoz.– Örümcek damarlar."
+      "- Kızarıklık. - Kuperoz. - Örümcek damarlar."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -1181,7 +1181,7 @@
       "TRX büyüme faktörü ."
     ],
     "benefits": [
-      "Derin kırışıklıkları ve ince çizgileri azaltır.– Cilt hacmini iyileştirir.– Cildi dermal seviyede nemlendirir.– Genel pigmentasyonu azaltır.– Cilt tonunu iyileştirir & kahverengi lekeleri azaltır."
+      "- Derin kırışıklıkları ve ince çizgileri azaltır. - Cilt hacmini iyileştirir. - Cildi dermal seviyede nemlendirir. - Genel pigmentasyonu azaltır. - Cilt tonunu iyileştirir & kahverengi lekeleri azaltır."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -1206,7 +1206,7 @@
       "hyaluronik asit."
     ],
     "benefits": [
-      "Androjenik alopesi.– Alopesi.– Saç dökülmesi.– Sakal tedavisi.– Kaş tedavisi.– Saç yeniden büyümesi."
+      "- Androjenik alopesi. - Alopesi. - Saç dökülmesi. - Sakal tedavisi. - Kaş tedavisi. - Saç yeniden büyümesi."
     ],
     "usage": "5 flakon x 5 ml"
   },
@@ -1225,7 +1225,7 @@
       "Skualan"
     ],
     "benefits": [
-      "Cilt bariyerini güçlendirir.– Kırışıklıkları onarır ve azaltır.– Derinlemesine Nemlendirir.– Çevresel stres faktörlerinden koruma.– Cilt mikrobiyomunu dengeler.– Pürüzsüzleştirir & aydınlatır."
+      "- Cilt bariyerini güçlendirir. - Kırışıklıkları onarır ve azaltır. - Derinlemesine Nemlendirir. - Çevresel stres faktörlerinden koruma. - Cilt mikrobiyomunu dengeler. - Pürüzsüzleştirir & aydınlatır."
     ],
     "usage": ""
   }

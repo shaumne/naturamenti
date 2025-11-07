@@ -24,69 +24,74 @@
 
         .dealer-card {
             background-color: var(--white);
-            border-radius: 10px;
-            padding: 35px;
-            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-xl);
+            box-shadow: var(--shadow-md);
             transition: var(--transition);
+            border: 1px solid var(--light-gray);
         }
 
         .dealer-card:hover {
             transform: translateY(-5px);
-            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary-color);
         }
 
         .dealer-header {
-            margin-bottom: 25px;
-            padding-bottom: 20px;
+            margin-bottom: var(--spacing-lg);
+            padding-bottom: var(--spacing-md);
             border-bottom: 2px solid var(--light-gray);
         }
 
         .dealer-header h3 {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 700;
             color: var(--primary-color);
-            margin-bottom: 10px;
+            margin-bottom: var(--spacing-sm);
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
+            line-height: 1.4;
         }
 
         .dealer-company {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: 600;
             color: var(--dark-color);
-            margin-bottom: 5px;
+            margin-bottom: var(--spacing-xs);
+            line-height: 1.5;
         }
 
         .dealer-contact {
             font-size: 14px;
             color: var(--text-light);
             font-weight: 500;
-            margin-top: 5px;
+            margin-top: var(--spacing-xs);
         }
 
         .dealer-info {
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            gap: var(--spacing-lg);
         }
 
         .dealer-info-item {
             display: flex;
             align-items: start;
-            gap: 15px;
+            gap: var(--spacing-md);
         }
 
         .dealer-info-icon {
-            width: 40px;
-            height: 40px;
+            width: 44px;
+            height: 44px;
             background-color: var(--primary-color);
-            border-radius: 50%;
+            border-radius: var(--radius-full);
             display: flex;
             align-items: center;
             justify-content: center;
             color: var(--white);
-            font-size: 16px;
+            font-size: 18px;
             flex-shrink: 0;
+            box-shadow: var(--shadow-sm);
         }
 
         .dealer-info-content {
@@ -94,10 +99,10 @@
         }
 
         .dealer-info-content h4 {
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 600;
             color: var(--text-dark);
-            margin-bottom: 5px;
+            margin-bottom: var(--spacing-xs);
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -105,37 +110,87 @@
         .dealer-info-content p {
             font-size: 14px;
             color: var(--text-light);
-            line-height: 1.6;
+            line-height: 1.7;
             margin: 0;
         }
 
-        .dealer-info-content a {
+        .dealer-info-content a:not(.dealer-map-link) {
             color: var(--primary-color);
             text-decoration: none;
             transition: var(--transition);
         }
 
-        .dealer-info-content a:hover {
+        .dealer-info-content a:not(.dealer-map-link):hover {
             color: var(--secondary-color);
             text-decoration: underline;
         }
+        
+        .dealer-map-link {
+            display: inline-flex !important;
+            align-items: center;
+            gap: 8px;
+            margin-top: 12px;
+            padding: 12px 24px;
+            background-color: var(--primary-color) !important;
+            color: var(--white) !important;
+            text-decoration: none !important;
+            border-radius: var(--radius-md);
+            font-size: 14px;
+            font-weight: 600;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        
+        .dealer-map-link:hover {
+            background-color: var(--secondary-color) !important;
+            color: var(--white) !important;
+            text-decoration: none !important;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .dealer-map-link i {
+            font-size: 16px;
+        }
 
         @media (max-width: 768px) {
+            .dealers-section {
+                padding: 40px 0 60px;
+            }
+            
             .dealers-grid {
                 grid-template-columns: 1fr;
-                gap: 25px;
+                gap: var(--spacing-lg);
+                margin-top: var(--spacing-xl);
             }
 
             .dealer-card {
-                padding: 25px;
+                padding: var(--spacing-lg);
+            }
+
+            .dealer-header {
+                margin-bottom: var(--spacing-md);
+                padding-bottom: var(--spacing-sm);
             }
 
             .dealer-header h3 {
-                font-size: 18px;
+                font-size: 16px;
             }
 
             .dealer-company {
+                font-size: 15px;
+            }
+            
+            .dealer-info-icon {
+                width: 40px;
+                height: 40px;
                 font-size: 16px;
+            }
+            
+            .dealer-map-link {
+                width: 100%;
+                justify-content: center;
+                padding: 12px 20px;
             }
         }
     </style>
@@ -209,6 +264,10 @@
                             <div class="dealer-info-content">
                                 <h4>Adres</h4>
                                 <p>Dudullu Cad. Küçükbakkalköy Mah.Brandium Residence R:2 Blok D:132 Ataşehir / İstanbul</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Dudullu+Cad.+Küçükbakkalköy+Mah.Brandium+Residence+R:2+Blok+D:132+Ataşehir+İstanbul" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Haritada Göster
+                                </a>
                             </div>
                         </div>
                         <div class="dealer-info-item">
@@ -240,6 +299,10 @@
                             <div class="dealer-info-content">
                                 <h4>Adres</h4>
                                 <p>Güzelyalı Mahallesi 81008 Sokak Kamışlı Apt. No:1 Çukurova /Adana</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Güzelyalı+Mahallesi+81008+Sokak+Kamışlı+Apt.+No:1+Çukurova+Adana" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Haritada Göster
+                                </a>
                             </div>
                         </div>
                         <div class="dealer-info-item">
@@ -268,6 +331,10 @@
                             <div class="dealer-info-content">
                                 <h4>Adres</h4>
                                 <p>Mimar Sinan Mh. Mimar Sinan Cd. 61/2-8 Çekmeköy-İST.</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Mimar+Sinan+Mh.+Mimar+Sinan+Cd.+61/2-8+Çekmeköy+İstanbul" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Haritada Göster
+                                </a>
                             </div>
                         </div>
                         <div class="dealer-info-item">
@@ -297,6 +364,10 @@
                             <div class="dealer-info-content">
                                 <h4>Adres</h4>
                                 <p>OFİCİTY İŞ MERKEZİ Kızılarık,2754.Sk.No:1/87 Kat:5 Muratpaşa/Antalya</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=OFİCİTY+İŞ+MERKEZİ+Kızılarık+2754.Sk.No:1/87+Kat:5+Muratpaşa+Antalya" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Haritada Göster
+                                </a>
                             </div>
                         </div>
                         <div class="dealer-info-item">

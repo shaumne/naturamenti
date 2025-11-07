@@ -649,6 +649,30 @@
         font-size: 24px;
         letter-spacing: 1px;
     }
+    
+    /* Products Slider - Mobilde tek ürün göster */
+    .products-slider-wrapper {
+        padding: 0 50px;
+    }
+    
+    .product-slide {
+        min-width: calc(100% - 20px);
+        max-width: calc(100% - 20px);
+    }
+    
+    .products-slider-nav {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .products-slider-nav.prev {
+        left: 5px;
+    }
+    
+    .products-slider-nav.next {
+        right: 5px;
+    }
 
     .slide-text p {
         font-size: 14px;

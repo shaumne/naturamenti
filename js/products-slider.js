@@ -77,22 +77,79 @@ document.addEventListener('DOMContentLoaded', function() {
         if (product.benefits && product.benefits.length > 0) {
             let benefitsHTML = '';
             product.benefits.forEach(benefit => {
-                // Benefit string'ini "-" veya "–" ile ayır
-                const items = benefit.split(/[–-]/).filter(item => item.trim());
-                if (items.length > 1) {
-                    items.forEach(item => {
-                        const trimmed = item.trim();
+                if (!benefit || typeof benefit !== 'string') return;
+                
+                // "Foto-yaşlanma" gibi kelimelerdeki "-" işaretini korumak için
+                // Önce bu kelimeleri geçici placeholder ile değiştir
+                const protectedPatterns = [
+                    /Foto-yaşlanma/gi,
+                    /foto-yaşlanma/gi,
+                    /Mikro-flora/gi,
+                    /mikro-flora/gi,
+                    /Trans-epidermal/gi,
+                    /trans-epidermal/gi
+                ];
+                
+                const replacements = [];
+                let protectedText = benefit;
+                let counter = 0;
+                
+                protectedPatterns.forEach(pattern => {
+                    let match;
+                    while ((match = pattern.exec(benefit)) !== null) {
+                        const placeholder = `__PROT${counter}__`;
+                        replacements.push({ placeholder, original: match[0] });
+                        protectedText = protectedText.replace(match[0], placeholder);
+                        counter++;
+                    }
+                });
+                
+                // Şimdi "- " veya "– " ile ayır (kelime içindeki "-" korunmuş olacak)
+                // Regex: nokta sonrası veya string başında "- " veya "– " ile başlayan yerlerden ayır
+                let items = protectedText.split(/(?<=\.)\s*(?=[–-]\s)|(?<=\.)(?=[–-]\s)|^[–-]\s/).filter(item => item.trim());
+                
+                // Eğer split çalışmadıysa, manuel olarak ayır
+                if (items.length <= 1) {
+                    items = [];
+                    // "- " veya "– " ile başlayan yerlerden ayır
+                    const parts = protectedText.split(/\s*[–-]\s+/);
+                    parts.forEach(part => {
+                        const trimmed = part.trim();
                         if (trimmed) {
-                            benefitsHTML += `<span class="benefit-item-inline">– ${trimmed}</span>`;
+                            items.push(trimmed);
                         }
                     });
-                } else {
-                    const trimmed = benefit.trim();
-                    if (trimmed) {
-                        benefitsHTML += `<span class="benefit-item-inline">– ${trimmed}</span>`;
-                    }
                 }
+                
+                // Her item'ı işle
+                items.forEach(item => {
+                    // Protected kelimeleri geri değiştir
+                    replacements.forEach(({ placeholder, original }) => {
+                        item = item.replace(new RegExp(placeholder, 'g'), original);
+                    });
+                    
+                    // Başındaki "- ", "– ", nokta ve boşlukları temizle
+                    item = item.replace(/^[–-]\s*/, '').replace(/^\.\s*/, '').trim();
+                    
+                    // Nokta ile bitmiyorsa ekle
+                    if (item && !item.endsWith('.')) {
+                        item += '.';
+                    }
+                    
+                    // İlk harfi büyük yap (sadece küçük harfle başlıyorsa)
+                    if (item && item.length > 0) {
+                        const firstChar = item[0];
+                        if (firstChar === firstChar.toLowerCase() && firstChar !== firstChar.toUpperCase()) {
+                            item = item.charAt(0).toUpperCase() + item.slice(1);
+                        }
+                    }
+                    
+                    if (item) {
+                        benefitsHTML += `<span class="benefit-item-inline">– ${item}</span>`;
+                    }
+                });
             });
+            
             if (benefitsHTML) {
                 return benefitsHTML;
             }
