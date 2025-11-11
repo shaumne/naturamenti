@@ -159,20 +159,81 @@ function validateContactForm(event) {
     }
     
     if (isValid) {
-        // Show success message
         const form = event.target;
-        const successMessage = document.createElement('div');
-        successMessage.className = 'success-message';
-        successMessage.textContent = 'Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.';
-        form.appendChild(successMessage);
+        const submitBtn = form.querySelector('.submit-btn');
+        const originalBtnText = submitBtn.textContent;
         
-        // Reset form
-        form.reset();
+        // Submit butonunu devre dışı bırak
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Gönderiliyor...';
         
-        // Remove success message after 5 seconds
-        setTimeout(() => {
-            successMessage.remove();
-        }, 5000);
+        // FormSubmit'e gönder - form otomatik olarak submit edilecek
+        // Başarı durumunda sayfa yenilenecek veya yönlendirilecek
+        // Bu yüzden başarı mesajını form action'dan sonra göstermek için
+        // form submit edilmeden önce bir mesaj gösterelim
+        
+        // FormSubmit başarılı olduğunda sayfayı yenilemeyecek şekilde ayarla
+        const nextUrlInput = form.querySelector('input[name="_next"]');
+        if (nextUrlInput) {
+            nextUrlInput.value = window.location.href + '?success=true';
+        }
+        
+        // Formu submit et - FormSubmit otomatik olarak işleyecek
+        // Eğer JavaScript ile kontrol etmek isterseniz, fetch kullanabiliriz
+        // Ama FormSubmit direkt form submit'i destekliyor
+        
+        // FormSubmit AJAX ile gönder (sayfa yenilenmesin)
+        const formData = new FormData(form);
+        
+        fetch(form.action, {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                // Başarı mesajı göster
+                const successMessage = document.createElement('div');
+                successMessage.className = 'success-message';
+                successMessage.textContent = 'Mesajınız başarıyla gönderildi! En kısa sürede size dönüş yapacağız.';
+                form.appendChild(successMessage);
+                
+                // Formu temizle
+                form.reset();
+                
+                // Submit butonunu tekrar aktif et
+                submitBtn.disabled = false;
+                submitBtn.textContent = originalBtnText;
+                
+                // Başarı mesajını 5 saniye sonra kaldır
+                setTimeout(() => {
+                    successMessage.remove();
+                }, 5000);
+            } else {
+                throw new Error('Form gönderilemedi');
+            }
+        })
+        .catch(error => {
+            // Submit butonunu tekrar aktif et
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalBtnText;
+            
+            // Hata mesajı göster
+            const errorMessage = document.createElement('div');
+            errorMessage.className = 'error-message';
+            errorMessage.style.marginTop = '15px';
+            errorMessage.textContent = 'Bir hata oluştu. Lütfen tekrar deneyin.';
+            form.appendChild(errorMessage);
+            
+            // Hata mesajını 5 saniye sonra kaldır
+            setTimeout(() => {
+                errorMessage.remove();
+            }, 5000);
+            
+            console.error('Form gönderim hatası:', error);
+        });
+        
+        // Form submit'i engelle (AJAX kullanıyoruz)
+        event.preventDefault();
     }
 }
 

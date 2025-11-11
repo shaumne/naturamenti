@@ -257,9 +257,9 @@
                         </div>
                         <div class="info-content">
                             <h4>Adres</h4>
-                            <p>Dudullu Cad. Küçükbakkalköy Mah.<br>
-                            Brandium Residence R:2 Blok D:132<br>
-                            Ataşehir / İstanbul</p>
+                            <p>Küçükbakkalköy, Dudullu Cd.<br>
+                            Brandium Residence R2 Blok D:132<br>
+                            34750 Ataşehir/İstanbul</p>
                         </div>
                     </div>
                     
@@ -269,7 +269,8 @@
                         </div>
                         <div class="info-content">
                             <h4>Telefon</h4>
-                            <p>+90 (XXX) XXX XX XX</p>
+                            <p>T: <a href="tel:+902163671775" style="color: var(--text-light); text-decoration: none;">0216 367 17 75</a><br>
+                            Gsm: <a href="tel:+905529001010" style="color: var(--text-light); text-decoration: none;">0552 900 10 10</a></p>
                         </div>
                     </div>
                     
@@ -279,7 +280,8 @@
                         </div>
                         <div class="info-content">
                             <h4>E-posta</h4>
-                            <p>info@fusionmeso.com.tr</p>
+                            <p><a href="mailto:info@naturamenti.com" style="color: var(--text-light); text-decoration: none;">info@naturamenti.com</a><br>
+                            <a href="mailto:naturamentimedikal@gmail.com" style="color: var(--text-light); text-decoration: none;">naturamentimedikal@gmail.com</a></p>
                         </div>
                     </div>
                     
@@ -298,7 +300,14 @@
                 
                 <div class="contact-form">
                     <h3>Bize Mesaj Gönderin</h3>
-                    <form onsubmit="validateContactForm(event)" id="contactForm">
+                    <form action="https://formsubmit.co/info@naturamenti.com" method="POST" onsubmit="validateContactForm(event)" id="contactForm">
+                        <!-- FormSubmit ayarları -->
+                        <input type="hidden" name="_subject" value="İletişim Formu - Naturamenti">
+                        <input type="hidden" name="_cc" value="naturamentimedikal@gmail.com">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="">
+                        <input type="text" name="_honey" style="display:none">
+                        
                         <div class="form-group">
                             <label for="name">Adınız Soyadınız *</label>
                             <input type="text" id="name" name="name" required>
@@ -327,7 +336,7 @@
             <!-- Google Maps -->
             <div class="map-container">
                 <iframe 
-                    src="https://www.google.com/maps?q=Dudullu+Cad.+K%C3%BC%C3%A7%C3%BCkbakkalk%C3%B6y+Mah.+Brandium+Residence+R%3A2+Blok+D%3A132+Ata%C5%9Fehir+%2F+%C4%B0stanbul&output=embed"
+                    src="https://www.google.com/maps?q=K%C3%BC%C3%A7%C3%BCkbakkalk%C3%B6y,+Dudullu+Cd.+Brandium+Residence+R2+Blok+D:132,+34750+Ata%C5%9Fehir/İstanbul&output=embed"
                     allowfullscreen="" 
                     loading="lazy" 
                     referrerpolicy="no-referrer-when-downgrade"
