@@ -139,6 +139,8 @@
     box-shadow: var(--shadow-sm);
     transition: var(--transition);
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover {
@@ -180,6 +182,9 @@
 
 .product-info {
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .product-name {
@@ -197,6 +202,7 @@
     line-height: 1.8;
     margin-bottom: 20px;
     min-height: 60px;
+    flex: 1;
 }
 
 .product-desc .benefit-item-inline {
@@ -221,6 +227,7 @@
     text-transform: uppercase;
     cursor: pointer;
     transition: var(--transition);
+    margin-top: auto;
 }
 
 .product-btn:hover {

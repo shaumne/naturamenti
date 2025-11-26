@@ -418,32 +418,52 @@ function loadRelatedProducts(allProducts, category, currentProductId) {
     const relatedContainer = document.querySelector('.related-products .products-grid');
     if (!relatedContainer) return;
     
-    // Get products from same category, excluding current product
+    // Helper function to truncate description
+    function truncateDescription(desc, maxLength = 120) {
+        if (!desc || desc.trim().length === 0) return '';
+        const trimmed = desc.trim();
+        if (trimmed.length <= maxLength) return trimmed;
+        return trimmed.substring(0, maxLength).trim() + '...';
+    }
+    
+    // Filter products with valid shortDesc (at least 20 characters)
+    const hasValidShortDesc = (p) => {
+        return p.shortDesc && p.shortDesc.trim().length >= 20;
+    };
+    
+    // Get products from same category, excluding current product and those without shortDesc
     let related = allProducts.filter(p => 
-        p.category === category && p.id !== currentProductId
+        p.category === category && 
+        p.id !== currentProductId && 
+        hasValidShortDesc(p)
     ).slice(0, 4);
     
-    // If not enough related products, fill with random products
+    // If not enough related products, fill with random products that have shortDesc
     if (related.length < 4) {
         const others = allProducts.filter(p => 
-            p.id !== currentProductId && !related.includes(p)
+            p.id !== currentProductId && 
+            !related.includes(p) && 
+            hasValidShortDesc(p)
         );
         related = [...related, ...others.slice(0, 4 - related.length)];
     }
     
     if (related.length > 0) {
-        relatedContainer.innerHTML = related.map(product => `
+        relatedContainer.innerHTML = related.map(product => {
+            const truncatedDesc = truncateDescription(product.shortDesc, 120);
+            return `
             <div class="product-card" onclick="goToProduct(${product.id})">
                 <div class="product-image">
                     <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.jpg'">
                 </div>
                 <div class="product-info">
                     <h3 class="product-name">${product.name}</h3>
-                    <p class="product-desc">${product.shortDesc}</p>
+                    <p class="product-desc">${truncatedDesc}</p>
                     <button class="product-btn">Detayları Gör</button>
                 </div>
             </div>
-        `).join('');
+        `;
+        }).join('');
     } else {
         document.querySelector('.related-products').style.display = 'none';
     }
