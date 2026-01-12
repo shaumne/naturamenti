@@ -57,6 +57,32 @@ document.addEventListener('DOMContentLoaded', async function() {
             document.getElementById('productSearch').value = searchTerm;
             filterProducts(searchTerm);
         }
+        
+        // Check for hash in URL and scroll to that section
+        const hash = window.location.hash;
+        if (hash) {
+            // Wait for content to render, then scroll
+            setTimeout(() => {
+                const targetElement = document.querySelector(hash);
+                if (targetElement) {
+                    // Calculate offset for sticky header
+                    const headerHeight = document.querySelector('.header')?.offsetHeight || 0;
+                    const elementPosition = targetElement.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerHeight - 20;
+                    
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            }, 300);
+        } else {
+            // If no hash, prevent default scroll to top
+            // Only scroll to top if we're coming from another page
+            if (document.referrer && !document.referrer.includes(window.location.hostname)) {
+                window.scrollTo(0, 0);
+            }
+        }
     } catch (error) {
         console.error('Error loading products:', error);
         showError();
