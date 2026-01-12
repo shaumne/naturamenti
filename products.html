@@ -26,11 +26,17 @@
                     <div class="nav-menu" id="navMenu">
                         <ul class="nav-list">
                             <li><a href="index.html">Ana Sayfa</a></li>
-                            <li><a href="products.html" class="active">Ürünler</a></li>
+                            <li><a href="products.html#skincare" class="active">Cilt Bakım</a></li>
+                            <li><a href="products.html#vials" class="active">Steril Flakonlar</a></li>
                             <li><a href="about.html">Hakkımızda</a></li>
                             <li><a href="bayilerimiz.html">Bayilerimiz</a></li>
                             <li><a href="contact.html">İletişim</a></li>
                         </ul>
+                    </div>
+                    
+                    <div class="search-box">
+                        <input type="text" placeholder="Ara..." class="search-input" id="searchInput">
+                        <i class="fas fa-search"></i>
                     </div>
                     
                     <div class="nav-right">
@@ -38,10 +44,6 @@
                             <a href="https://www.facebook.com/fusionmesoturkiye/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://www.instagram.com/fusionmeso_turkey/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/channel/UCbmEXFBXRtNZj6IF8c3_B_A/featured" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="search-box">
-                            <input type="text" placeholder="Ara..." class="search-input" id="searchInput">
-                            <i class="fas fa-search"></i>
                         </div>
                         <button class="mobile-menu-btn" id="mobileMenuBtn">
                             <span></span>
@@ -53,17 +55,6 @@
             </div>
         </nav>
     </header>
-
-    <!-- Products Page Header -->
-    <section class="page-header">
-        <div class="page-header-image">
-            <img src="images/professional.jpg" alt="Profesyonel Ürünler">
-        </div>
-        <div class="container">
-            <h1>Tüm Ürünler</h1>
-            <p>Naturamenti'nun profesyonel cilt bakım ürün yelpazesini keşfedin</p>
-        </div>
-    </section>
 
     <!-- Products Filter & Search -->
     <section class="products-filter">
@@ -80,13 +71,28 @@
         </div>
     </section>
 
-    <!-- Products Grid -->
-    <section class="products-section">
+    <!-- Cilt Bakım Ürünleri -->
+    <section class="products-section" id="skincare">
         <div class="container">
-            <div class="products-grid" id="productsGrid">
-                <!-- Products will be loaded here dynamically -->
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">CİLT BAKIM ÜRÜNLERİ</h2>
+            <div class="products-grid" id="skincareGrid">
+                <!-- Cilt bakım ürünleri will be loaded here dynamically -->
             </div>
-            <div id="noResults" class="no-results" style="display: none;">
+            <div id="skincareNoResults" class="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <p>Aradığınız kriterlere uygun ürün bulunamadı.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Steril Flakonlar -->
+    <section class="products-section" id="vials">
+        <div class="container">
+            <h2 class="section-title" style="text-align: center; margin-bottom: 40px;">STERİL FLAKONLAR</h2>
+            <div class="products-grid" id="vialsGrid">
+                <!-- Steril flakonlar will be loaded here dynamically -->
+            </div>
+            <div id="vialsNoResults" class="no-results" style="display: none;">
                 <i class="fas fa-search"></i>
                 <p>Aradığınız kriterlere uygun ürün bulunamadı.</p>
             </div>

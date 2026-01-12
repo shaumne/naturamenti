@@ -1,16 +1,51 @@
 // Products functionality
 let allProducts = [];
-let filteredProducts = [];
+let filteredVials = [];
+let filteredSkincare = [];
+
+// Categorize products
+function categorizeProducts(products) {
+    const vials = [];
+    const skincare = [];
+    
+    products.forEach(product => {
+        const usage = (product.usage || '').toLowerCase();
+        const name = (product.name || '').toLowerCase();
+        
+        // Flakon içerenler steril flakonlar
+        if (usage.includes('flakon') || name.includes('flakon')) {
+            vials.push(product);
+        } else {
+            // Maske, krem, serum, lotion içerenler cilt bakımı
+            if (name.includes('mask') || name.includes('krem') || name.includes('serum') || 
+                name.includes('lotion') || name.includes('losyon') || name.includes('cream')) {
+                skincare.push(product);
+            } else {
+                // Varsayılan olarak flakon kabul et (F- ile başlayanlar genelde flakon)
+                if (name.startsWith('f-')) {
+                    vials.push(product);
+                } else {
+                    skincare.push(product);
+                }
+            }
+        }
+    });
+    
+    return { vials, skincare };
+}
 
 // Load products on page load
 document.addEventListener('DOMContentLoaded', async function() {
     try {
         const response = await fetch('data/products.json');
         allProducts = await response.json();
-        filteredProducts = [...allProducts];
         
-        displayProducts(filteredProducts);
-        updateResultsCount(filteredProducts.length);
+        const { vials, skincare } = categorizeProducts(allProducts);
+        filteredVials = [...vials];
+        filteredSkincare = [...skincare];
+        
+        displayProductsByCategory(filteredVials, filteredSkincare);
+        updateResultsCount(filteredVials.length + filteredSkincare.length);
         
         // Setup search functionality
         setupSearch();
@@ -87,37 +122,70 @@ function extractUsageInfo(product) {
     return text || 'Ürün bilgisi bulunamadı.';
 }
 
-// Display products in grid
-function displayProducts(products) {
-    const productsGrid = document.getElementById('productsGrid');
-    const noResults = document.getElementById('noResults');
+// Display products in grid by category
+function displayProductsByCategory(vials, skincare) {
+    const vialsGrid = document.getElementById('vialsGrid');
+    const skincareGrid = document.getElementById('skincareGrid');
+    const vialsNoResults = document.getElementById('vialsNoResults');
+    const skincareNoResults = document.getElementById('skincareNoResults');
     
-    if (!productsGrid) return;
-    
-    if (products.length === 0) {
-        productsGrid.style.display = 'none';
-        if (noResults) noResults.style.display = 'block';
-        return;
+    // Display vials
+    if (vialsGrid) {
+        if (vials.length === 0) {
+            vialsGrid.style.display = 'none';
+            if (vialsNoResults) vialsNoResults.style.display = 'block';
+        } else {
+            vialsGrid.style.display = 'grid';
+            if (vialsNoResults) vialsNoResults.style.display = 'none';
+            vialsGrid.innerHTML = vials.map(product => {
+                const usageInfo = extractUsageInfo(product);
+                return `
+                <div class="product-card" onclick="goToProduct(${product.id})">
+                    <div class="product-image">
+                        <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">${product.name}</h3>
+                        <p class="product-desc">${usageInfo}</p>
+                        <button class="product-btn">Detayları Gör</button>
+                    </div>
+                </div>
+            `;
+            }).join('');
+        }
     }
     
-    productsGrid.style.display = 'grid';
-    if (noResults) noResults.style.display = 'none';
-    
-    productsGrid.innerHTML = products.map(product => {
-        const usageInfo = extractUsageInfo(product);
-        return `
-        <div class="product-card" onclick="goToProduct(${product.id})">
-            <div class="product-image">
-                <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.jpg'">
-            </div>
-            <div class="product-info">
-                <h3 class="product-name">${product.name}</h3>
-                <p class="product-desc">${usageInfo}</p>
-                <button class="product-btn">Detayları Gör</button>
-            </div>
-        </div>
-    `;
-    }).join('');
+    // Display skincare
+    if (skincareGrid) {
+        if (skincare.length === 0) {
+            skincareGrid.style.display = 'none';
+            if (skincareNoResults) skincareNoResults.style.display = 'block';
+        } else {
+            skincareGrid.style.display = 'grid';
+            if (skincareNoResults) skincareNoResults.style.display = 'none';
+            skincareGrid.innerHTML = skincare.map(product => {
+                const usageInfo = extractUsageInfo(product);
+                return `
+                <div class="product-card" onclick="goToProduct(${product.id})">
+                    <div class="product-image">
+                        <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.jpg'">
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-name">${product.name}</h3>
+                        <p class="product-desc">${usageInfo}</p>
+                        <button class="product-btn">Detayları Gör</button>
+                    </div>
+                </div>
+            `;
+            }).join('');
+        }
+    }
+}
+
+// Display products in grid (legacy function for compatibility)
+function displayProducts(products) {
+    const { vials, skincare } = categorizeProducts(products);
+    displayProductsByCategory(vials, skincare);
 }
 
 // Filter products based on search term
@@ -125,18 +193,24 @@ function filterProducts(searchTerm) {
     const term = searchTerm.toLowerCase().trim();
     
     if (term === '') {
-        filteredProducts = [...allProducts];
+        const { vials, skincare } = categorizeProducts(allProducts);
+        filteredVials = [...vials];
+        filteredSkincare = [...skincare];
     } else {
-        filteredProducts = allProducts.filter(product => 
+        const filtered = allProducts.filter(product => 
             product.name.toLowerCase().includes(term) ||
-            product.shortDesc.toLowerCase().includes(term) ||
+            (product.shortDesc && product.shortDesc.toLowerCase().includes(term)) ||
             (product.category && product.category.toLowerCase().includes(term)) ||
             (product.ingredients && product.ingredients.some(ing => ing.toLowerCase().includes(term)))
         );
+        
+        const { vials, skincare } = categorizeProducts(filtered);
+        filteredVials = [...vials];
+        filteredSkincare = [...skincare];
     }
     
-    displayProducts(filteredProducts);
-    updateResultsCount(filteredProducts.length);
+    displayProductsByCategory(filteredVials, filteredSkincare);
+    updateResultsCount(filteredVials.length + filteredSkincare.length);
 }
 
 // Setup search functionality
@@ -183,14 +257,21 @@ function goToProduct(productId) {
 
 // Show error message
 function showError() {
-    const productsGrid = document.getElementById('productsGrid');
-    if (productsGrid) {
-        productsGrid.innerHTML = `
-            <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
-                <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: var(--text-light); margin-bottom: 20px;"></i>
-                <p style="font-size: 18px; color: var(--text-light);">Ürünler yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</p>
-            </div>
-        `;
+    const vialsGrid = document.getElementById('vialsGrid');
+    const skincareGrid = document.getElementById('skincareGrid');
+    
+    const errorHTML = `
+        <div style="grid-column: 1/-1; text-align: center; padding: 60px 20px;">
+            <i class="fas fa-exclamation-triangle" style="font-size: 48px; color: var(--text-light); margin-bottom: 20px;"></i>
+            <p style="font-size: 18px; color: var(--text-light);">Ürünler yüklenirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.</p>
+        </div>
+    `;
+    
+    if (vialsGrid) {
+        vialsGrid.innerHTML = errorHTML;
+    }
+    if (skincareGrid) {
+        skincareGrid.innerHTML = errorHTML;
     }
 }
 

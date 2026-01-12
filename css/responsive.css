@@ -9,6 +9,10 @@
     }
 
     /* Navigation */
+    .nav-content {
+        gap: 30px;
+    }
+
     .nav-list {
         gap: 20px;
     }
@@ -19,6 +23,14 @@
 
     .search-input {
         width: 150px;
+    }
+
+    .search-input:focus {
+        width: 180px;
+    }
+
+    .nav-right {
+        gap: 15px;
     }
 
     /* Hero Slider */
@@ -80,10 +92,17 @@
         gap: 20px;
     }
 
-    /* Brand Values */
-    .values-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
+    /* Active Ingredients */
+    .ingredients-container {
+        margin-top: 40px;
+    }
+
+    .ingredient-header {
+        padding: 18px 20px;
+    }
+
+    .ingredient-name {
+        font-size: 17px;
     }
 
     /* Innovation */
@@ -177,19 +196,101 @@
 /* Mobile Styles (768px and below) */
 @media (max-width: 768px) {
     /* Navigation */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .nav-content {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        align-items: center;
+        gap: 12px;
+        width: 100%;
+    }
+
+    .logo {
+        flex-shrink: 0;
+        order: 1;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .search-box {
+        order: 2;
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .search-input {
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 40px 10px 16px;
+        font-size: 14px;
+    }
+
+    .search-input:focus {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .search-box i {
+        right: 15px;
+        font-size: 14px;
+    }
+
+    .nav-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0;
+        flex-shrink: 0;
+        order: 3;
+        height: 100%;
+    }
+
+    .header-social-links {
+        display: none;
+    }
+
     .mobile-menu-btn {
         display: flex;
+        flex-direction: column;
+        gap: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 8px;
+        flex-shrink: 0;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .mobile-menu-btn span {
+        width: 25px;
+        height: 3px;
+        background-color: var(--dark-color);
+        transition: var(--transition);
+        display: block;
     }
 
     .nav-menu {
         position: fixed;
-        top: 80px;
+        top: 0;
         left: -100%;
         width: 100%;
-        height: calc(100vh - 80px);
+        height: 100vh;
         background-color: var(--white);
         transition: left 0.3s ease;
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        z-index: 1001;
+        overflow-y: auto;
+        padding-top: 80px;
+        display: block;
     }
 
     .nav-menu.active {
@@ -198,8 +299,9 @@
 
     .nav-list {
         flex-direction: column;
-        padding: 30px;
+        padding: 30px 20px;
         gap: 0;
+        align-items: stretch;
     }
 
     .nav-list li {
@@ -212,12 +314,9 @@
         font-size: 16px;
     }
 
-    .search-box {
-        display: none;
-    }
-    
-    .header-social-links {
-        display: none;
+    .logo-img {
+        height: 60px;
+        max-width: 220px;
     }
 
     /* Hero Slider */
@@ -322,20 +421,36 @@
         height: 250px;
     }
 
-    /* Brand Values */
-    .brand-values {
+    /* Active Ingredients */
+    .ingredients-section {
         padding: 60px 0;
     }
 
-    .values-grid {
-        grid-template-columns: 1fr;
-        gap: 40px;
+    .ingredients-container {
+        margin-top: 40px;
     }
 
-    .value-icon {
-        width: 70px;
-        height: 70px;
-        font-size: 28px;
+    .ingredient-header {
+        padding: 18px 20px;
+    }
+
+    .ingredient-header-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .ingredient-name {
+        font-size: 16px;
+    }
+
+    .ingredient-content.active {
+        padding: 0 20px 20px 20px;
+    }
+
+    .ingredient-description {
+        font-size: 14px;
+        padding-top: 15px;
     }
 
     /* Innovations */
@@ -732,9 +847,47 @@
         padding: 40px 0;
     }
 
-    /* Brand Values */
-    .brand-values {
+    /* Active Ingredients */
+    .ingredients-section {
         padding: 40px 0;
+    }
+
+    .ingredients-container {
+        margin-top: 30px;
+    }
+
+    .ingredient-item {
+        margin-bottom: 12px;
+    }
+
+    .ingredient-header {
+        padding: 15px 18px;
+    }
+
+    .ingredient-header-left {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .ingredient-name {
+        font-size: 15px;
+    }
+
+    .ingredient-content.active {
+        padding: 0 18px 18px 18px;
+    }
+
+    .ingredient-description {
+        font-size: 13px;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .ingredient-toggle {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
     }
 
     /* Innovations */
@@ -1024,8 +1177,24 @@
     
     /* Logo */
     .logo-img {
-        height: 35px;
-        max-width: 150px;
+        height: 50px;
+        max-width: 180px;
+    }
+
+    /* Navigation - Mobil düzeni koru */
+    .nav-content {
+        grid-template-columns: auto 1fr auto;
+        gap: 12px;
+    }
+
+    .search-input {
+        padding: 9px 35px 9px 14px;
+        font-size: 13px;
+    }
+
+    .search-box i {
+        right: 14px;
+        font-size: 13px;
     }
     
     /* Top Bar */
@@ -1117,6 +1286,10 @@
     .mobile-menu-btn {
         min-width: 44px;
         min-height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
     }
     
     /* Prevent horizontal scroll */
@@ -1251,14 +1424,41 @@
         padding: 30px 0;
     }
     
-    /* Brand Values */
-    .brand-values {
+    /* Active Ingredients */
+    .ingredients-section {
         padding: 30px 0;
     }
     
-    .values-grid {
-        gap: 25px;
+    .ingredients-container {
         margin-top: 25px;
+    }
+
+    .ingredient-item {
+        margin-bottom: 10px;
+    }
+
+    .ingredient-header {
+        padding: 12px 15px;
+    }
+
+    .ingredient-name {
+        font-size: 14px;
+    }
+
+    .ingredient-content.active {
+        padding: 0 15px 15px 15px;
+    }
+
+    .ingredient-description {
+        font-size: 12px;
+        padding-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .ingredient-toggle {
+        width: 20px;
+        height: 20px;
+        font-size: 11px;
     }
     
     .value-item {

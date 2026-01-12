@@ -25,11 +25,17 @@
                     <div class="nav-menu" id="navMenu">
                         <ul class="nav-list">
                             <li><a href="index.html" class="active">Ana Sayfa</a></li>
-                            <li><a href="products.html">Ürünler</a></li>
+                            <li><a href="products.html#skincare">Cilt Bakım</a></li>
+                            <li><a href="products.html#vials">Steril Flakonlar</a></li>
                             <li><a href="about.html">Hakkımızda</a></li>
                             <li><a href="bayilerimiz.html">Bayilerimiz</a></li>
                             <li><a href="contact.html">İletişim</a></li>
                         </ul>
+                    </div>
+                    
+                    <div class="search-box">
+                        <input type="text" placeholder="Ara..." class="search-input" id="searchInput">
+                        <i class="fas fa-search"></i>
                     </div>
                     
                     <div class="nav-right">
@@ -37,10 +43,6 @@
                             <a href="https://www.facebook.com/fusionmesoturkiye/" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
                             <a href="https://www.instagram.com/fusionmeso_turkey/" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
                             <a href="https://www.youtube.com/channel/UCbmEXFBXRtNZj6IF8c3_B_A/featured" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
-                        </div>
-                        <div class="search-box">
-                            <input type="text" placeholder="Ara..." class="search-input" id="searchInput">
-                            <i class="fas fa-search"></i>
                         </div>
                         <button class="mobile-menu-btn" id="mobileMenuBtn">
                             <span></span>
@@ -188,81 +190,14 @@
         </div>
     </section>
 
-    <!-- Brand Values -->
-    <section class="brand-values">
+    <!-- Active Ingredients Section -->
+    <section class="ingredients-section">
         <div class="container">
-            <div class="values-grid">
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <h3>CİLT BAKIMI</h3>
-                    <h4>İçerikler</h4>
-                    <p>Estetik tıp standartlarında en yüksek kalitede içerikler</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3>CİLT BAKIMI</h3>
-                    <h4>Güçlü</h4>
-                    <p>Anında ve kalıcı sonuçlar için yüksek konsantrasyonlu formüller</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>CİLT BAKIMI</h3>
-                    <h4>Kalite</h4>
-                    <p>En gelişmiş teknoloji ve üretim standartları ile üretilmiş</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <h3>CİLT BAKIMI</h3>
-                    <h4>Saygılı</h4>
-                    <p>%100 vegan ve hayvanlar üzerinde test edilmemiş ürünler</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-trophy"></i>
-                    </div>
-                    <h3>MARKA</h3>
-                    <h4>Pazar Lideri</h4>
-                    <p>Dünyada 14.000'den fazla profesyonel Naturamenti kullanıyor</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>MARKA</h3>
-                    <h4>Dünya Çapında</h4>
-                    <p>65'ten fazla ülkede mevcut</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3>MARKA</h3>
-                    <h4>Özel</h4>
-                    <p>Tüm ürün formülasyonları özeldir, %100 laboratuvarlarımızda oluşturulmuş ve test edilmiştir</p>
-                </div>
-                
-                <div class="value-item">
-                    <div class="value-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>MARKA</h3>
-                    <h4>İnovasyonlar</h4>
-                    <p>Piyasadaki en kapsamlı steril kozmetik ürün yelpazesi</p>
-                </div>
+            <h2 class="section-title">AKTİF İÇERİKLER</h2>
+            <p class="subtitle">Ürünlerimizde kullanılan bilimsel temelli aktif içerikler ve faydaları</p>
+            
+            <div class="ingredients-container" id="ingredientsContainer">
+                <!-- Ingredients will be loaded dynamically from JSON -->
             </div>
         </div>
     </section>
@@ -313,6 +248,7 @@
     <script src="js/main.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/products-slider.js"></script>
+    <script src="js/ingredients.js"></script>
 </body>
 </html>
 
