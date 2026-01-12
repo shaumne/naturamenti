@@ -45,15 +45,25 @@ function displayIngredients(ingredients) {
     if (!container) return;
     
     container.innerHTML = ingredients.map((ingredient, index) => {
-        // Create product links
-        const productsList = ingredient.products.map(product => {
+        // Create product links - only show products that exist in products.json
+        const validProducts = ingredient.products.filter(product => {
+            return productNameToIdMap[product.toUpperCase()] !== undefined;
+        });
+        
+        const productsList = validProducts.map(product => {
             const productId = productNameToIdMap[product.toUpperCase()];
-            if (productId) {
-                return `<a href="product-detail.html?id=${productId}" class="ingredient-product-tag ingredient-product-link">${product}</a>`;
-            } else {
-                return `<span class="ingredient-product-tag">${product}</span>`;
-            }
+            return `<a href="product-detail.html?id=${productId}" class="ingredient-product-tag ingredient-product-link">${product}</a>`;
         }).join('');
+        
+        // Only show products section if there are valid products
+        const productsSection = validProducts.length > 0 ? `
+                    <div class="ingredient-products">
+                        <div class="ingredient-products-label">Bu içerik bulunan ürünler:</div>
+                        <div class="ingredient-products-list">
+                            ${productsList}
+                        </div>
+                    </div>
+        ` : '';
         
         return `
             <div class="ingredient-item">
@@ -67,12 +77,7 @@ function displayIngredients(ingredients) {
                 </div>
                 <div class="ingredient-content">
                     <p class="ingredient-description">${ingredient.description}</p>
-                    <div class="ingredient-products">
-                        <div class="ingredient-products-label">Bu içerik bulunan ürünler:</div>
-                        <div class="ingredient-products-list">
-                            ${productsList}
-                        </div>
-                    </div>
+                    ${productsSection}
                 </div>
             </div>
         `;
