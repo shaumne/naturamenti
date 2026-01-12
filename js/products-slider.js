@@ -1,15 +1,14 @@
-// Products Slider
+// Products Slider - Steril Flakonlar ve Cilt Bakım Ürünleri
 document.addEventListener('DOMContentLoaded', function() {
-    const productsSlider = document.getElementById('productsSlider');
-    const prevBtn = document.getElementById('productsPrevBtn');
-    const nextBtn = document.getElementById('productsNextBtn');
+    const vialsSlider = document.getElementById('vialsSlider');
+    const vialsPrevBtn = document.getElementById('vialsPrevBtn');
+    const vialsNextBtn = document.getElementById('vialsNextBtn');
     
-    if (!productsSlider) {
-        console.error('Products slider container bulunamadı!');
-        return;
-    }
+    const skincareSlider = document.getElementById('skincareSlider');
+    const skincarePrevBtn = document.getElementById('skincarePrevBtn');
+    const skincareNextBtn = document.getElementById('skincareNextBtn');
     
-    let products = [];
+    let allProducts = [];
     
     // Load products from JSON
     fetch('data/products.json')
@@ -25,35 +24,73 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Ürünler bir array değil!', data);
                 return;
             }
-            products = data;
-            if (products.length === 0) {
-                console.warn('Hiç ürün bulunamadı!');
-                productsSlider.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">Ürün bulunamadı.</p>';
-                return;
+            allProducts = data;
+            
+            // Kategorize et
+            const vials = [];
+            const skincare = [];
+            
+            allProducts.forEach(product => {
+                const usage = (product.usage || '').toLowerCase();
+                const name = (product.name || '').toLowerCase();
+                
+                // Flakon içerenler steril flakonlar
+                if (usage.includes('flakon') || name.includes('flakon')) {
+                    vials.push(product);
+                } else {
+                    // Maske, krem, serum, lotion içerenler cilt bakımı
+                    if (name.includes('mask') || name.includes('krem') || name.includes('serum') || 
+                        name.includes('lotion') || name.includes('losyon') || name.includes('cream')) {
+                        skincare.push(product);
+                    } else {
+                        // Varsayılan olarak flakon kabul et (F- ile başlayanlar genelde flakon)
+                        if (name.startsWith('f-')) {
+                            vials.push(product);
+                        } else {
+                            skincare.push(product);
+                        }
+                    }
+                }
+            });
+            
+            console.log(`Steril Flakonlar: ${vials.length}, Cilt Bakım Ürünleri: ${skincare.length}`);
+            
+            // Render
+            if (vialsSlider) {
+                renderProducts(vials, vialsSlider);
+                setupSlider(vialsSlider, vialsPrevBtn, vialsNextBtn);
             }
-            renderProducts();
-            updateNavButtons();
+            
+            if (skincareSlider) {
+                renderProducts(skincare, skincareSlider);
+                setupSlider(skincareSlider, skincarePrevBtn, skincareNextBtn);
+            }
         })
         .catch(error => {
             console.error('Ürünler yüklenirken hata oluştu:', error);
-            productsSlider.innerHTML = '<p style="text-align: center; padding: 40px; color: #d32f2f;">Ürünler yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p>';
+            if (vialsSlider) {
+                vialsSlider.innerHTML = '<p style="text-align: center; padding: 40px; color: #d32f2f;">Ürünler yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p>';
+            }
+            if (skincareSlider) {
+                skincareSlider.innerHTML = '<p style="text-align: center; padding: 40px; color: #d32f2f;">Ürünler yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p>';
+            }
         });
     
     // Render products
-    function renderProducts() {
-        if (!productsSlider) return;
+    function renderProducts(products, container) {
+        if (!container) return;
         
-        productsSlider.innerHTML = '';
+        container.innerHTML = '';
         
         if (products.length === 0) {
-            productsSlider.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">Ürün bulunamadı.</p>';
+            container.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">Ürün bulunamadı.</p>';
             return;
         }
         
         products.forEach((product, index) => {
             try {
                 const productCard = createProductCard(product);
-                productsSlider.appendChild(productCard);
+                container.appendChild(productCard);
             } catch (error) {
                 console.error(`Ürün ${index} render edilirken hata:`, error, product);
             }
@@ -80,7 +117,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (!benefit || typeof benefit !== 'string') return;
                 
                 // "Foto-yaşlanma" gibi kelimelerdeki "-" işaretini korumak için
-                // Önce bu kelimeleri geçici placeholder ile değiştir
                 const protectedPatterns = [
                     /Foto-yaşlanma/gi,
                     /foto-yaşlanma/gi,
@@ -104,14 +140,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                 });
                 
-                // Şimdi "- " veya "– " ile ayır (kelime içindeki "-" korunmuş olacak)
-                // Regex: nokta sonrası veya string başında "- " veya "– " ile başlayan yerlerden ayır
                 let items = protectedText.split(/(?<=\.)\s*(?=[–-]\s)|(?<=\.)(?=[–-]\s)|^[–-]\s/).filter(item => item.trim());
                 
-                // Eğer split çalışmadıysa, manuel olarak ayır
                 if (items.length <= 1) {
                     items = [];
-                    // "- " veya "– " ile başlayan yerlerden ayır
                     const parts = protectedText.split(/\s*[–-]\s+/);
                     parts.forEach(part => {
                         const trimmed = part.trim();
@@ -121,22 +153,17 @@ document.addEventListener('DOMContentLoaded', function() {
                     });
                 }
                 
-                // Her item'ı işle
                 items.forEach(item => {
-                    // Protected kelimeleri geri değiştir
                     replacements.forEach(({ placeholder, original }) => {
                         item = item.replace(new RegExp(placeholder, 'g'), original);
                     });
                     
-                    // Başındaki "- ", "– ", nokta ve boşlukları temizle
                     item = item.replace(/^[–-]\s*/, '').replace(/^\.\s*/, '').trim();
                     
-                    // Nokta ile bitmiyorsa ekle
                     if (item && !item.endsWith('.')) {
                         item += '.';
                     }
                     
-                    // İlk harfi büyük yap (sadece küçük harfle başlıyorsa)
                     if (item && item.length > 0) {
                         const firstChar = item[0];
                         if (firstChar === firstChar.toLowerCase() && firstChar !== firstChar.toUpperCase()) {
@@ -159,7 +186,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const sentences = text.split(/[.!?]/);
         if (sentences.length > 0 && sentences[0].trim().length > 20) {
             let firstSentence = sentences[0].trim();
-            // "için" kelimesini içeriyorsa ondan önceki kısmı al
             const icinIndex = firstSentence.indexOf(' için');
             if (icinIndex > 0) {
                 firstSentence = firstSentence.substring(0, icinIndex + 5);
@@ -183,10 +209,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const card = document.createElement('div');
         card.className = 'product-slide';
         
-        // "Ne işe yarar" bilgisini çıkar
         const usageInfo = extractUsageInfo(product);
         
-        const badgeHTML = product.badge ? `<div class="product-slide-badge">${product.badge}</div>` : '';
         const productImage = product.image || 'images/products/placeholder.jpg';
         const productName = product.name || 'İsimsiz Ürün';
         const productId = product.id || 0;
@@ -194,7 +218,6 @@ document.addEventListener('DOMContentLoaded', function() {
         card.innerHTML = `
             <div class="product-slide-image">
                 <img src="${productImage}" alt="${productName}" onerror="this.src='images/products/placeholder.jpg'">
-                ${badgeHTML}
             </div>
             <div class="product-slide-content">
                 <h3 class="product-slide-title">${productName}</h3>
@@ -208,100 +231,102 @@ document.addEventListener('DOMContentLoaded', function() {
         return card;
     }
     
-    // Scroll functions
-    function scrollProducts(direction) {
-        if (!productsSlider) return;
+    // Setup slider with navigation
+    function setupSlider(slider, prevBtn, nextBtn) {
+        if (!slider) return;
         
-        const cardWidth = productsSlider.querySelector('.product-slide')?.offsetWidth || 350;
-        const gap = 30;
-        const scrollAmount = cardWidth + gap;
-        
-        if (direction === 'prev') {
-            productsSlider.scrollBy({
-                left: -scrollAmount,
-                behavior: 'smooth'
-            });
-        } else {
-            productsSlider.scrollBy({
-                left: scrollAmount,
-                behavior: 'smooth'
-            });
+        // Scroll functions
+        function scrollProducts(direction) {
+            if (!slider) return;
+            
+            const cardWidth = slider.querySelector('.product-slide')?.offsetWidth || 350;
+            const gap = 30;
+            const scrollAmount = cardWidth + gap;
+            
+            if (direction === 'prev') {
+                slider.scrollBy({
+                    left: -scrollAmount,
+                    behavior: 'smooth'
+                });
+            } else {
+                slider.scrollBy({
+                    left: scrollAmount,
+                    behavior: 'smooth'
+                });
+            }
+            
+            setTimeout(() => updateNavButtons(), 500);
         }
         
-        // Update buttons after scroll
-        setTimeout(updateNavButtons, 500);
-    }
-    
-    // Update navigation buttons state
-    function updateNavButtons() {
-        if (!prevBtn || !nextBtn || !productsSlider) return;
-        
-        const scrollLeft = productsSlider.scrollLeft;
-        const scrollWidth = productsSlider.scrollWidth;
-        const clientWidth = productsSlider.clientWidth;
-        
-        // Prev button
-        if (scrollLeft <= 0) {
-            prevBtn.disabled = true;
-        } else {
-            prevBtn.disabled = false;
+        // Update navigation buttons state
+        function updateNavButtons() {
+            if (!prevBtn || !nextBtn || !slider) return;
+            
+            const scrollLeft = slider.scrollLeft;
+            const scrollWidth = slider.scrollWidth;
+            const clientWidth = slider.clientWidth;
+            
+            if (scrollLeft <= 0) {
+                prevBtn.disabled = true;
+            } else {
+                prevBtn.disabled = false;
+            }
+            
+            if (scrollLeft + clientWidth >= scrollWidth - 10) {
+                nextBtn.disabled = true;
+            } else {
+                nextBtn.disabled = false;
+            }
         }
         
-        // Next button
-        if (scrollLeft + clientWidth >= scrollWidth - 10) {
-            nextBtn.disabled = true;
-        } else {
-            nextBtn.disabled = false;
+        // Event listeners
+        if (prevBtn) {
+            prevBtn.addEventListener('click', () => scrollProducts('prev'));
         }
-    }
-    
-    // Event listeners
-    if (prevBtn) {
-        prevBtn.addEventListener('click', () => scrollProducts('prev'));
-    }
-    
-    if (nextBtn) {
-        nextBtn.addEventListener('click', () => scrollProducts('next'));
-    }
-    
-    // Update buttons on scroll
-    if (productsSlider) {
-        productsSlider.addEventListener('scroll', updateNavButtons);
+        
+        if (nextBtn) {
+            nextBtn.addEventListener('click', () => scrollProducts('next'));
+        }
+        
+        // Update buttons on scroll
+        slider.addEventListener('scroll', updateNavButtons);
         
         // Touch/swipe support
         let isDown = false;
         let startX;
         let scrollLeft;
         
-        productsSlider.addEventListener('mousedown', (e) => {
+        slider.addEventListener('mousedown', (e) => {
             isDown = true;
-            productsSlider.style.cursor = 'grabbing';
-            startX = e.pageX - productsSlider.offsetLeft;
-            scrollLeft = productsSlider.scrollLeft;
+            slider.style.cursor = 'grabbing';
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
         });
         
-        productsSlider.addEventListener('mouseleave', () => {
+        slider.addEventListener('mouseleave', () => {
             isDown = false;
-            productsSlider.style.cursor = 'grab';
+            slider.style.cursor = 'grab';
         });
         
-        productsSlider.addEventListener('mouseup', () => {
+        slider.addEventListener('mouseup', () => {
             isDown = false;
-            productsSlider.style.cursor = 'grab';
+            slider.style.cursor = 'grab';
         });
         
-        productsSlider.addEventListener('mousemove', (e) => {
+        slider.addEventListener('mousemove', (e) => {
             if (!isDown) return;
             e.preventDefault();
-            const x = e.pageX - productsSlider.offsetLeft;
+            const x = e.pageX - slider.offsetLeft;
             const walk = (x - startX) * 2;
-            productsSlider.scrollLeft = scrollLeft - walk;
+            slider.scrollLeft = scrollLeft - walk;
         });
-    }
-    
-    // Update buttons on resize
-    window.addEventListener('resize', () => {
+        
+        // Update buttons on resize
+        window.addEventListener('resize', () => {
+            setTimeout(updateNavButtons, 100);
+        });
+        
+        // Initial update
         setTimeout(updateNavButtons, 100);
-    });
+    }
 });
-

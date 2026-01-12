@@ -109,7 +109,6 @@ function displayProducts(products) {
         <div class="product-card" onclick="goToProduct(${product.id})">
             <div class="product-image">
                 <img src="${product.image}" alt="${product.name}" onerror="this.src='images/placeholder.jpg'">
-                ${product.badge ? `<span class="product-badge">${product.badge}</span>` : ''}
             </div>
             <div class="product-info">
                 <h3 class="product-name">${product.name}</h3>
