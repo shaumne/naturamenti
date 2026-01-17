@@ -125,6 +125,34 @@
             text-decoration: underline;
         }
         
+        .dealer-whatsapp-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 8px;
+            padding: 10px 20px;
+            background-color: #25D366 !important;
+            color: var(--white) !important;
+            text-decoration: none !important;
+            border-radius: var(--radius-md);
+            font-size: 14px;
+            font-weight: 600;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        
+        .dealer-whatsapp-link:hover {
+            background-color: #20BA5A !important;
+            color: var(--white) !important;
+            text-decoration: none !important;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .dealer-whatsapp-link i {
+            font-size: 18px;
+        }
+        
         .dealer-map-link {
             display: inline-flex !important;
             align-items: center;
@@ -192,6 +220,12 @@
                 justify-content: center;
                 padding: 12px 20px;
             }
+            
+            .dealer-whatsapp-link {
+                width: 100%;
+                justify-content: center;
+                padding: 10px 18px;
+            }
         }
     </style>
 </head>
@@ -252,11 +286,60 @@
     <section class="dealers-section">
         <div class="container">
             <div class="dealers-grid">
-                <!-- İthalatçı Distribütör -->
+                <!-- İthalatçı -->
                 <div class="dealer-card">
                     <div class="dealer-header">
-                        <h3>İthalatçı Distribütör</h3>
-                        <div class="dealer-company">Naturamenti Medikal Estetik Güzellik ve tic. Ltd. Şti.</div>
+                        <h3>İthalatçı</h3>
+                    </div>
+                    <div class="dealer-info">
+                        <div class="dealer-info-item">
+                            <div class="dealer-info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="dealer-info-content">
+                                <h4>Telefon</h4>
+                                <p>
+                                    <a href="tel:05529001010">0552 900 10 10</a>
+                                </p>
+                                <a href="https://wa.me/905529001010" target="_blank" rel="noopener noreferrer" class="dealer-whatsapp-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                    WhatsApp ile İletişime Geç
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- İstanbul / Ege Bölge -->
+                <div class="dealer-card">
+                    <div class="dealer-header">
+                        <h3>İstanbul / Ege Bölge Satış Yetkilisi</h3>
+                        <div class="dealer-company">Mezoplus Medikal Estetik</div>
+                    </div>
+                    <div class="dealer-info">
+                        <div class="dealer-info-item">
+                            <div class="dealer-info-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="dealer-info-content">
+                                <h4>Telefon</h4>
+                                <p>
+                                    <a href="tel:05425316537">0542 531 65 37</a>
+                                </p>
+                                <a href="https://wa.me/905425316537" target="_blank" rel="noopener noreferrer" class="dealer-whatsapp-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                    WhatsApp ile İletişime Geç
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Akdeniz / Ankara / Eskişehir Bölge -->
+                <div class="dealer-card">
+                    <div class="dealer-header">
+                        <h3>Akdeniz / Ankara / Eskişehir Bölge Satış Yetkilisi</h3>
+                        <div class="dealer-company">Senem Sorgun</div>
                     </div>
                     <div class="dealer-info">
                         <div class="dealer-info-item">
@@ -265,8 +348,30 @@
                             </div>
                             <div class="dealer-info-content">
                                 <h4>Adres</h4>
-                                <p>Dudullu Cad. Küçükbakkalköy Mah.Brandium Residence R:2 Blok D:132 Ataşehir / İstanbul</p>
-                                <a href="https://www.google.com/maps/search/?api=1&query=Dudullu+Cad.+Küçükbakkalköy+Mah.Brandium+Residence+R:2+Blok+D:132+Ataşehir+İstanbul" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
+                                <p>Oficity İş Merkezi Kızılarıki 2754. Sk. No:1/87 Kat:5 Muratpaşa Antalya</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Oficity+İş+Merkezi+Kızılarıki+2754.+Sk.+No:1/87+Kat:5+Muratpaşa+Antalya" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Haritada Göster
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Güneydoğu Anadolu / Kayseri / Niğde / Nevşehir Bölge -->
+                <div class="dealer-card">
+                    <div class="dealer-header">
+                        <h3>Güneydoğu Anadolu / Kayseri / Niğde / Nevşehir Bölge Satış Yetkilisi</h3>
+                    </div>
+                    <div class="dealer-info">
+                        <div class="dealer-info-item">
+                            <div class="dealer-info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="dealer-info-content">
+                                <h4>Adres</h4>
+                                <p>Yurt Mah. 71445 Sk. No:3 Park Sitesi A blok Çukurova Adana</p>
+                                <a href="https://www.google.com/maps/search/?api=1&query=Yurt+Mah.+71445+Sk.+No:3+Park+Sitesi+A+blok+Çukurova+Adana" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
                                     <i class="fas fa-map-marker-alt"></i>
                                     Haritada Göster
                                 </a>
@@ -279,73 +384,12 @@
                             <div class="dealer-info-content">
                                 <h4>Telefon</h4>
                                 <p>
-                                    <a href="tel:02163671775">0216 367 17 75</a> – 
-                                    <a href="tel:05301724340">0530 172 43 40</a>
+                                    <a href="tel:05078560169">0507 856 01 69</a>
                                 </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Çukurova / Güneydoğu Anadolu -->
-                <div class="dealer-card">
-                    <div class="dealer-header">
-                        <h3>Çukurova / Güneydoğu Anadolu Bölge Satış Yetkilisi</h3>
-                        <div class="dealer-company">Adira Medikal</div>
-                    </div>
-                    <div class="dealer-info">
-                        <div class="dealer-info-item">
-                            <div class="dealer-info-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="dealer-info-content">
-                                <h4>Adres</h4>
-                                <p>Güzelyalı Mahallesi 81008 Sokak Kamışlı Apt. No:1 Çukurova /Adana</p>
-                                <a href="https://www.google.com/maps/search/?api=1&query=Güzelyalı+Mahallesi+81008+Sokak+Kamışlı+Apt.+No:1+Çukurova+Adana" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    Haritada Göster
+                                <a href="https://wa.me/905078560169" target="_blank" rel="noopener noreferrer" class="dealer-whatsapp-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                    WhatsApp ile İletişime Geç
                                 </a>
-                            </div>
-                        </div>
-                        <div class="dealer-info-item">
-                            <div class="dealer-info-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="dealer-info-content">
-                                <h4>Telefon</h4>
-                                <p><a href="tel:05078560169">0507 856 01 69</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- İstanbul / Ege / Karadeniz -->
-                <div class="dealer-card">
-                    <div class="dealer-header">
-                        <h3>İstanbul / Ege / Karadeniz Satış Yetkilisi</h3>
-                        <div class="dealer-company">Mezoplus Medikal Estetik</div>
-                    </div>
-                    <div class="dealer-info">
-                        <div class="dealer-info-item">
-                            <div class="dealer-info-icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="dealer-info-content">
-                                <h4>Adres</h4>
-                                <p>Mimar Sinan Mh. Mimar Sinan Cd. 61/2-8 Çekmeköy-İST.</p>
-                                <a href="https://www.google.com/maps/search/?api=1&query=Mimar+Sinan+Mh.+Mimar+Sinan+Cd.+61/2-8+Çekmeköy+İstanbul" target="_blank" rel="noopener noreferrer" class="dealer-map-link">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    Haritada Göster
-                                </a>
-                            </div>
-                        </div>
-                        <div class="dealer-info-item">
-                            <div class="dealer-info-icon">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="dealer-info-content">
-                                <h4>Telefon</h4>
-                                <p><a href="tel:05425316757">0542 531 67 57</a></p>
                             </div>
                         </div>
                     </div>
