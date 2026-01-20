@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- 
+    İDEAL LOGO BOYUTLARI:
+    
+    Desktop için:
+    - Genişlik: 350-400px
+    - Yükseklik: 90-100px
+    - Aspect Ratio: ~4:1 (yatay format)
+    
+    Tablet için:
+    - Genişlik: 280-300px
+    - Yükseklik: 70-75px
+    
+    Mobil için:
+    - Genişlik: 200-260px
+    - Yükseklik: 45-65px
+    
+    ÖNERİLEN CANVAS BOYUTU (SVG için):
+    - 400x100px (veya 800x200px yüksek çözünürlük için)
+    - Bu boyut tüm ekranlarda ölçeklenebilir
+  -->
+  
+  <!-- Yuvarlak simge (sol taraf) -->
+  <circle cx="50" cy="50" r="40" fill="#FF6B35" opacity="0.9"/>
+  <!-- Yaprak deseni örneği (basitleştirilmiş) -->
+  <g fill="#FFFFFF" opacity="0.8">
+    <path d="M 30 30 Q 50 20 70 30 Q 50 40 30 30" />
+    <path d="M 50 20 Q 60 30 50 40 Q 40 30 50 20" />
+  </g>
+  
+  <!-- Yazı kısmı (sağ taraf) -->
+  <text x="120" y="65" font-family="cursive, 'Brush Script MT', serif" 
+        font-size="48" font-weight="normal" fill="#6B2C91" 
+        letter-spacing="2">
+    naturamenti
+  </text>
+  
+  <!-- 
+    NOT: Bu bir şablon dosyasıdır.
+    Gerçek logonuzu bu boyutlarda (400x100px veya 800x200px) hazırlayın.
+    
+    SVG avantajları:
+    - Her boyutta keskin görünüm
+    - Küçük dosya boyutu
+    - Kolay ölçeklenebilir
+    - Renkleri kolayca değiştirilebilir
+  -->
+</svg>
