@@ -30,9 +30,21 @@ document.addEventListener('DOMContentLoaded', function() {
             const vials = [];
             const skincare = [];
             
+            // Kaldırılacak ürünler (cilt bakımından)
+            const removeFromSkincare = ['hyaluronic mask', 'meso t mask', 'meso repair'];
+            // Kaldırılacak ürünler (flakonlardan)
+            const removeFromVials = ['gingko'];
+            
             allProducts.forEach(product => {
                 const usage = (product.usage || '').toLowerCase();
                 const name = (product.name || '').toLowerCase();
+                
+                // Kaldırılacak ürünleri atla
+                const shouldRemove = removeFromSkincare.some(term => name.includes(term)) ||
+                                    removeFromVials.some(term => name.includes(term));
+                if (shouldRemove) {
+                    return;
+                }
                 
                 // Flakon içerenler steril flakonlar
                 if (usage.includes('flakon') || name.includes('flakon')) {
@@ -53,11 +65,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             });
             
-            console.log(`Steril Flakonlar: ${vials.length}, Cilt Bakım Ürünleri: ${skincare.length}`);
+            // Flakonları grupla (yan yana gösterilecek ürünler)
+            const groupedVials = groupVials(vials);
+            
+            console.log(`Steril Flakonlar: ${groupedVials.length} grup, Cilt Bakım Ürünleri: ${skincare.length}`);
             
             // Render
             if (vialsSlider) {
-                renderProducts(vials, vialsSlider);
+                renderGroupedProducts(groupedVials, vialsSlider);
                 setupSlider(vialsSlider, vialsPrevBtn, vialsNextBtn);
             }
             
@@ -75,6 +90,85 @@ document.addEventListener('DOMContentLoaded', function() {
                 skincareSlider.innerHTML = '<p style="text-align: center; padding: 40px; color: #d32f2f;">Ürünler yüklenirken bir hata oluştu. Lütfen sayfayı yenileyin.</p>';
             }
         });
+    
+    // Grup tanımları (yan yana gösterilecek ürünler)
+    function groupVials(vials) {
+        const groups = [
+            ['xfc', 'xfc+', 'xfc+face'],
+            ['f-eye contour', 'f-eye glow'],
+            ['f-niacinamide', 'f-tranexamic'],
+            ['f-radiance', 'melaclear'],
+            ['f-melatrix', 'f-mesomatrix'],
+            ['f-xbc', 'f-magistral'],
+            ['carnitin', 'silorg', 'dmae'],
+            ['f-ha', 'ha-glow', 'ha-ultra', 'ha lift'],
+            ['f-hair', 'f-hair men']
+        ];
+        
+        const grouped = [];
+        const used = new Set();
+        
+        // Önce grupları oluştur
+        groups.forEach(group => {
+            const groupProducts = [];
+            group.forEach(term => {
+                const product = vials.find(p => {
+                    const name = (p.name || '').toLowerCase();
+                    return name.includes(term.toLowerCase()) && !used.has(p.id);
+                });
+                if (product) {
+                    groupProducts.push(product);
+                    used.add(product.id);
+                }
+            });
+            if (groupProducts.length > 0) {
+                grouped.push(groupProducts);
+            }
+        });
+        
+        // Kalan ürünleri tek tek ekle
+        vials.forEach(product => {
+            if (!used.has(product.id)) {
+                grouped.push([product]);
+            }
+        });
+        
+        return grouped;
+    }
+    
+    // Render grouped products
+    function renderGroupedProducts(groupedProducts, container) {
+        if (!container) return;
+        
+        container.innerHTML = '';
+        
+        if (groupedProducts.length === 0) {
+            container.innerHTML = '<p style="text-align: center; padding: 40px; color: #666;">Ürün bulunamadı.</p>';
+            return;
+        }
+        
+        groupedProducts.forEach((group, groupIndex) => {
+            const groupContainer = document.createElement('div');
+            groupContainer.className = 'product-group';
+            groupContainer.style.display = 'flex';
+            groupContainer.style.gap = '20px';
+            groupContainer.style.minWidth = 'fit-content';
+            
+            group.forEach((product, index) => {
+                try {
+                    const productCard = createProductCard(product);
+                    productCard.style.flexShrink = '0';
+                    groupContainer.appendChild(productCard);
+                } catch (error) {
+                    console.error(`Ürün ${index} render edilirken hata:`, error, product);
+                }
+            });
+            
+            container.appendChild(groupContainer);
+        });
+        
+        console.log(`${groupedProducts.length} grup render edildi.`);
+    }
     
     // Render products
     function renderProducts(products, container) {
@@ -239,7 +333,9 @@ document.addEventListener('DOMContentLoaded', function() {
         function scrollProducts(direction) {
             if (!slider) return;
             
-            const cardWidth = slider.querySelector('.product-slide')?.offsetWidth || 350;
+            // Grup varsa grup genişliğini al, yoksa tek kart genişliğini
+            const group = slider.querySelector('.product-group');
+            const cardWidth = group ? group.offsetWidth : (slider.querySelector('.product-slide')?.offsetWidth || 350);
             const gap = 30;
             const scrollAmount = cardWidth + gap;
             
