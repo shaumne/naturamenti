@@ -93,36 +93,65 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Grup tanımları (yan yana gösterilecek ürünler)
     function groupVials(vials) {
+        // Grup tanımları - her grup için eşleşme terimleri (gerçek ürün isimlerine göre)
         const groups = [
-            ['xfc', 'xfc+', 'xfc+face'],
+            // Grup 1: XFC / XFC+ / XFC+FACE
+            ['f-xfc', 'f-xfc+', 'f-xfc+ face'],
+            // Grup 2: F-Eye contour / F-Eye glow
             ['f-eye contour', 'f-eye glow'],
+            // Grup 3: F-Niacinamide / F-tranexamic
             ['f-niacinamide', 'f-tranexamic'],
-            ['f-radiance', 'melaclear'],
+            // Grup 4: F-Radiance / F-Melaclear
+            ['f-radiance', 'f-melaclear'],
+            // Grup 5: F-Melatrix / F-Mesomatrix
             ['f-melatrix', 'f-mesomatrix'],
+            // Grup 6: F-XBC / F-Magistral
             ['f-xbc', 'f-magistral'],
-            ['carnitin', 'silorg', 'dmae'],
-            ['f-ha', 'ha-glow', 'ha-ultra', 'ha lift'],
-            ['f-hair', 'f-hair men']
+            // Grup 7: F-Carnitine / F-Silorg / F-DMAE
+            ['f-carnitine', 'f-silorg', 'f-dmae']
         ];
         
         const grouped = [];
         const used = new Set();
         
         // Önce grupları oluştur
-        groups.forEach(group => {
+        groups.forEach((group, groupIndex) => {
             const groupProducts = [];
             group.forEach(term => {
                 const product = vials.find(p => {
-                    const name = (p.name || '').toLowerCase();
-                    return name.includes(term.toLowerCase()) && !used.has(p.id);
+                    if (used.has(p.id)) return false;
+                    
+                    const name = (p.name || '').toLowerCase().trim();
+                    const termLower = term.toLowerCase().trim();
+                    
+                    // Özel durumlar için eşleşme
+                    if (termLower === 'f-xfc') {
+                        // Sadece tam "F-XFC" (F-XFC+ veya F-XFC+ FACE değil)
+                        return name === 'f-xfc' || (name.startsWith('f-xfc') && !name.includes('+'));
+                    } else if (termLower === 'f-xfc+') {
+                        // "F-XFC+" ama "F-XFC+ FACE" değil
+                        return (name === 'f-xfc+' || name.startsWith('f-xfc+ ')) && !name.includes('face');
+                    } else if (termLower === 'f-xfc+ face') {
+                        // "F-XFC+ FACE"
+                        return name.includes('f-xfc+') && name.includes('face');
+                    }
+                    
+                    // Normal içerme kontrolü
+                    if (name.includes(termLower)) {
+                        return true;
+                    }
+                    
+                    return false;
                 });
                 if (product) {
                     groupProducts.push(product);
                     used.add(product.id);
+                    console.log(`Grup ${groupIndex + 1}: ${product.name} eklendi (terim: ${term})`);
                 }
             });
             if (groupProducts.length > 0) {
                 grouped.push(groupProducts);
+                console.log(`Grup ${groupIndex + 1} oluşturuldu: ${groupProducts.map(p => p.name).join(', ')}`);
             }
         });
         
@@ -133,6 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
         
+        console.log(`Toplam ${grouped.length} grup oluşturuldu`);
         return grouped;
     }
     
