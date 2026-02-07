@@ -42,7 +42,17 @@ document.addEventListener('DOMContentLoaded', async function() {
         
         const { vials, skincare } = categorizeProducts(allProducts);
         filteredVials = [...vials];
-        filteredSkincare = [...skincare];
+        // Meso T Mask son sıraya taşı (cilt bakımı sayfasında)
+        const moveMesoTMaskToEnd = (arr) => {
+            const rest = [], end = [];
+            arr.forEach(p => {
+                const n = (p.name || '').toLowerCase();
+                if (n.includes('meso t mask')) end.push(p);
+                else rest.push(p);
+            });
+            return rest.concat(end);
+        };
+        filteredSkincare = moveMesoTMaskToEnd(skincare);
         
         displayProductsByCategory(filteredVials, filteredSkincare);
         updateResultsCount(filteredVials.length + filteredSkincare.length);

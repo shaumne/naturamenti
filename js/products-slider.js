@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', function() {
             const vials = [];
             const skincare = [];
             
-            // Kaldırılacak ürünler (cilt bakımından)
-            const removeFromSkincare = ['hyaluronic mask', 'meso t mask', 'meso repair'];
+            // Kaldırılacak ürünler (cilt bakımından) — Meso T Mask son sıraya taşınır, kaldırılmaz
+            const removeFromSkincare = ['hyaluronic mask', 'meso repair'];
             // Kaldırılacak ürünler (flakonlardan)
             const removeFromVials = ['gingko'];
             
@@ -77,7 +77,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             if (skincareSlider) {
-                renderProducts(skincare, skincareSlider);
+                // Meso T Mask son sıraya taşı
+                const moveToEnd = (arr) => {
+                    const rest = [], end = [];
+                    arr.forEach(p => {
+                        const n = (p.name || '').toLowerCase();
+                        if (n.includes('meso t mask')) end.push(p);
+                        else rest.push(p);
+                    });
+                    return rest.concat(end);
+                };
+                renderProducts(moveToEnd(skincare), skincareSlider);
                 setupSlider(skincareSlider, skincarePrevBtn, skincareNextBtn);
             }
         })
