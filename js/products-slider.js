@@ -77,12 +77,11 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             
             if (skincareSlider) {
-                // Meso T Mask son sıraya taşı
+                // id=10 olan ürün son sıraya taşı
                 const moveToEnd = (arr) => {
                     const rest = [], end = [];
                     arr.forEach(p => {
-                        const n = (p.name || '').toLowerCase();
-                        if (n.includes('meso t mask')) end.push(p);
+                        if (p.id === 10) end.push(p);
                         else rest.push(p);
                     });
                     return rest.concat(end);
